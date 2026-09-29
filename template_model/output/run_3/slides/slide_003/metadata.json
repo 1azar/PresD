@@ -1,0 +1,59 @@
+{
+  "slide_number": 3,
+  "slide_id": 258,
+  "layout_name": "1_Разделитель",
+  "preview_path": "preview.png",
+  "elements": [
+    {
+      "shape_id": 417,
+      "name": "Google Shape;417;p44",
+      "type": "text",
+      "box": {
+        "x": 0.022992,
+        "y": 0.170796,
+        "width": 0.468972,
+        "height": 0.290988
+      },
+      "z_order": 0,
+      "placeholder_type": "title",
+      "text": "Редактируемый слайд-разделитель",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 418,
+      "name": "Google Shape;418;p44",
+      "type": "text",
+      "box": {
+        "x": 0.023041,
+        "y": 0.571753,
+        "width": 0.468924,
+        "height": 0.055556
+      },
+      "z_order": 1,
+      "placeholder_type": "body",
+      "text": "Дополнительное описание",
+      "table": null,
+      "chart": null,
+      "children": []
+    }
+  ],
+  "vlm": {
+    "status": "ok",
+    "classification": "section",
+    "tags": [
+      "white_background",
+      "left_aligned",
+      "minimalist",
+      "section_divider",
+      "blue_dots",
+      "russian_text",
+      "logo"
+    ],
+    "description": "This slide serves as a section divider with a large Russian title and subtitle on a white background, accompanied by a row of blue dots and a logo.",
+    "confidence": 0.95,
+    "error": null
+  },
+  "warnings": []
+}

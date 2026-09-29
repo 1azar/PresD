@@ -1,0 +1,316 @@
+{
+  "slide_number": 52,
+  "slide_id": 307,
+  "layout_name": "1_Свободный дизайн",
+  "preview_path": "preview.png",
+  "elements": [
+    {
+      "shape_id": 2564,
+      "name": "Google Shape;2564;p93",
+      "type": "image",
+      "box": {
+        "x": 0.636455,
+        "y": 0.262068,
+        "width": 0.321873,
+        "height": 0.055548
+      },
+      "z_order": 15,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2565,
+      "name": "Google Shape;2565;p93",
+      "type": "image",
+      "box": {
+        "x": 0.326561,
+        "y": 0.5,
+        "width": 0.131249,
+        "height": 0.055548
+      },
+      "z_order": 16,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2566,
+      "name": "Google Shape;2566;p93",
+      "type": "image",
+      "box": {
+        "x": 0.458331,
+        "y": 0.615726,
+        "width": 0.131249,
+        "height": 0.055548
+      },
+      "z_order": 17,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2567,
+      "name": "Google Shape;2567;p93",
+      "type": "image",
+      "box": {
+        "x": 0.532289,
+        "y": 0.383348,
+        "width": 0.24479,
+        "height": 0.055548
+      },
+      "z_order": 18,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2568,
+      "name": "Google Shape;2568;p93",
+      "type": "image",
+      "box": {
+        "x": 0.326561,
+        "y": 0.731451,
+        "width": 0.131249,
+        "height": 0.055548
+      },
+      "z_order": 19,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2569,
+      "name": "Google Shape;2569;p93",
+      "type": "text",
+      "box": {
+        "x": 0.019463,
+        "y": 0.055011,
+        "width": 0.74289,
+        "height": 0.1408
+      },
+      "z_order": 20,
+      "placeholder_type": "title",
+      "text": "Заголовок в две или в одну строчку",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2570,
+      "name": "Google Shape;2570;p93",
+      "type": "text",
+      "box": {
+        "x": 0.03125,
+        "y": 0.27664,
+        "width": 0.176605,
+        "height": 0.039364
+      },
+      "z_order": 21,
+      "placeholder_type": null,
+      "text": "Текст",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2571,
+      "name": "Google Shape;2571;p93",
+      "type": "text",
+      "box": {
+        "x": 0.03125,
+        "y": 0.390484,
+        "width": 0.176605,
+        "height": 0.039364
+      },
+      "z_order": 22,
+      "placeholder_type": null,
+      "text": "Текст",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2572,
+      "name": "Google Shape;2572;p93",
+      "type": "text",
+      "box": {
+        "x": 0.031099,
+        "y": 0.502111,
+        "width": 0.176605,
+        "height": 0.039364
+      },
+      "z_order": 23,
+      "placeholder_type": null,
+      "text": "Текст",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2573,
+      "name": "Google Shape;2573;p93",
+      "type": "text",
+      "box": {
+        "x": 0.031099,
+        "y": 0.622306,
+        "width": 0.176605,
+        "height": 0.039364
+      },
+      "z_order": 24,
+      "placeholder_type": null,
+      "text": "Текст",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2574,
+      "name": "Google Shape;2574;p93",
+      "type": "text",
+      "box": {
+        "x": 0.031099,
+        "y": 0.735388,
+        "width": 0.176605,
+        "height": 0.039364
+      },
+      "z_order": 25,
+      "placeholder_type": null,
+      "text": "Текст",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2575,
+      "name": "Google Shape;2575;p93",
+      "type": "text",
+      "box": {
+        "x": 0.187239,
+        "y": 0.814552,
+        "width": 0.070833,
+        "height": 0.046407
+      },
+      "z_order": 26,
+      "placeholder_type": null,
+      "text": "Май",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2576,
+      "name": "Google Shape;2576;p93",
+      "type": "text",
+      "box": {
+        "x": 0.312238,
+        "y": 0.814552,
+        "width": 0.070833,
+        "height": 0.046407
+      },
+      "z_order": 27,
+      "placeholder_type": null,
+      "text": "Июнь",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2577,
+      "name": "Google Shape;2577;p93",
+      "type": "text",
+      "box": {
+        "x": 0.453962,
+        "y": 0.814552,
+        "width": 0.070833,
+        "height": 0.046407
+      },
+      "z_order": 28,
+      "placeholder_type": null,
+      "text": "Июль",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2578,
+      "name": "Google Shape;2578;p93",
+      "type": "text",
+      "box": {
+        "x": 0.59018,
+        "y": 0.81376,
+        "width": 0.070833,
+        "height": 0.046407
+      },
+      "z_order": 29,
+      "placeholder_type": null,
+      "text": "Август",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2579,
+      "name": "Google Shape;2579;p93",
+      "type": "text",
+      "box": {
+        "x": 0.737409,
+        "y": 0.815463,
+        "width": 0.084721,
+        "height": 0.046407
+      },
+      "z_order": 30,
+      "placeholder_type": null,
+      "text": "Сентябрь",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2580,
+      "name": "Google Shape;2580;p93",
+      "type": "text",
+      "box": {
+        "x": 0.887516,
+        "y": 0.814715,
+        "width": 0.084721,
+        "height": 0.046407
+      },
+      "z_order": 31,
+      "placeholder_type": null,
+      "text": "Октябрь",
+      "table": null,
+      "chart": null,
+      "children": []
+    }
+  ],
+  "vlm": {
+    "status": "ok",
+    "classification": "timeline",
+    "tags": [
+      "gantt_chart",
+      "horizontal_bars",
+      "timeline",
+      "months_axis",
+      "blue_bars",
+      "text_labels",
+      "white_background",
+      "rounded_corners",
+      "project_schedule"
+    ],
+    "description": "A Gantt chart displaying project tasks or events across a timeline from May to October using horizontal bars of varying lengths and colors.",
+    "confidence": 0.95,
+    "error": null
+  },
+  "warnings": []
+}

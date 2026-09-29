@@ -1,0 +1,2 @@
+"""Isolated web application package."""
+

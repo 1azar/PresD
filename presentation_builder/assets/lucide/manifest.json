@@ -1,0 +1,10 @@
+{
+  "license": "MIT",
+  "source": "Lucide Icons",
+  "icons": {
+    "circle-help": ["unknown", "другое", "вопрос"],
+    "chart-no-axes-column": ["chart", "analytics", "diagram", "график", "аналитика", "диаграмма"],
+    "calendar-days": ["calendar", "date", "timeline", "календарь", "дата", "срок"],
+    "user-round": ["user", "person", "profile", "пользователь", "человек", "профиль"]
+  }
+}

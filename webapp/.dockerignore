@@ -1,0 +1,8 @@
+.git
+.venv
+**/__pycache__
+**/node_modules
+template_model/output
+content_planner/output
+*.pptx
+

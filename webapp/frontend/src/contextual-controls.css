@@ -1,0 +1,136 @@
+.analysis-settings {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f9fafb;
+  padding: 13px 14px;
+}
+
+.analysis-settings .number-field {
+  margin-top: 12px;
+}
+
+.analysis-settings .number-field select {
+  width: 64px;
+  height: 34px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #fff;
+  padding: 0 8px;
+}
+
+.toggle:disabled,
+.link-button:disabled {
+  opacity: .45;
+  cursor: not-allowed;
+  text-decoration: none;
+}
+
+.progress-value {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.elapsed-time {
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  font-weight: 650;
+}
+
+.elapsed-time::before {
+  content: "\00b7";
+  margin-right: 9px;
+  color: var(--muted);
+}
+
+.elapsed-time.overdue {
+  color: var(--danger);
+}
+
+.launch-area {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.launch-area .launch {
+  flex: 1;
+}
+
+.fast-mode {
+  flex: 0 0 210px;
+}
+
+.fast-mode small {
+  display: block;
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.35;
+  margin-top: 5px;
+}
+
+.reanalyze-settings {
+  border-top: 1px solid var(--line);
+  margin-top: 14px;
+  padding-top: 14px;
+}
+
+.reanalyze-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.reanalyze-actions .primary,
+.reanalyze-actions .secondary {
+  height: 38px;
+  padding: 0 12px;
+}
+
+.progress-title > strong {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.progress-title > strong .elapsed-time {
+  font-size: 13px;
+}
+
+.analysis-warning {
+  color: #8a5a00;
+  font-size: 11px;
+  line-height: 1.4;
+  margin: 8px 0 0;
+}
+
+.template-card .analysis-settings {
+  margin-top: 2px;
+}
+
+@media (max-width: 760px) {
+  .launch-area {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .fast-mode {
+    flex-basis: auto;
+    width: 100%;
+  }
+
+  .reanalyze-actions {
+    flex-direction: column;
+  }
+
+  .done-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+}
+
+.done-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}

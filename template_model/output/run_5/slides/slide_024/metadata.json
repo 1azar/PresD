@@ -1,0 +1,222 @@
+{
+  "slide_number": 24,
+  "slide_id": 279,
+  "layout_name": "1_Свободный дизайн",
+  "preview_path": "preview.png",
+  "elements": [
+    {
+      "shape_id": 1028,
+      "name": "Google Shape;1028;p65",
+      "type": "image",
+      "box": {
+        "x": 0.897125,
+        "y": 0.693493,
+        "width": 0.051041,
+        "height": 0.090729
+      },
+      "z_order": 1,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1030,
+      "name": "Google Shape;1030;p65",
+      "type": "image",
+      "box": {
+        "x": 0.580736,
+        "y": 0.693493,
+        "width": 0.051041,
+        "height": 0.090729
+      },
+      "z_order": 3,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1036,
+      "name": "Google Shape;1036;p65",
+      "type": "text",
+      "box": {
+        "x": 0.052083,
+        "y": 0.316691,
+        "width": 0.269443,
+        "height": 0.161707
+      },
+      "z_order": 9,
+      "placeholder_type": null,
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1038,
+      "name": "Google Shape;1038;p65",
+      "type": "image",
+      "box": {
+        "x": 0.264928,
+        "y": 0.693493,
+        "width": 0.051041,
+        "height": 0.090729
+      },
+      "z_order": 11,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1039,
+      "name": "Google Shape;1039;p65",
+      "type": "image",
+      "box": {
+        "x": 0.279512,
+        "y": 0.719416,
+        "width": 0.021875,
+        "height": 0.038884
+      },
+      "z_order": 12,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1042,
+      "name": "Google Shape;1042;p65",
+      "type": "text",
+      "box": {
+        "x": 0.368053,
+        "y": 0.316691,
+        "width": 0.269443,
+        "height": 0.161707
+      },
+      "z_order": 15,
+      "placeholder_type": null,
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1044,
+      "name": "Google Shape;1044;p65",
+      "type": "image",
+      "box": {
+        "x": 0.595482,
+        "y": 0.719416,
+        "width": 0.021875,
+        "height": 0.038884
+      },
+      "z_order": 17,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1047,
+      "name": "Google Shape;1047;p65",
+      "type": "text",
+      "box": {
+        "x": 0.684025,
+        "y": 0.316691,
+        "width": 0.269443,
+        "height": 0.161707
+      },
+      "z_order": 20,
+      "placeholder_type": null,
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1049,
+      "name": "Google Shape;1049;p65",
+      "type": "image",
+      "box": {
+        "x": 0.911454,
+        "y": 0.719416,
+        "width": 0.021875,
+        "height": 0.038884
+      },
+      "z_order": 22,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1050,
+      "name": "Google Shape;1050;p65",
+      "type": "text",
+      "box": {
+        "x": 0.019463,
+        "y": 0.055011,
+        "width": 0.74289,
+        "height": 0.1408
+      },
+      "z_order": 23,
+      "placeholder_type": "title",
+      "text": "Заголовок\u000bв одну или две строчки ",
+      "table": null,
+      "chart": null,
+      "children": []
+    }
+  ],
+  "structures": [
+    {
+      "kind": "static_visual",
+      "structure_id": "static_visual_0",
+      "shape_ids": [
+        1028,
+        1049
+      ]
+    },
+    {
+      "kind": "static_visual",
+      "structure_id": "static_visual_1",
+      "shape_ids": [
+        1030,
+        1044
+      ]
+    },
+    {
+      "kind": "static_visual",
+      "structure_id": "static_visual_2",
+      "shape_ids": [
+        1038,
+        1039
+      ]
+    }
+  ],
+  "vlm": {
+    "status": "ok",
+    "classification": "content_text",
+    "tags": [
+      "three_columns",
+      "bullet_points",
+      "checkmark_icons",
+      "title",
+      "text_blocks",
+      "blue_accents",
+      "white_background",
+      "russian_text"
+    ],
+    "description": "A slide with a Russian title and three columns of text, each featuring a blue bullet point and a checkmark icon.",
+    "confidence": 0.95,
+    "error": null
+  },
+  "warnings": []
+}

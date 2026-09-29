@@ -1,0 +1,94 @@
+{
+  "slide_number": 11,
+  "slide_id": 266,
+  "layout_name": "4_Визитка",
+  "preview_path": "preview.png",
+  "elements": [
+    {
+      "shape_id": 522,
+      "name": "Google Shape;522;p52",
+      "type": "text",
+      "box": {
+        "x": 0.019463,
+        "y": 0.365607,
+        "width": 0.422396,
+        "height": 0.297751
+      },
+      "z_order": 0,
+      "placeholder_type": "body",
+      "text": "Пункт\nПункт\nПункт\nПункт",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 523,
+      "name": "Google Shape;523;p52",
+      "type": "text",
+      "box": {
+        "x": 0.019463,
+        "y": 0.149314,
+        "width": 0.44387,
+        "height": 0.055556
+      },
+      "z_order": 1,
+      "placeholder_type": "body",
+      "text": "Должность",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 524,
+      "name": "Google Shape;524;p52",
+      "type": "text",
+      "box": {
+        "x": 0.019463,
+        "y": 0.055011,
+        "width": 0.44387,
+        "height": 0.090642
+      },
+      "z_order": 2,
+      "placeholder_type": "title",
+      "text": "Имя Фамилия",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 526,
+      "name": "Google Shape;526;p52",
+      "type": "text",
+      "box": {
+        "x": 0.696186,
+        "y": 0.486705,
+        "width": 0.095038,
+        "height": 0.055556
+      },
+      "z_order": 4,
+      "placeholder_type": null,
+      "text": "Вставить\nфото",
+      "table": null,
+      "chart": null,
+      "children": []
+    }
+  ],
+  "vlm": {
+    "status": "ok",
+    "classification": "profile",
+    "tags": [
+      "split_layout",
+      "text_left",
+      "photo_placeholder",
+      "list",
+      "blue_background",
+      "white_background",
+      "minimalist",
+      "corporate"
+    ],
+    "description": "Слайд профиля сотрудника с именем, должностью и списком пунктов слева, и местом для фото справа.",
+    "confidence": 0.9,
+    "error": null
+  },
+  "warnings": []
+}

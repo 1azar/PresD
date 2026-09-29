@@ -1,0 +1,63 @@
+{
+  "slide_number": 1,
+  "slide_id": 256,
+  "layout_name": "1_Титульный слайд",
+  "preview_path": "preview.png",
+  "elements": [
+    {
+      "shape_id": 401,
+      "name": "Google Shape;401;p42",
+      "type": "text",
+      "box": {
+        "x": 0.270535,
+        "y": 0.266449,
+        "width": 0.468972,
+        "height": 0.155545
+      },
+      "z_order": 0,
+      "placeholder_type": "title",
+      "text": "VK Tech",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 402,
+      "name": "Google Shape;402;p42",
+      "type": "text",
+      "box": {
+        "x": 0.270535,
+        "y": 0.42767,
+        "width": 0.468972,
+        "height": 0.055556
+      },
+      "z_order": 1,
+      "placeholder_type": "body",
+      "text": "Разработчик корпоративного ПО",
+      "table": null,
+      "chart": null,
+      "children": []
+    }
+  ],
+  "structures": [],
+  "vlm": {
+    "status": "ok",
+    "classification": "cover",
+    "tags": [
+      "blue_background",
+      "logo",
+      "title",
+      "subtitle",
+      "3d_graphic",
+      "glass_cube",
+      "minimalist",
+      "tech",
+      "corporate",
+      "centered_text"
+    ],
+    "description": "A presentation cover slide featuring the VK Tech logo and title against a dark blue background with a 3D glass cube graphic.",
+    "confidence": 0.95,
+    "error": null
+  },
+  "warnings": []
+}

@@ -1,0 +1,540 @@
+{
+  "status": "ok",
+  "schema_version": "2.0",
+  "model": "gpt://b1gelbl746n4gspqkjct/qwen3.6-35b-a3b/latest",
+  "template": {
+    "source_sha256": "cbbe3aa6a21d23cebc4d1383b93dd07a9cea460d683de1903567b616c839485d",
+    "catalog_version": "1.0"
+  },
+  "deck": {
+    "title": {
+      "text": "IT-команда Northstar",
+      "source_refs": [
+        "content_001"
+      ]
+    },
+    "summary": {
+      "text": "Презентация для продуктового комитета: команда, продукты и план развития.",
+      "source_refs": [
+        "brief"
+      ]
+    },
+    "language": "Russian"
+  },
+  "sources": [
+    {
+      "id": "brief",
+      "text": "Подготовить для продуктового комитета связную презентацию об IT-команде Northstar и её продуктах: представить участников, показать измеримый эффект трёх решений и завершить планом развития на четвёртый квартал 2026 года."
+    },
+    {
+      "id": "content_001",
+      "text": "Команда Northstar разрабатывает внутренние платформы для инженерных подразделений."
+    },
+    {
+      "id": "content_002",
+      "text": "- Анна Лебедева — руководитель продукта, отвечает за стратегию и развитие портфеля."
+    },
+    {
+      "id": "content_003",
+      "text": "- Михаил Орлов — технический директор, отвечает за архитектуру и надёжность."
+    },
+    {
+      "id": "content_004",
+      "text": "- Софья Власова — ML-инженер, развивает интеллектуальный поиск и автоматизацию."
+    },
+    {
+      "id": "content_005",
+      "text": "- Илья Ким — backend-разработчик, отвечает за интеграции и высоконагруженные сервисы."
+    },
+    {
+      "id": "content_006",
+      "text": "- Мария Соколова — UX-дизайнер, отвечает за исследования и пользовательские сценарии."
+    },
+    {
+      "id": "content_007",
+      "text": "- OrbitOps — платформа мониторинга и управления инцидентами. Ею пользуются 42 команды; среднее время восстановления сократилось с 58 до 34 минут."
+    },
+    {
+      "id": "content_008",
+      "text": "- DeployRail — платформа доставки ПО. Через неё проходит 2 800 релизов в месяц, доля успешных развёртываний составляет 99,4%."
+    },
+    {
+      "id": "content_009",
+      "text": "- VectorDocs — AI-база знаний, объединяющая 18 000 документов и автоматически закрывающая 76% пользовательских вопросов."
+    },
+    {
+      "id": "content_010",
+      "text": "- План на четвёртый квартал 2026 года: единый вход, общая аналитика продуктов и каталог интеграций."
+    }
+  ],
+  "slides": [
+    {
+      "number": 1,
+      "purpose": "Титульный слайд презентации",
+      "template_family_id": "cover",
+      "template_slide_number": 1,
+      "template_class": "cover",
+      "assignments": [
+        {
+          "slot_id": "cover_text",
+          "kind": "text",
+          "target_shape_ids": [
+            401,
+            402
+          ],
+          "action": "replace",
+          "source_refs": [
+            "content_001"
+          ],
+          "content": {
+            "kind": "text",
+            "text": "IT-команда Northstar\nВнутренние платформы"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "purpose": "Повестка встречи",
+      "template_family_id": "agenda_with_photo",
+      "template_slide_number": 9,
+      "template_class": "agenda",
+      "assignments": [
+        {
+          "slot_id": "title",
+          "kind": "text",
+          "target_shape_ids": [
+            503
+          ],
+          "action": "replace",
+          "source_refs": [
+            "brief"
+          ],
+          "content": {
+            "kind": "text",
+            "text": "Повестка встречи"
+          }
+        },
+        {
+          "slot_id": "section_header",
+          "kind": "text",
+          "target_shape_ids": [
+            504
+          ],
+          "action": "replace",
+          "source_refs": [
+            "brief"
+          ],
+          "content": {
+            "kind": "text",
+            "text": "Обзор команды и продуктов"
+          }
+        },
+        {
+          "slot_id": "agenda_items",
+          "kind": "bullet_list",
+          "target_shape_ids": [
+            505
+          ],
+          "action": "replace",
+          "source_refs": [
+            "brief"
+          ],
+          "content": {
+            "kind": "bullet_list",
+            "items": [
+              "Команда Northstar",
+              "Измеримый эффект решений",
+              "План на Q4 2026"
+            ]
+          }
+        },
+        {
+          "slot_id": "photo_area",
+          "kind": "image",
+          "target_shape_ids": [
+            507
+          ],
+          "action": "clear",
+          "source_refs": [],
+          "content": null
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "purpose": "Представление участников команды",
+      "template_family_id": "team_grid",
+      "template_slide_number": 13,
+      "template_class": "profile",
+      "assignments": [
+        {
+          "slot_id": "title",
+          "kind": "text",
+          "target_shape_ids": [
+            579
+          ],
+          "action": "replace",
+          "source_refs": [
+            "content_001"
+          ],
+          "content": {
+            "kind": "text",
+            "text": "Участники команды"
+          }
+        },
+        {
+          "slot_id": "profiles",
+          "kind": "profiles",
+          "target_shape_ids": [
+            582,
+            583,
+            585,
+            586,
+            587,
+            590,
+            591,
+            594,
+            595,
+            598,
+            599,
+            600,
+            603,
+            604,
+            607,
+            608,
+            611,
+            612,
+            613,
+            616,
+            617,
+            620,
+            621,
+            624,
+            625,
+            626,
+            629,
+            630,
+            633,
+            634,
+            637,
+            638,
+            639,
+            642,
+            643,
+            646,
+            647,
+            650,
+            651,
+            652,
+            653,
+            654,
+            655,
+            656
+          ],
+          "action": "replace",
+          "source_refs": [
+            "content_002",
+            "content_003",
+            "content_004",
+            "content_005",
+            "content_006"
+          ],
+          "content": {
+            "kind": "profiles",
+            "items": [
+              {
+                "name": "Анна Лебедева",
+                "role": "Руководитель продукта",
+                "details": [
+                  "Стратегия и развитие портфеля"
+                ]
+              },
+              {
+                "name": "Михаил Орлов",
+                "role": "Технический директор",
+                "details": [
+                  "Архитектура и надёжность"
+                ]
+              },
+              {
+                "name": "Софья Власова",
+                "role": "ML-инженер",
+                "details": [
+                  "Интеллектуальный поиск и автоматизация"
+                ]
+              },
+              {
+                "name": "Илья Ким",
+                "role": "Backend-разработчик",
+                "details": [
+                  "Интеграции и высоконагруженные сервисы"
+                ]
+              },
+              {
+                "name": "Мария Соколова",
+                "role": "UX-дизайнер",
+                "details": [
+                  "Исследования и пользовательские сценарии"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "purpose": "Показ измеримого эффекта OrbitOps",
+      "template_family_id": "metrics_dashboard",
+      "template_slide_number": 42,
+      "template_class": "metrics",
+      "assignments": [
+        {
+          "slot_id": "title",
+          "kind": "text",
+          "target_shape_ids": [
+            2251
+          ],
+          "action": "replace",
+          "source_refs": [
+            "content_007"
+          ],
+          "content": {
+            "kind": "text",
+            "text": "OrbitOps: мониторинг инцидентов"
+          }
+        },
+        {
+          "slot_id": "metrics_group",
+          "kind": "metrics",
+          "target_shape_ids": [
+            2252,
+            2253,
+            2254,
+            2255
+          ],
+          "action": "replace",
+          "source_refs": [
+            "content_007"
+          ],
+          "content": {
+            "kind": "metrics",
+            "items": [
+              {
+                "label": "Команды",
+                "value": 42,
+                "unit": null
+              },
+              {
+                "label": "MTTR",
+                "value": 34,
+                "unit": "мин"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "purpose": "Показ измеримого эффекта DeployRail",
+      "template_family_id": "metrics_dashboard",
+      "template_slide_number": 42,
+      "template_class": "metrics",
+      "assignments": [
+        {
+          "slot_id": "title",
+          "kind": "text",
+          "target_shape_ids": [
+            2251
+          ],
+          "action": "replace",
+          "source_refs": [
+            "content_008"
+          ],
+          "content": {
+            "kind": "text",
+            "text": "DeployRail: доставка ПО"
+          }
+        },
+        {
+          "slot_id": "metrics_group",
+          "kind": "metrics",
+          "target_shape_ids": [
+            2252,
+            2253,
+            2254,
+            2255
+          ],
+          "action": "replace",
+          "source_refs": [
+            "content_008"
+          ],
+          "content": {
+            "kind": "metrics",
+            "items": [
+              {
+                "label": "Релизы",
+                "value": "2 800",
+                "unit": "/мес"
+              },
+              {
+                "label": "Успешность",
+                "value": 99.4,
+                "unit": "%"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "purpose": "Показ измеримого эффекта VectorDocs",
+      "template_family_id": "metrics_dashboard",
+      "template_slide_number": 42,
+      "template_class": "metrics",
+      "assignments": [
+        {
+          "slot_id": "title",
+          "kind": "text",
+          "target_shape_ids": [
+            2251
+          ],
+          "action": "replace",
+          "source_refs": [
+            "content_009"
+          ],
+          "content": {
+            "kind": "text",
+            "text": "VectorDocs: AI-база знаний"
+          }
+        },
+        {
+          "slot_id": "metrics_group",
+          "kind": "metrics",
+          "target_shape_ids": [
+            2252,
+            2253,
+            2254,
+            2255
+          ],
+          "action": "replace",
+          "source_refs": [
+            "content_009"
+          ],
+          "content": {
+            "kind": "metrics",
+            "items": [
+              {
+                "label": "Документы",
+                "value": "18 000",
+                "unit": null
+              },
+              {
+                "label": "Ответы",
+                "value": 76,
+                "unit": "%"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "purpose": "План развития на четвёртый квартал 2026 года",
+      "template_family_id": "horizontal_timeline",
+      "template_slide_number": 48,
+      "template_class": "timeline",
+      "assignments": [
+        {
+          "slot_id": "slide_title",
+          "kind": "text",
+          "target_shape_ids": [
+            2435
+          ],
+          "action": "replace",
+          "source_refs": [
+            "content_010"
+          ],
+          "content": {
+            "kind": "text",
+            "text": "План на четвёртый квартал 2026 года"
+          }
+        },
+        {
+          "slot_id": "timeline_steps",
+          "kind": "timeline",
+          "target_shape_ids": [
+            2428,
+            2436,
+            2437,
+            2438,
+            2439,
+            2440,
+            2441,
+            2442,
+            2443,
+            2444
+          ],
+          "action": "replace",
+          "source_refs": [
+            "content_010"
+          ],
+          "content": {
+            "kind": "timeline",
+            "items": [
+              {
+                "date": "Q4 2026",
+                "title": "Единый вход",
+                "description": "Внедрение SSO"
+              },
+              {
+                "date": "Q4 2026",
+                "title": "Общая аналитика",
+                "description": "Общий дашборд"
+              },
+              {
+                "date": "Q4 2026",
+                "title": "Каталог интеграций",
+                "description": "Каталог"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "purpose": "Завершение презентации",
+      "template_family_id": "closing_simple",
+      "template_slide_number": 6,
+      "template_class": "closing",
+      "assignments": [
+        {
+          "slot_id": "closing_simple",
+          "kind": "text",
+          "target_shape_ids": [
+            447,
+            448
+          ],
+          "action": "replace",
+          "source_refs": [
+            "brief"
+          ],
+          "content": {
+            "kind": "text",
+            "text": "Спасибо за внимание! Вопросы и обсуждение."
+          }
+        }
+      ]
+    }
+  ],
+  "quality": {
+    "status": "passed",
+    "revision_count": 2,
+    "warnings": []
+  }
+}

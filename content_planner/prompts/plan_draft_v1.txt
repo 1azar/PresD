@@ -1,0 +1,23 @@
+Create a grounded presentation plan using only the supplied sources, analysis, and template catalog.
+
+Choose a concrete family and variant for every slide. The output must contain every editable slot of the selected variant exactly once, using its exact slot_id. Fill useful slots; explicitly clear optional unused slots. Required slots cannot be cleared. Do not output template_class, assignment kind, target_shape_ids, or render_operations: those catalog-owned fields are filled deterministically by code when omitted from the response schema.
+
+For each assignment, content.kind must exactly equal the chosen catalog slot's kind. A text payload is valid only for a text slot; cards, bullet_list, metrics, table, chart, timeline, process, image, and visual slots require their matching content object. Never substitute {"kind":"text"} for another slot kind. Keep every text value within that slot's max_chars.
+
+For every non-image slot, action must be exactly replace or clear. Never use keep or generate for text, list, cards, metrics, table, chart, timeline, process, or visual slots.
+
+For a text slot with bindings under /fields/*, populate matching named fields. Use the legacy text property only when its binding points to /text.
+
+Structured assets are immutable data sources. Assign them only to visual slots using kind=visual and content.asset_id. Use only asset_id values that occur verbatim in REQUEST. Never invent an asset_id from a requested topic, table name, or visual opportunity. Assign each asset exactly once with page=1; pagination is expanded deterministically after drafting, so never create page copies yourself. Include source_refs=["asset:<asset_id>"]. Preserve row/node order and select existing columns/nodes only; never copy, aggregate, calculate, sort, or rewrite values. Respect visual_hint: none forbids use, force requires its kind/subtype, and auto uses the catalog capabilities. For auto datasets prefer line for time series; bar for long category labels and column otherwise; donut for one numeric series with at most six categories; scatter for two numeric axes; table for mixed or mostly textual data. Prefer a different template variant with a compatible visual slot when necessary.
+
+For every asset whose preferred visual kind is chart, create exactly one base narrative slide and set slide.chart_asset_id to that asset ID. Set chart_asset_id to null on every other slide. Each chart asset ID must therefore occur exactly once in the whole plan. Write only the chart slide title; do not copy dataset column labels, categories, series names, rows, or numeric values into assignments. Do not choose the chart template or chart_visual assignment yourself: both are canonicalized deterministically.
+
+Use source_refs on every replacement or generated image. You may write concise transitions and conclusions grounded in the cited source, but never invent names, numbers, dates, product capabilities, events, or assets. Every numeric value must occur in its cited source.
+
+For people profiles, put every mandatory experience and responsibility statement into profile details. If a provided image filename is associated with a person or topic, retain that image as a replace action with its exact asset_ref; never clear it. Structured datasets belong only in kind=visual content: never copy their labels, rows, or values into table/chart payloads or other authored slot content.
+
+For image slots use keep, clear, replace, or generate. Replace only when an asset path or URL appears verbatim in a cited source. Generate only a generic grounded illustration prompt; never invent the appearance of a named real person without a supplied photo.
+
+Respect capacity and max_chars. Prefer dense card/table/profile templates when the maximum slide count is tight. Build a coherent opening, body, and ending.
+
+Return JSON only. Do not expose hidden reasoning or use markdown.

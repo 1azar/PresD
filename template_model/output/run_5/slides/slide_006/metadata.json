@@ -1,0 +1,63 @@
+{
+  "slide_number": 6,
+  "slide_id": 261,
+  "layout_name": "4_Слайд \"Спасибо!\"",
+  "preview_path": "preview.png",
+  "elements": [
+    {
+      "shape_id": 447,
+      "name": "Google Shape;447;p47",
+      "type": "text",
+      "box": {
+        "x": 0.06266,
+        "y": 0.327185,
+        "width": 0.478249,
+        "height": 0.211052
+      },
+      "z_order": 0,
+      "placeholder_type": "title",
+      "text": "Спасибо за внимание!",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 448,
+      "name": "Google Shape;448;p47",
+      "type": "text",
+      "box": {
+        "x": 0.06266,
+        "y": 0.567662,
+        "width": 0.449158,
+        "height": 0.097781
+      },
+      "z_order": 1,
+      "placeholder_type": "body",
+      "text": "Дополнительная\nинформация",
+      "table": null,
+      "chart": null,
+      "children": []
+    }
+  ],
+  "structures": [],
+  "vlm": {
+    "status": "ok",
+    "classification": "closing",
+    "tags": [
+      "closing_slide",
+      "minimalist_design",
+      "white_background",
+      "blue_logo",
+      "large_text",
+      "placeholder_box",
+      "paper_plane_icon",
+      "russian_language",
+      "clean_layout",
+      "corporate_branding"
+    ],
+    "description": "This closing slide displays the Russian phrase 'Thank you for your attention' next to a large white placeholder box and a paper plane icon.",
+    "confidence": 0.95,
+    "error": null
+  },
+  "warnings": []
+}

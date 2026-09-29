@@ -1,0 +1,77 @@
+.degraded-warning {
+  margin: 22px 0 0;
+  padding: 16px 18px;
+  border: 2px solid #d97706;
+  border-radius: 10px;
+  background: #fff7ed;
+  color: #7c2d12;
+}
+
+.degraded-warning b {
+  font-size: 15px;
+}
+
+.degraded-warning p {
+  margin: 7px 0 0;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.card-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.link-button:disabled {
+  opacity: .45;
+  cursor: not-allowed;
+  text-decoration: none;
+}
+
+.danger-action {
+  color: var(--danger);
+}
+
+.selected-files {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-top: 10px;
+}
+
+.selected-file {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: #fafbfc;
+  font-size: 12px;
+}
+
+.selected-file span {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.selected-file button {
+  margin-left: auto;
+  flex: 0 0 28px;
+  width: 28px;
+  height: 28px;
+  border: 0;
+  border-radius: 5px;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.selected-file button:hover {
+  background: #fee2e2;
+  color: var(--danger);
+}

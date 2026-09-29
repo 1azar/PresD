@@ -1,0 +1,317 @@
+{
+  "slide_number": 16,
+  "slide_id": 271,
+  "layout_name": "1_Свободный дизайн",
+  "preview_path": "preview.png",
+  "elements": [
+    {
+      "shape_id": 730,
+      "name": "Google Shape;730;p57",
+      "type": "text",
+      "box": {
+        "x": 0.047916,
+        "y": 0.309284,
+        "width": 0.198784,
+        "height": 0.032095
+      },
+      "z_order": 7,
+      "placeholder_type": null,
+      "text": "Безопасность",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 731,
+      "name": "Google Shape;731;p57",
+      "type": "text",
+      "box": {
+        "x": 0.047916,
+        "y": 0.353723,
+        "width": 0.197395,
+        "height": 0.166182
+      },
+      "z_order": 8,
+      "placeholder_type": null,
+      "text": "Оцените высокий уровень защищенности инфраструктуры и соответствие стандартам",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 735,
+      "name": "Google Shape;735;p57",
+      "type": "text",
+      "box": {
+        "x": 0.284894,
+        "y": 0.309284,
+        "width": 0.198784,
+        "height": 0.032095
+      },
+      "z_order": 12,
+      "placeholder_type": null,
+      "text": "Безопасность",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 736,
+      "name": "Google Shape;736;p57",
+      "type": "text",
+      "box": {
+        "x": 0.284894,
+        "y": 0.353723,
+        "width": 0.197395,
+        "height": 0.166182
+      },
+      "z_order": 13,
+      "placeholder_type": null,
+      "text": "Оцените высокий уровень защищенности инфраструктуры и соответствие стандартам",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 740,
+      "name": "Google Shape;740;p57",
+      "type": "text",
+      "box": {
+        "x": 0.521872,
+        "y": 0.309284,
+        "width": 0.198784,
+        "height": 0.032095
+      },
+      "z_order": 17,
+      "placeholder_type": null,
+      "text": "Безопасность",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 741,
+      "name": "Google Shape;741;p57",
+      "type": "text",
+      "box": {
+        "x": 0.521872,
+        "y": 0.353723,
+        "width": 0.197395,
+        "height": 0.166182
+      },
+      "z_order": 18,
+      "placeholder_type": null,
+      "text": "Оцените высокий уровень защищенности инфраструктуры и соответствие стандартам",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 745,
+      "name": "Google Shape;745;p57",
+      "type": "text",
+      "box": {
+        "x": 0.75885,
+        "y": 0.309284,
+        "width": 0.198784,
+        "height": 0.032095
+      },
+      "z_order": 22,
+      "placeholder_type": null,
+      "text": "Безопасность",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 746,
+      "name": "Google Shape;746;p57",
+      "type": "text",
+      "box": {
+        "x": 0.75885,
+        "y": 0.353723,
+        "width": 0.197395,
+        "height": 0.166182
+      },
+      "z_order": 23,
+      "placeholder_type": null,
+      "text": "Оцените высокий уровень защищенности инфраструктуры и соответствие стандартам",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 751,
+      "name": "Google Shape;751;p57",
+      "type": "text",
+      "box": {
+        "x": 0.047916,
+        "y": 0.634705,
+        "width": 0.198784,
+        "height": 0.032095
+      },
+      "z_order": 28,
+      "placeholder_type": null,
+      "text": "Безопасность",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 752,
+      "name": "Google Shape;752;p57",
+      "type": "text",
+      "box": {
+        "x": 0.047916,
+        "y": 0.679143,
+        "width": 0.197395,
+        "height": 0.166182
+      },
+      "z_order": 29,
+      "placeholder_type": null,
+      "text": "Оцените высокий уровень защищенности инфраструктуры и соответствие стандартам",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 756,
+      "name": "Google Shape;756;p57",
+      "type": "text",
+      "box": {
+        "x": 0.284894,
+        "y": 0.634705,
+        "width": 0.198784,
+        "height": 0.032095
+      },
+      "z_order": 33,
+      "placeholder_type": null,
+      "text": "Безопасность",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 757,
+      "name": "Google Shape;757;p57",
+      "type": "text",
+      "box": {
+        "x": 0.284894,
+        "y": 0.679143,
+        "width": 0.197395,
+        "height": 0.166182
+      },
+      "z_order": 34,
+      "placeholder_type": null,
+      "text": "Оцените высокий уровень защищенности инфраструктуры и соответствие стандартам",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 761,
+      "name": "Google Shape;761;p57",
+      "type": "text",
+      "box": {
+        "x": 0.521872,
+        "y": 0.634705,
+        "width": 0.198784,
+        "height": 0.032095
+      },
+      "z_order": 38,
+      "placeholder_type": null,
+      "text": "Безопасность",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 762,
+      "name": "Google Shape;762;p57",
+      "type": "text",
+      "box": {
+        "x": 0.521872,
+        "y": 0.679143,
+        "width": 0.197395,
+        "height": 0.166182
+      },
+      "z_order": 39,
+      "placeholder_type": null,
+      "text": "Оцените высокий уровень защищенности инфраструктуры и соответствие стандартам",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 766,
+      "name": "Google Shape;766;p57",
+      "type": "text",
+      "box": {
+        "x": 0.75885,
+        "y": 0.634705,
+        "width": 0.198784,
+        "height": 0.032095
+      },
+      "z_order": 43,
+      "placeholder_type": null,
+      "text": "Безопасность",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 767,
+      "name": "Google Shape;767;p57",
+      "type": "text",
+      "box": {
+        "x": 0.75885,
+        "y": 0.679143,
+        "width": 0.197395,
+        "height": 0.166182
+      },
+      "z_order": 44,
+      "placeholder_type": null,
+      "text": "Оцените высокий уровень защищенности инфраструктуры и соответствие стандартам",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 768,
+      "name": "Google Shape;768;p57",
+      "type": "text",
+      "box": {
+        "x": 0.019463,
+        "y": 0.055011,
+        "width": 0.74289,
+        "height": 0.1408
+      },
+      "z_order": 45,
+      "placeholder_type": "title",
+      "text": "Заголовок\u000bв две или одну строчку",
+      "table": null,
+      "chart": null,
+      "children": []
+    }
+  ],
+  "vlm": {
+    "status": "ok",
+    "classification": "content_text",
+    "tags": [
+      "grid_layout",
+      "cards",
+      "text_blocks",
+      "blue_accents",
+      "white_background",
+      "two_rows",
+      "four_columns",
+      "title",
+      "subheading",
+      "logo"
+    ],
+    "description": "The slide features a main title and a grid of eight cards, each containing a 'Security' heading and text about infrastructure protection standards.",
+    "confidence": 0.9,
+    "error": null
+  },
+  "warnings": []
+}

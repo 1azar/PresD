@@ -1,0 +1,383 @@
+{
+  "slide_number": 12,
+  "slide_id": 267,
+  "layout_name": "1_Свободный дизайн",
+  "preview_path": "preview.png",
+  "elements": [
+    {
+      "shape_id": 531,
+      "name": "Google Shape;531;p53",
+      "type": "text",
+      "box": {
+        "x": 0.019463,
+        "y": 0.055011,
+        "width": 0.74289,
+        "height": 0.077335
+      },
+      "z_order": 0,
+      "placeholder_type": "title",
+      "text": "Слайд-визитка команды",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 535,
+      "name": "Google Shape;535;p53",
+      "type": "text",
+      "box": {
+        "x": 0.030237,
+        "y": 0.359236,
+        "width": 0.158433,
+        "height": 0.087623
+      },
+      "z_order": 4,
+      "placeholder_type": null,
+      "text": "Имя Фамилия",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 536,
+      "name": "Google Shape;536;p53",
+      "type": "text",
+      "box": {
+        "x": 0.040401,
+        "y": 0.450856,
+        "width": 0.138104,
+        "height": 0.033458
+      },
+      "z_order": 5,
+      "placeholder_type": null,
+      "text": "Должность",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 539,
+      "name": "Google Shape;539;p53",
+      "type": "text",
+      "box": {
+        "x": 0.223169,
+        "y": 0.359236,
+        "width": 0.158433,
+        "height": 0.087623
+      },
+      "z_order": 8,
+      "placeholder_type": null,
+      "text": "Имя Фамилия",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 540,
+      "name": "Google Shape;540;p53",
+      "type": "text",
+      "box": {
+        "x": 0.233333,
+        "y": 0.450856,
+        "width": 0.138104,
+        "height": 0.033458
+      },
+      "z_order": 9,
+      "placeholder_type": null,
+      "text": "Должность",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 543,
+      "name": "Google Shape;543;p53",
+      "type": "text",
+      "box": {
+        "x": 0.416101,
+        "y": 0.359236,
+        "width": 0.158433,
+        "height": 0.087623
+      },
+      "z_order": 12,
+      "placeholder_type": null,
+      "text": "Имя Фамилия",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 544,
+      "name": "Google Shape;544;p53",
+      "type": "text",
+      "box": {
+        "x": 0.426266,
+        "y": 0.450856,
+        "width": 0.138104,
+        "height": 0.033458
+      },
+      "z_order": 13,
+      "placeholder_type": null,
+      "text": "Должность",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 547,
+      "name": "Google Shape;547;p53",
+      "type": "text",
+      "box": {
+        "x": 0.609033,
+        "y": 0.359236,
+        "width": 0.158433,
+        "height": 0.087623
+      },
+      "z_order": 16,
+      "placeholder_type": null,
+      "text": "Имя Фамилия",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 548,
+      "name": "Google Shape;548;p53",
+      "type": "text",
+      "box": {
+        "x": 0.619198,
+        "y": 0.450856,
+        "width": 0.138104,
+        "height": 0.033458
+      },
+      "z_order": 17,
+      "placeholder_type": null,
+      "text": "Должность",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 551,
+      "name": "Google Shape;551;p53",
+      "type": "text",
+      "box": {
+        "x": 0.801965,
+        "y": 0.359236,
+        "width": 0.158433,
+        "height": 0.087623
+      },
+      "z_order": 20,
+      "placeholder_type": null,
+      "text": "Имя Фамилия",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 552,
+      "name": "Google Shape;552;p53",
+      "type": "text",
+      "box": {
+        "x": 0.81213,
+        "y": 0.450856,
+        "width": 0.138104,
+        "height": 0.033458
+      },
+      "z_order": 21,
+      "placeholder_type": null,
+      "text": "Должность",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 557,
+      "name": "Google Shape;557;p53",
+      "type": "text",
+      "box": {
+        "x": 0.030237,
+        "y": 0.704394,
+        "width": 0.158433,
+        "height": 0.087623
+      },
+      "z_order": 26,
+      "placeholder_type": null,
+      "text": "Имя Фамилия",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 558,
+      "name": "Google Shape;558;p53",
+      "type": "text",
+      "box": {
+        "x": 0.040401,
+        "y": 0.796013,
+        "width": 0.138104,
+        "height": 0.033458
+      },
+      "z_order": 27,
+      "placeholder_type": null,
+      "text": "Должность",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 561,
+      "name": "Google Shape;561;p53",
+      "type": "text",
+      "box": {
+        "x": 0.223169,
+        "y": 0.704394,
+        "width": 0.158433,
+        "height": 0.087623
+      },
+      "z_order": 30,
+      "placeholder_type": null,
+      "text": "Имя Фамилия",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 562,
+      "name": "Google Shape;562;p53",
+      "type": "text",
+      "box": {
+        "x": 0.233333,
+        "y": 0.796013,
+        "width": 0.138104,
+        "height": 0.033458
+      },
+      "z_order": 31,
+      "placeholder_type": null,
+      "text": "Должность",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 565,
+      "name": "Google Shape;565;p53",
+      "type": "text",
+      "box": {
+        "x": 0.416101,
+        "y": 0.704394,
+        "width": 0.158433,
+        "height": 0.087623
+      },
+      "z_order": 34,
+      "placeholder_type": null,
+      "text": "Имя Фамилия",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 566,
+      "name": "Google Shape;566;p53",
+      "type": "text",
+      "box": {
+        "x": 0.426266,
+        "y": 0.796013,
+        "width": 0.138104,
+        "height": 0.033458
+      },
+      "z_order": 35,
+      "placeholder_type": null,
+      "text": "Должность",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 569,
+      "name": "Google Shape;569;p53",
+      "type": "text",
+      "box": {
+        "x": 0.609033,
+        "y": 0.704394,
+        "width": 0.158433,
+        "height": 0.087623
+      },
+      "z_order": 38,
+      "placeholder_type": null,
+      "text": "Имя Фамилия",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 570,
+      "name": "Google Shape;570;p53",
+      "type": "text",
+      "box": {
+        "x": 0.619198,
+        "y": 0.796013,
+        "width": 0.138104,
+        "height": 0.033458
+      },
+      "z_order": 39,
+      "placeholder_type": null,
+      "text": "Должность",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 573,
+      "name": "Google Shape;573;p53",
+      "type": "text",
+      "box": {
+        "x": 0.801965,
+        "y": 0.704394,
+        "width": 0.158433,
+        "height": 0.087623
+      },
+      "z_order": 42,
+      "placeholder_type": null,
+      "text": "Имя Фамилия",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 574,
+      "name": "Google Shape;574;p53",
+      "type": "text",
+      "box": {
+        "x": 0.81213,
+        "y": 0.796013,
+        "width": 0.138104,
+        "height": 0.033458
+      },
+      "z_order": 43,
+      "placeholder_type": null,
+      "text": "Должность",
+      "table": null,
+      "chart": null,
+      "children": []
+    }
+  ],
+  "vlm": {
+    "status": "ok",
+    "classification": "profile",
+    "tags": [
+      "grid_layout",
+      "circular_placeholders",
+      "text_labels",
+      "header",
+      "repetitive_elements",
+      "white_background",
+      "two_rows",
+      "five_columns"
+    ],
+    "description": "Слайд содержит сетку из десяти круглых плейсхолдеров для фотографий участников команды, расположенных в два ряда, с подписями имен и должностей.",
+    "confidence": 0.95,
+    "error": null
+  },
+  "warnings": []
+}

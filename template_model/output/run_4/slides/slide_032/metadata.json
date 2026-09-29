@@ -1,0 +1,141 @@
+{
+  "slide_number": 32,
+  "slide_id": 287,
+  "layout_name": "1_Свободный дизайн",
+  "preview_path": "preview.png",
+  "elements": [
+    {
+      "shape_id": 1213,
+      "name": "Google Shape;1213;p73",
+      "type": "image",
+      "box": {
+        "x": 0.0,
+        "y": 0.266697,
+        "width": 0.999995,
+        "height": 0.733238
+      },
+      "z_order": 0,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1214,
+      "name": "Google Shape;1214;p73",
+      "type": "text",
+      "box": {
+        "x": 0.066666,
+        "y": 0.337058,
+        "width": 0.472855,
+        "height": 0.522049
+      },
+      "z_order": 1,
+      "placeholder_type": null,
+      "text": "body {\n    padding: 0;\n    margin: 0;\n    height: 100vh;\n    overflow: hidden;\n    font-family: ‘MailSans Roman’, \nsans-serif;\n    background: \nurl(https://github.com/supahfunk/ gradientwaves-svg/blob/master/dist/img/bg-gradient-wave.png?raw=true) repeat center / cover;\n}",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1217,
+      "name": "Google Shape;1217;p73",
+      "type": "image",
+      "box": {
+        "x": 0.03125,
+        "y": 0.916612,
+        "width": 0.050544,
+        "height": 0.027774
+      },
+      "z_order": 4,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1218,
+      "name": "Google Shape;1218;p73",
+      "type": "image",
+      "box": {
+        "x": 0.052087,
+        "y": 0.920178,
+        "width": 0.028731,
+        "height": 0.017509
+      },
+      "z_order": 5,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1219,
+      "name": "Google Shape;1219;p73",
+      "type": "image",
+      "box": {
+        "x": 0.03125,
+        "y": 0.916612,
+        "width": 0.015625,
+        "height": 0.027774
+      },
+      "z_order": 6,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1220,
+      "name": "Google Shape;1220;p73",
+      "type": "text",
+      "box": {
+        "x": 0.019463,
+        "y": 0.055011,
+        "width": 0.74289,
+        "height": 0.1408
+      },
+      "z_order": 7,
+      "placeholder_type": "title",
+      "text": "Заголовок в две или в одну строчку",
+      "table": null,
+      "chart": null,
+      "children": []
+    }
+  ],
+  "structures": [
+    {
+      "kind": "static_visual",
+      "structure_id": "static_visual_0",
+      "shape_ids": [
+        1213,
+        1214,
+        1217,
+        1218,
+        1219
+      ]
+    }
+  ],
+  "vlm": {
+    "status": "ok",
+    "classification": "content_text",
+    "tags": [
+      "code_block",
+      "syntax_highlighting",
+      "black_background",
+      "title",
+      "text_content",
+      "programming",
+      "high_contrast",
+      "minimalist_layout"
+    ],
+    "description": "The slide presents a CSS code snippet with syntax highlighting on a black background beneath a Russian title.",
+    "confidence": 0.95,
+    "error": null
+  },
+  "warnings": []
+}

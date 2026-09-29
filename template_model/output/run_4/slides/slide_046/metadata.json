@@ -1,0 +1,390 @@
+{
+  "slide_number": 46,
+  "slide_id": 301,
+  "layout_name": "1_Свободный дизайн",
+  "preview_path": "preview.png",
+  "elements": [
+    {
+      "shape_id": 2356,
+      "name": "Google Shape;2356;p87",
+      "type": "image",
+      "box": {
+        "x": 0.687941,
+        "y": 0.625599,
+        "width": 0.037604,
+        "height": 0.016126
+      },
+      "z_order": 0,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2357,
+      "name": "Google Shape;2357;p87",
+      "type": "image",
+      "box": {
+        "x": 0.513551,
+        "y": 0.217948,
+        "width": 0.38622,
+        "height": 0.686526
+      },
+      "z_order": 1,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2358,
+      "name": "Google Shape;2358;p87",
+      "type": "image",
+      "box": {
+        "x": 0.782365,
+        "y": 0.185911,
+        "width": 0.039473,
+        "height": 0.009393
+      },
+      "z_order": 2,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2359,
+      "name": "Google Shape;2359;p87",
+      "type": "image",
+      "box": {
+        "x": 0.745985,
+        "y": 0.234278,
+        "width": 0.047663,
+        "height": 0.123531
+      },
+      "z_order": 3,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2364,
+      "name": "Google Shape;2364;p87",
+      "type": "image",
+      "box": {
+        "x": 0.048958,
+        "y": 0.289842,
+        "width": 0.027604,
+        "height": 0.049068
+      },
+      "z_order": 8,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2365,
+      "name": "Google Shape;2365;p87",
+      "type": "image",
+      "box": {
+        "x": 0.051007,
+        "y": 0.293348,
+        "width": 0.023507,
+        "height": 0.04098
+      },
+      "z_order": 9,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2366,
+      "name": "Google Shape;2366;p87",
+      "type": "image",
+      "box": {
+        "x": 0.048958,
+        "y": 0.437971,
+        "width": 0.027604,
+        "height": 0.049068
+      },
+      "z_order": 10,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2367,
+      "name": "Google Shape;2367;p87",
+      "type": "image",
+      "box": {
+        "x": 0.051007,
+        "y": 0.441476,
+        "width": 0.023507,
+        "height": 0.04098
+      },
+      "z_order": 11,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2368,
+      "name": "Google Shape;2368;p87",
+      "type": "image",
+      "box": {
+        "x": 0.048958,
+        "y": 0.585174,
+        "width": 0.027604,
+        "height": 0.049068
+      },
+      "z_order": 12,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2369,
+      "name": "Google Shape;2369;p87",
+      "type": "image",
+      "box": {
+        "x": 0.051007,
+        "y": 0.588679,
+        "width": 0.023507,
+        "height": 0.04098
+      },
+      "z_order": 13,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2370,
+      "name": "Google Shape;2370;p87",
+      "type": "image",
+      "box": {
+        "x": 0.048958,
+        "y": 0.733303,
+        "width": 0.027604,
+        "height": 0.049068
+      },
+      "z_order": 14,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2371,
+      "name": "Google Shape;2371;p87",
+      "type": "image",
+      "box": {
+        "x": 0.051007,
+        "y": 0.736808,
+        "width": 0.023507,
+        "height": 0.04098
+      },
+      "z_order": 15,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2372,
+      "name": "Google Shape;2372;p87",
+      "type": "text",
+      "box": {
+        "x": 0.019463,
+        "y": 0.055011,
+        "width": 0.74289,
+        "height": 0.1408
+      },
+      "z_order": 16,
+      "placeholder_type": "title",
+      "text": "Заголовок в две или в одну строчку",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2373,
+      "name": "Google Shape;2373;p87",
+      "type": "text",
+      "box": {
+        "x": 0.598555,
+        "y": 0.497833,
+        "width": 0.223567,
+        "height": 0.174681
+      },
+      "z_order": 17,
+      "placeholder_type": null,
+      "text": "10%",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2374,
+      "name": "Google Shape;2374;p87",
+      "type": "text",
+      "box": {
+        "x": 0.776433,
+        "y": 0.130607,
+        "width": 0.223567,
+        "height": 0.103671
+      },
+      "z_order": 18,
+      "placeholder_type": null,
+      "text": "1%",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2375,
+      "name": "Google Shape;2375;p87",
+      "type": "text",
+      "box": {
+        "x": 0.111451,
+        "y": 0.289842,
+        "width": 0.214733,
+        "height": 0.044165
+      },
+      "z_order": 19,
+      "placeholder_type": null,
+      "text": "Пункт",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2376,
+      "name": "Google Shape;2376;p87",
+      "type": "text",
+      "box": {
+        "x": 0.111458,
+        "y": 0.439884,
+        "width": 0.214733,
+        "height": 0.044165
+      },
+      "z_order": 20,
+      "placeholder_type": null,
+      "text": "Пункт",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2377,
+      "name": "Google Shape;2377;p87",
+      "type": "text",
+      "box": {
+        "x": 0.111458,
+        "y": 0.588013,
+        "width": 0.214733,
+        "height": 0.044165
+      },
+      "z_order": 21,
+      "placeholder_type": null,
+      "text": "Пункт",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2378,
+      "name": "Google Shape;2378;p87",
+      "type": "text",
+      "box": {
+        "x": 0.111458,
+        "y": 0.744474,
+        "width": 0.214733,
+        "height": 0.044165
+      },
+      "z_order": 22,
+      "placeholder_type": null,
+      "text": "Пункт",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2379,
+      "name": "Google Shape;2379;p87",
+      "type": "text",
+      "box": {
+        "x": 0.776433,
+        "y": 0.173221,
+        "width": 0.068805,
+        "height": 0.044727
+      },
+      "z_order": 23,
+      "placeholder_type": null,
+      "text": "менее",
+      "table": null,
+      "chart": null,
+      "children": []
+    }
+  ],
+  "structures": [
+    {
+      "kind": "static_visual",
+      "structure_id": "static_visual_0",
+      "shape_ids": [
+        2356,
+        2357,
+        2359,
+        2364,
+        2365,
+        2366,
+        2367,
+        2368,
+        2369,
+        2370,
+        2371,
+        2373,
+        2375,
+        2376,
+        2377,
+        2378
+      ]
+    }
+  ],
+  "vlm": {
+    "status": "ok",
+    "classification": "chart",
+    "tags": [
+      "donut_chart",
+      "percentage",
+      "list",
+      "icon",
+      "blue",
+      "title",
+      "white_background",
+      "minimalist"
+    ],
+    "description": "A presentation slide featuring a large blue donut chart with percentage values on the right and a vertical list of four items with gear icons on the left.",
+    "confidence": 0.9,
+    "error": null
+  },
+  "warnings": []
+}

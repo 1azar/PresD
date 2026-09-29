@@ -1,0 +1,77 @@
+{
+  "slide_number": 31,
+  "slide_id": 286,
+  "layout_name": "1_Свободный дизайн",
+  "preview_path": "preview.png",
+  "elements": [
+    {
+      "shape_id": 1204,
+      "name": "Google Shape;1204;p72",
+      "type": "image",
+      "box": {
+        "x": 0.345311,
+        "y": 0.000065,
+        "width": 0.654684,
+        "height": 0.99987
+      },
+      "z_order": 0,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1205,
+      "name": "Google Shape;1205;p72",
+      "type": "text",
+      "box": {
+        "x": 0.422849,
+        "y": 0.118684,
+        "width": 0.542966,
+        "height": 0.770733
+      },
+      "z_order": 1,
+      "placeholder_type": null,
+      "text": "body {\n    padding: 0;\n    margin: 0;\n    height: 100vh;\n    overflow: hidden;\n    font-family: ‘MailSans Roman’, \nsans-serif;\n    background: \nurl(https://github.com/supahfunk/ gradientwaves-svg/blob/master/dist/img/bg-gradient-wave.png?raw=true) repeat center / cover;\n}",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1207,
+      "name": "Google Shape;1207;p72",
+      "type": "text",
+      "box": {
+        "x": 0.017225,
+        "y": 0.055613,
+        "width": 0.74289,
+        "height": 0.1408
+      },
+      "z_order": 3,
+      "placeholder_type": "title",
+      "text": "Заголовок",
+      "table": null,
+      "chart": null,
+      "children": []
+    }
+  ],
+  "vlm": {
+    "status": "ok",
+    "classification": "content_text",
+    "tags": [
+      "css",
+      "code_block",
+      "syntax_highlighting",
+      "split_layout",
+      "black_background",
+      "white_background",
+      "title",
+      "technical"
+    ],
+    "description": "A presentation slide displaying a CSS code snippet on a black background next to a white sidebar with the title 'Заголовок'.",
+    "confidence": 0.95,
+    "error": null
+  },
+  "warnings": []
+}

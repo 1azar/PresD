@@ -1,0 +1,114 @@
+{
+  "slide_number": 10,
+  "slide_id": 265,
+  "layout_name": "1_Визитка",
+  "preview_path": "preview.png",
+  "elements": [
+    {
+      "shape_id": 512,
+      "name": "Google Shape;512;p51",
+      "type": "text",
+      "box": {
+        "x": 0.531608,
+        "y": 0.351124,
+        "width": 0.422396,
+        "height": 0.297751
+      },
+      "z_order": 0,
+      "placeholder_type": "body",
+      "text": "Пункт\nПункт\nПункт\nПункт\nПункт",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 513,
+      "name": "Google Shape;513;p51",
+      "type": "text",
+      "box": {
+        "x": 0.031028,
+        "y": 0.675217,
+        "width": 0.468972,
+        "height": 0.055556
+      },
+      "z_order": 1,
+      "placeholder_type": "body",
+      "text": "Имя Фамилия",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 514,
+      "name": "Google Shape;514;p51",
+      "type": "text",
+      "box": {
+        "x": 0.031028,
+        "y": 0.759877,
+        "width": 0.468972,
+        "height": 0.055556
+      },
+      "z_order": 2,
+      "placeholder_type": "body",
+      "text": "Должность",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 515,
+      "name": "Google Shape;515;p51",
+      "type": "text",
+      "box": {
+        "x": 0.019463,
+        "y": 0.055011,
+        "width": 0.44387,
+        "height": 0.14647
+      },
+      "z_order": 3,
+      "placeholder_type": "title",
+      "text": "Слайд-визитка",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 517,
+      "name": "Google Shape;517;p51",
+      "type": "text",
+      "box": {
+        "x": 0.187676,
+        "y": 0.405982,
+        "width": 0.095038,
+        "height": 0.055556
+      },
+      "z_order": 5,
+      "placeholder_type": null,
+      "text": "Вставить\nфото",
+      "table": null,
+      "chart": null,
+      "children": []
+    }
+  ],
+  "structures": [],
+  "vlm": {
+    "status": "ok",
+    "classification": "profile",
+    "tags": [
+      "profile",
+      "text",
+      "photo_placeholder",
+      "list",
+      "split_layout",
+      "minimalist",
+      "blue_accent",
+      "russian_text",
+      "title",
+      "name"
+    ],
+    "description": "This slide serves as a business card introduction with a photo placeholder, name, and position on the left, alongside a bulleted list on the right.",
+    "confidence": 0.95,
+    "error": null
+  },
+  "warnings": []
+}

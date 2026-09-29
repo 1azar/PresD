@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "output": "/Users/azatkasimov/PycharmProjects/PresD/presentation_builder/presentation.pptx",
+  "slide_count": 8,
+  "qa_dir": "/Users/azatkasimov/PycharmProjects/PresD/presentation_builder/presentation.qa",
+  "previews": [
+    "previews/slide_001.png",
+    "previews/slide_002.png",
+    "previews/slide_003.png",
+    "previews/slide_004.png",
+    "previews/slide_005.png",
+    "previews/slide_006.png",
+    "previews/slide_007.png",
+    "previews/slide_008.png"
+  ],
+  "issues": []
+}

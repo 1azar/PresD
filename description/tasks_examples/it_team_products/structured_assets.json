@@ -1,0 +1,78 @@
+{
+  "structured_assets": [
+    {
+      "id": "active_teams_2025",
+      "kind": "dataset",
+      "title": "Активные команды на платформах NovaCore в 2025 году",
+      "columns": [
+        {"key": "month", "label": "Месяц", "type": "text"},
+        {"key": "active_teams", "label": "Активные команды", "type": "number"}
+      ],
+      "rows": [
+        {"month": "Январь", "active_teams": 32},
+        {"month": "Февраль", "active_teams": 35},
+        {"month": "Март", "active_teams": 39},
+        {"month": "Апрель", "active_teams": 43},
+        {"month": "Май", "active_teams": 48},
+        {"month": "Июнь", "active_teams": 52},
+        {"month": "Июль", "active_teams": 57},
+        {"month": "Август", "active_teams": 61},
+        {"month": "Сентябрь", "active_teams": 65},
+        {"month": "Октябрь", "active_teams": 68},
+        {"month": "Ноябрь", "active_teams": 71},
+        {"month": "Декабрь", "active_teams": 74}
+      ],
+      "visual_hint": {"mode": "force", "kind": "chart", "subtype": "line"},
+      "source_refs": []
+    },
+    {
+      "id": "product_usage_share",
+      "kind": "dataset",
+      "title": "Распределение взаимодействий по продуктам NovaCore",
+      "columns": [
+        {"key": "product", "label": "Продукт", "type": "text"},
+        {"key": "share_percent", "label": "Доля, %", "type": "number", "unit": "%"}
+      ],
+      "rows": [
+        {"product": "PulseOps", "share_percent": 41},
+        {"product": "ReleaseRail", "share_percent": 37},
+        {"product": "AtlasMind", "share_percent": 22}
+      ],
+      "visual_hint": {"mode": "force", "kind": "chart", "subtype": "donut"},
+      "source_refs": []
+    },
+    {
+      "id": "product_results",
+      "kind": "dataset",
+      "title": "Результаты продуктов NovaCore",
+      "columns": [
+        {"key": "product", "label": "Продукт", "type": "text"},
+        {"key": "audience", "label": "Основная аудитория", "type": "text"},
+        {"key": "scale", "label": "Масштаб", "type": "text"},
+        {"key": "effect", "label": "Измеримый эффект", "type": "text"}
+      ],
+      "rows": [
+        {
+          "product": "PulseOps",
+          "audience": "SRE и поддержка",
+          "scale": "74 команды",
+          "effect": "MTTR сокращён с 52 до 32 минут"
+        },
+        {
+          "product": "ReleaseRail",
+          "audience": "Продуктовые команды",
+          "scale": "3 200 релизов в месяц",
+          "effect": "99,5% успешных развёртываний"
+        },
+        {
+          "product": "AtlasMind",
+          "audience": "Разработчики и аналитики",
+          "scale": "24 000 документов",
+          "effect": "72% вопросов закрываются автоматически"
+        }
+      ],
+      "visual_hint": {"mode": "force", "kind": "table", "subtype": null},
+      "source_refs": []
+    }
+  ]
+}

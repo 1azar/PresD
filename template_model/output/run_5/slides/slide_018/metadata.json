@@ -1,0 +1,260 @@
+{
+  "slide_number": 18,
+  "slide_id": 273,
+  "layout_name": "1_Свободный дизайн",
+  "preview_path": "preview.png",
+  "elements": [
+    {
+      "shape_id": 820,
+      "name": "Google Shape;820;p59",
+      "type": "text",
+      "box": {
+        "x": 0.047916,
+        "y": 0.309284,
+        "width": 0.277776,
+        "height": 0.032095
+      },
+      "z_order": 6,
+      "placeholder_type": null,
+      "text": "Безопасность",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 821,
+      "name": "Google Shape;821;p59",
+      "type": "text",
+      "box": {
+        "x": 0.047916,
+        "y": 0.353723,
+        "width": 0.276387,
+        "height": 0.166182
+      },
+      "z_order": 7,
+      "placeholder_type": null,
+      "text": "Оцените высокий уровень защищенности инфраструктуры и соответствие стандартам",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 825,
+      "name": "Google Shape;825;p59",
+      "type": "text",
+      "box": {
+        "x": 0.363888,
+        "y": 0.309284,
+        "width": 0.277776,
+        "height": 0.032095
+      },
+      "z_order": 11,
+      "placeholder_type": null,
+      "text": "Безопасность",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 826,
+      "name": "Google Shape;826;p59",
+      "type": "text",
+      "box": {
+        "x": 0.363888,
+        "y": 0.353723,
+        "width": 0.276387,
+        "height": 0.166182
+      },
+      "z_order": 12,
+      "placeholder_type": null,
+      "text": "Оцените высокий уровень защищенности инфраструктуры и соответствие стандартам",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 830,
+      "name": "Google Shape;830;p59",
+      "type": "text",
+      "box": {
+        "x": 0.679857,
+        "y": 0.309284,
+        "width": 0.277776,
+        "height": 0.032095
+      },
+      "z_order": 16,
+      "placeholder_type": null,
+      "text": "Безопасность",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 831,
+      "name": "Google Shape;831;p59",
+      "type": "text",
+      "box": {
+        "x": 0.679857,
+        "y": 0.353723,
+        "width": 0.276387,
+        "height": 0.166182
+      },
+      "z_order": 17,
+      "placeholder_type": null,
+      "text": "Оцените высокий уровень защищенности инфраструктуры и соответствие стандартам",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 836,
+      "name": "Google Shape;836;p59",
+      "type": "text",
+      "box": {
+        "x": 0.047916,
+        "y": 0.634705,
+        "width": 0.277778,
+        "height": 0.032095
+      },
+      "z_order": 22,
+      "placeholder_type": null,
+      "text": "Безопасность",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 837,
+      "name": "Google Shape;837;p59",
+      "type": "text",
+      "box": {
+        "x": 0.047916,
+        "y": 0.679143,
+        "width": 0.276389,
+        "height": 0.166182
+      },
+      "z_order": 23,
+      "placeholder_type": null,
+      "text": "Оцените высокий уровень защищенности инфраструктуры и соответствие стандартам",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 839,
+      "name": "Google Shape;839;p59",
+      "type": "image",
+      "box": {
+        "x": 0.512497,
+        "y": 0.580545,
+        "width": 0.456248,
+        "height": 0.287
+      },
+      "z_order": 25,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 840,
+      "name": "Google Shape;840;p59",
+      "type": "image",
+      "box": {
+        "x": 0.528163,
+        "y": 0.580545,
+        "width": 0.440582,
+        "height": 0.287
+      },
+      "z_order": 26,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 843,
+      "name": "Google Shape;843;p59",
+      "type": "text",
+      "box": {
+        "x": 0.36389,
+        "y": 0.634705,
+        "width": 0.280554,
+        "height": 0.032095
+      },
+      "z_order": 29,
+      "placeholder_type": null,
+      "text": "Безопасность",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 844,
+      "name": "Google Shape;844;p59",
+      "type": "text",
+      "box": {
+        "x": 0.36389,
+        "y": 0.679143,
+        "width": 0.279165,
+        "height": 0.166182
+      },
+      "z_order": 30,
+      "placeholder_type": null,
+      "text": "Оцените высокий уровень защищенности инфраструктуры и соответствие стандартам",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 845,
+      "name": "Google Shape;845;p59",
+      "type": "text",
+      "box": {
+        "x": 0.019463,
+        "y": 0.055011,
+        "width": 0.74289,
+        "height": 0.1408
+      },
+      "z_order": 31,
+      "placeholder_type": "title",
+      "text": "Заголовок\u000bв две или одну строчку",
+      "table": null,
+      "chart": null,
+      "children": []
+    }
+  ],
+  "structures": [
+    {
+      "kind": "static_visual",
+      "structure_id": "static_visual_0",
+      "shape_ids": [
+        839,
+        840,
+        843,
+        844
+      ]
+    }
+  ],
+  "vlm": {
+    "status": "ok",
+    "classification": "content_text",
+    "tags": [
+      "grid_layout",
+      "text_cards",
+      "blue_dots",
+      "3d_cube",
+      "russian_text",
+      "white_background",
+      "corporate_logo",
+      "sans_serif_font",
+      "clean_design"
+    ],
+    "description": "A presentation slide featuring a grid of five text blocks titled 'Security' with a 3D cube illustration on the bottom right.",
+    "confidence": 0.95,
+    "error": null
+  },
+  "warnings": []
+}

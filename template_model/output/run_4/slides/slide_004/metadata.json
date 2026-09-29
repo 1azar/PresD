@@ -1,0 +1,96 @@
+{
+  "slide_number": 4,
+  "slide_id": 259,
+  "layout_name": "1_Слайд \"Спасибо!\"",
+  "preview_path": "preview.png",
+  "elements": [
+    {
+      "shape_id": 429,
+      "name": "Google Shape;429;p45",
+      "type": "text",
+      "box": {
+        "x": 0.06266,
+        "y": 0.323278,
+        "width": 0.630068,
+        "height": 0.270654
+      },
+      "z_order": 0,
+      "placeholder_type": "title",
+      "text": "Спасибо за внимание!",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 430,
+      "name": "Google Shape;430;p45",
+      "type": "text",
+      "box": {
+        "x": 0.156445,
+        "y": 0.747114,
+        "width": 0.468972,
+        "height": 0.055556
+      },
+      "z_order": 1,
+      "placeholder_type": "body",
+      "text": "Имя Фамилия",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 431,
+      "name": "Google Shape;431;p45",
+      "type": "text",
+      "box": {
+        "x": 0.156445,
+        "y": 0.818001,
+        "width": 0.468972,
+        "height": 0.055556
+      },
+      "z_order": 2,
+      "placeholder_type": "body",
+      "text": "Должность",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 433,
+      "name": "Google Shape;433;p45",
+      "type": "text",
+      "box": {
+        "x": 0.063569,
+        "y": 0.782558,
+        "width": 0.095038,
+        "height": 0.055556
+      },
+      "z_order": 4,
+      "placeholder_type": null,
+      "text": "Вставить\nфото",
+      "table": null,
+      "chart": null,
+      "children": []
+    }
+  ],
+  "structures": [],
+  "vlm": {
+    "status": "ok",
+    "classification": "closing",
+    "tags": [
+      "blue_background",
+      "dark_theme",
+      "white_text",
+      "geometric_shape",
+      "3d_graphic",
+      "logo",
+      "placeholder",
+      "contact_information",
+      "gradient"
+    ],
+    "description": "This closing slide features a dark blue gradient background with large white text reading 'Thank you for your attention!' alongside a 3D geometric graphic and placeholders for presenter information.",
+    "confidence": 0.95,
+    "error": null
+  },
+  "warnings": []
+}

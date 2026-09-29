@@ -1,0 +1,298 @@
+{
+  "slide_number": 54,
+  "slide_id": 309,
+  "layout_name": "1_Свободный дизайн",
+  "preview_path": "preview.png",
+  "elements": [
+    {
+      "shape_id": 2671,
+      "name": "Google Shape;2671;p95",
+      "type": "image",
+      "box": {
+        "x": 0.03125,
+        "y": 0.167636,
+        "width": 0.218459,
+        "height": 0.649915
+      },
+      "z_order": 0,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2672,
+      "name": "Google Shape;2672;p95",
+      "type": "image",
+      "box": {
+        "x": 0.055865,
+        "y": 0.211391,
+        "width": 0.169229,
+        "height": 0.273995
+      },
+      "z_order": 1,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2673,
+      "name": "Google Shape;2673;p95",
+      "type": "image",
+      "box": {
+        "x": 0.057942,
+        "y": 0.216313,
+        "width": 0.023538,
+        "height": 0.038148
+      },
+      "z_order": 2,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2674,
+      "name": "Google Shape;2674;p95",
+      "type": "image",
+      "box": {
+        "x": 0.266665,
+        "y": 0.167636,
+        "width": 0.218459,
+        "height": 0.649915
+      },
+      "z_order": 3,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2675,
+      "name": "Google Shape;2675;p95",
+      "type": "image",
+      "box": {
+        "x": 0.29128,
+        "y": 0.211391,
+        "width": 0.169229,
+        "height": 0.401756
+      },
+      "z_order": 4,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2676,
+      "name": "Google Shape;2676;p95",
+      "type": "image",
+      "box": {
+        "x": 0.50156,
+        "y": 0.167636,
+        "width": 0.218459,
+        "height": 0.649915
+      },
+      "z_order": 5,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2677,
+      "name": "Google Shape;2677;p95",
+      "type": "image",
+      "box": {
+        "x": 0.526175,
+        "y": 0.211391,
+        "width": 0.169229,
+        "height": 0.401756
+      },
+      "z_order": 6,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2678,
+      "name": "Google Shape;2678;p95",
+      "type": "image",
+      "box": {
+        "x": 0.530131,
+        "y": 0.217543,
+        "width": 0.01978,
+        "height": 0.036918
+      },
+      "z_order": 7,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2679,
+      "name": "Google Shape;2679;p95",
+      "type": "image",
+      "box": {
+        "x": 0.736975,
+        "y": 0.167636,
+        "width": 0.218459,
+        "height": 0.649915
+      },
+      "z_order": 8,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2680,
+      "name": "Google Shape;2680;p95",
+      "type": "image",
+      "box": {
+        "x": 0.761591,
+        "y": 0.211391,
+        "width": 0.169229,
+        "height": 0.356392
+      },
+      "z_order": 9,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2681,
+      "name": "Google Shape;2681;p95",
+      "type": "image",
+      "box": {
+        "x": 0.763074,
+        "y": 0.220179,
+        "width": 0.024725,
+        "height": 0.029886
+      },
+      "z_order": 10,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2682,
+      "name": "Google Shape;2682;p95",
+      "type": "image",
+      "box": {
+        "x": 0.50156,
+        "y": 0.848103,
+        "width": 0.453665,
+        "height": 0.096232
+      },
+      "z_order": 11,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2684,
+      "name": "Google Shape;2684;p95",
+      "type": "image",
+      "box": {
+        "x": 0.5246,
+        "y": 0.884681,
+        "width": 0.01298,
+        "height": 0.023073
+      },
+      "z_order": 13,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2685,
+      "name": "Google Shape;2685;p95",
+      "type": "image",
+      "box": {
+        "x": 0.525945,
+        "y": 0.885506,
+        "width": 0.010293,
+        "height": 0.019776
+      },
+      "z_order": 14,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2686,
+      "name": "Google Shape;2686;p95",
+      "type": "image",
+      "box": {
+        "x": 0.559663,
+        "y": 0.885753,
+        "width": 0.378922,
+        "height": 0.022997
+      },
+      "z_order": 15,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2687,
+      "name": "Google Shape;2687;p95",
+      "type": "text",
+      "box": {
+        "x": 0.019463,
+        "y": 0.055011,
+        "width": 0.74289,
+        "height": 0.1408
+      },
+      "z_order": 16,
+      "placeholder_type": "title",
+      "text": "Продуктовый портфель VK Tech",
+      "table": null,
+      "chart": null,
+      "children": []
+    }
+  ],
+  "vlm": {
+    "status": "ok",
+    "classification": "content_text",
+    "tags": [
+      "four_columns",
+      "rounded_cards",
+      "icons",
+      "blue_text",
+      "white_background",
+      "footer_note",
+      "categorized_list",
+      "title_header"
+    ],
+    "description": "The slide presents the VK Tech product portfolio, organized into four columns detailing productivity services, cloud platform, data services, and business applications with specific product names listed under each category.",
+    "confidence": 0.95,
+    "error": null
+  },
+  "warnings": []
+}

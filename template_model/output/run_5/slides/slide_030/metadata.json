@@ -1,0 +1,424 @@
+{
+  "slide_number": 30,
+  "slide_id": 285,
+  "layout_name": "8_Контент",
+  "preview_path": "preview.png",
+  "elements": [
+    {
+      "shape_id": 1170,
+      "name": "Google Shape;1170;p71",
+      "type": "text",
+      "box": {
+        "x": 0.050607,
+        "y": 0.797338,
+        "width": 0.056597,
+        "height": 0.042278
+      },
+      "z_order": 3,
+      "placeholder_type": null,
+      "text": "Перейти",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1171,
+      "name": "Google Shape;1171;p71",
+      "type": "image",
+      "box": {
+        "x": 0.111661,
+        "y": 0.805293,
+        "width": 0.014834,
+        "height": 0.026368
+      },
+      "z_order": 4,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1172,
+      "name": "Google Shape;1172;p71",
+      "type": "image",
+      "box": {
+        "x": 0.117832,
+        "y": 0.814082,
+        "width": 0.00309,
+        "height": 0.008789
+      },
+      "z_order": 5,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1173,
+      "name": "Google Shape;1173;p71",
+      "type": "text",
+      "box": {
+        "x": 0.052083,
+        "y": 0.495371,
+        "width": 0.430727,
+        "height": 0.043513
+      },
+      "z_order": 6,
+      "placeholder_type": null,
+      "text": "3Д-иллюстрации",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1174,
+      "name": "Google Shape;1174;p71",
+      "type": "text",
+      "box": {
+        "x": 0.519789,
+        "y": 0.495371,
+        "width": 0.193749,
+        "height": 0.113874
+      },
+      "z_order": 7,
+      "placeholder_type": null,
+      "text": "Пример партнёрского лендинга",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1177,
+      "name": "Google Shape;1177;p71",
+      "type": "text",
+      "box": {
+        "x": 0.518313,
+        "y": 0.797338,
+        "width": 0.056597,
+        "height": 0.042278
+      },
+      "z_order": 10,
+      "placeholder_type": null,
+      "text": "Перейти",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1178,
+      "name": "Google Shape;1178;p71",
+      "type": "image",
+      "box": {
+        "x": 0.579367,
+        "y": 0.805293,
+        "width": 0.014834,
+        "height": 0.026368
+      },
+      "z_order": 11,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1179,
+      "name": "Google Shape;1179;p71",
+      "type": "image",
+      "box": {
+        "x": 0.585538,
+        "y": 0.814082,
+        "width": 0.00309,
+        "height": 0.008789
+      },
+      "z_order": 12,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1180,
+      "name": "Google Shape;1180;p71",
+      "type": "text",
+      "box": {
+        "x": 0.750517,
+        "y": 0.495371,
+        "width": 0.193749,
+        "height": 0.078693
+      },
+      "z_order": 13,
+      "placeholder_type": null,
+      "text": "Объёмные иконки сервисов",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1183,
+      "name": "Google Shape;1183;p71",
+      "type": "text",
+      "box": {
+        "x": 0.749041,
+        "y": 0.797338,
+        "width": 0.056597,
+        "height": 0.042278
+      },
+      "z_order": 16,
+      "placeholder_type": null,
+      "text": "Перейти",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1184,
+      "name": "Google Shape;1184;p71",
+      "type": "image",
+      "box": {
+        "x": 0.810095,
+        "y": 0.805293,
+        "width": 0.014834,
+        "height": 0.026368
+      },
+      "z_order": 17,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1185,
+      "name": "Google Shape;1185;p71",
+      "type": "image",
+      "box": {
+        "x": 0.816266,
+        "y": 0.814082,
+        "width": 0.00309,
+        "height": 0.008789
+      },
+      "z_order": 18,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1186,
+      "name": "Google Shape;1186;p71",
+      "type": "text",
+      "box": {
+        "x": 0.519789,
+        "y": 0.079684,
+        "width": 0.193749,
+        "height": 0.078693
+      },
+      "z_order": 19,
+      "placeholder_type": null,
+      "text": "Интерфейсные иллюстрации",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1189,
+      "name": "Google Shape;1189;p71",
+      "type": "text",
+      "box": {
+        "x": 0.518313,
+        "y": 0.381651,
+        "width": 0.056597,
+        "height": 0.042278
+      },
+      "z_order": 22,
+      "placeholder_type": null,
+      "text": "Перейти",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1190,
+      "name": "Google Shape;1190;p71",
+      "type": "image",
+      "box": {
+        "x": 0.579367,
+        "y": 0.389606,
+        "width": 0.014834,
+        "height": 0.026368
+      },
+      "z_order": 23,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1191,
+      "name": "Google Shape;1191;p71",
+      "type": "image",
+      "box": {
+        "x": 0.585538,
+        "y": 0.398396,
+        "width": 0.00309,
+        "height": 0.008789
+      },
+      "z_order": 24,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1192,
+      "name": "Google Shape;1192;p71",
+      "type": "text",
+      "box": {
+        "x": 0.750517,
+        "y": 0.079684,
+        "width": 0.193749,
+        "height": 0.043513
+      },
+      "z_order": 25,
+      "placeholder_type": null,
+      "text": "Шрифт",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1195,
+      "name": "Google Shape;1195;p71",
+      "type": "text",
+      "box": {
+        "x": 0.749041,
+        "y": 0.381651,
+        "width": 0.056597,
+        "height": 0.042278
+      },
+      "z_order": 28,
+      "placeholder_type": null,
+      "text": "Перейти",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1196,
+      "name": "Google Shape;1196;p71",
+      "type": "image",
+      "box": {
+        "x": 0.810095,
+        "y": 0.389606,
+        "width": 0.014834,
+        "height": 0.026368
+      },
+      "z_order": 29,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1197,
+      "name": "Google Shape;1197;p71",
+      "type": "image",
+      "box": {
+        "x": 0.816266,
+        "y": 0.398396,
+        "width": 0.00309,
+        "height": 0.008789
+      },
+      "z_order": 30,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1198,
+      "name": "Google Shape;1198;p71",
+      "type": "text",
+      "box": {
+        "x": 0.047065,
+        "y": 0.078859,
+        "width": 0.44387,
+        "height": 0.14647
+      },
+      "z_order": 31,
+      "placeholder_type": "title",
+      "text": "Заголовок",
+      "table": null,
+      "chart": null,
+      "children": []
+    }
+  ],
+  "structures": [
+    {
+      "kind": "static_visual",
+      "structure_id": "static_visual_0",
+      "shape_ids": [
+        1171,
+        1172
+      ]
+    },
+    {
+      "kind": "static_visual",
+      "structure_id": "static_visual_1",
+      "shape_ids": [
+        1178,
+        1179
+      ]
+    },
+    {
+      "kind": "static_visual",
+      "structure_id": "static_visual_2",
+      "shape_ids": [
+        1184,
+        1185
+      ]
+    },
+    {
+      "kind": "static_visual",
+      "structure_id": "static_visual_3",
+      "shape_ids": [
+        1190,
+        1191
+      ]
+    },
+    {
+      "kind": "static_visual",
+      "structure_id": "static_visual_4",
+      "shape_ids": [
+        1196,
+        1197
+      ]
+    }
+  ],
+  "vlm": {
+    "status": "ok",
+    "classification": "agenda",
+    "tags": [
+      "grid_layout",
+      "cards",
+      "navigation_links",
+      "russian_text",
+      "blue_accents",
+      "white_background",
+      "rounded_corners"
+    ],
+    "description": "A presentation slide featuring a grid of five content cards with Russian titles and navigation buttons, arranged below a main placeholder title.",
+    "confidence": 0.95,
+    "error": null
+  },
+  "warnings": []
+}

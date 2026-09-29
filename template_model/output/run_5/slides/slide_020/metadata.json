@@ -1,0 +1,266 @@
+{
+  "slide_number": 20,
+  "slide_id": 275,
+  "layout_name": "1_Свободный дизайн",
+  "preview_path": "preview.png",
+  "elements": [
+    {
+      "shape_id": 880,
+      "name": "Google Shape;880;p61",
+      "type": "image",
+      "box": {
+        "x": 0.048958,
+        "y": 0.273178,
+        "width": 0.027604,
+        "height": 0.049068
+      },
+      "z_order": 2,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 881,
+      "name": "Google Shape;881;p61",
+      "type": "image",
+      "box": {
+        "x": 0.051005,
+        "y": 0.276683,
+        "width": 0.023507,
+        "height": 0.04098
+      },
+      "z_order": 3,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 884,
+      "name": "Google Shape;884;p61",
+      "type": "image",
+      "box": {
+        "x": 0.048958,
+        "y": 0.429639,
+        "width": 0.027604,
+        "height": 0.049068
+      },
+      "z_order": 6,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 885,
+      "name": "Google Shape;885;p61",
+      "type": "image",
+      "box": {
+        "x": 0.051005,
+        "y": 0.433144,
+        "width": 0.023507,
+        "height": 0.04098
+      },
+      "z_order": 7,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 888,
+      "name": "Google Shape;888;p61",
+      "type": "image",
+      "box": {
+        "x": 0.048958,
+        "y": 0.5861,
+        "width": 0.027604,
+        "height": 0.049068
+      },
+      "z_order": 10,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 889,
+      "name": "Google Shape;889;p61",
+      "type": "image",
+      "box": {
+        "x": 0.051005,
+        "y": 0.589605,
+        "width": 0.023507,
+        "height": 0.04098
+      },
+      "z_order": 11,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 892,
+      "name": "Google Shape;892;p61",
+      "type": "image",
+      "box": {
+        "x": 0.048958,
+        "y": 0.742561,
+        "width": 0.027604,
+        "height": 0.049068
+      },
+      "z_order": 14,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 893,
+      "name": "Google Shape;893;p61",
+      "type": "image",
+      "box": {
+        "x": 0.051005,
+        "y": 0.746066,
+        "width": 0.023507,
+        "height": 0.04098
+      },
+      "z_order": 15,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 895,
+      "name": "Google Shape;895;p61",
+      "type": "text",
+      "box": {
+        "x": 0.111458,
+        "y": 0.272611,
+        "width": 0.214733,
+        "height": 0.044165
+      },
+      "z_order": 17,
+      "placeholder_type": null,
+      "text": "Пункт",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 896,
+      "name": "Google Shape;896;p61",
+      "type": "text",
+      "box": {
+        "x": 0.111458,
+        "y": 0.431365,
+        "width": 0.214733,
+        "height": 0.044165
+      },
+      "z_order": 18,
+      "placeholder_type": null,
+      "text": "Пункт",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 897,
+      "name": "Google Shape;897;p61",
+      "type": "text",
+      "box": {
+        "x": 0.111458,
+        "y": 0.588013,
+        "width": 0.214733,
+        "height": 0.044165
+      },
+      "z_order": 19,
+      "placeholder_type": null,
+      "text": "Пункт",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 898,
+      "name": "Google Shape;898;p61",
+      "type": "text",
+      "box": {
+        "x": 0.111458,
+        "y": 0.744474,
+        "width": 0.214733,
+        "height": 0.044165
+      },
+      "z_order": 20,
+      "placeholder_type": null,
+      "text": "Пункт",
+      "table": null,
+      "chart": null,
+      "children": []
+    }
+  ],
+  "structures": [
+    {
+      "kind": "static_visual",
+      "structure_id": "static_visual_0",
+      "shape_ids": [
+        880,
+        881
+      ]
+    },
+    {
+      "kind": "static_visual",
+      "structure_id": "static_visual_1",
+      "shape_ids": [
+        884,
+        885
+      ]
+    },
+    {
+      "kind": "static_visual",
+      "structure_id": "static_visual_2",
+      "shape_ids": [
+        888,
+        889
+      ]
+    },
+    {
+      "kind": "static_visual",
+      "structure_id": "static_visual_3",
+      "shape_ids": [
+        892,
+        893
+      ]
+    }
+  ],
+  "vlm": {
+    "status": "ok",
+    "classification": "content_text",
+    "tags": [
+      "vertical_list",
+      "gear_icons",
+      "blue_theme",
+      "white_background",
+      "minimalist",
+      "left_aligned",
+      "repetition",
+      "vk_tech_logo",
+      "clean_layout",
+      "spacing"
+    ],
+    "description": "A slide displaying a vertical list of four items, each accompanied by a blue gear icon and the text 'Пункт'.",
+    "confidence": 0.9,
+    "error": null
+  },
+  "warnings": []
+}

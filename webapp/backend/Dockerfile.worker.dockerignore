@@ -1,0 +1,14 @@
+.git
+.venv
+.idea
+.env
+**/.env
+**/__pycache__
+**/node_modules
+webapp/frontend/dist
+template_model/output
+content_planner/output
+description
+*.pptx
+*.qa
+*.log

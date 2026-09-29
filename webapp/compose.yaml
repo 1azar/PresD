@@ -1,0 +1,235 @@
+x-logging: &default-logging
+  driver: json-file
+  options:
+    max-size: "10m"
+    max-file: "5"
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: presentations
+      POSTGRES_USER: presentations
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in webapp/.env}
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U presentations"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    networks: [data]
+    logging: *default-logging
+
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    command: ["redis-server", "--appendonly", "yes", "--requirepass", "${REDIS_PASSWORD:?Set REDIS_PASSWORD in webapp/.env}"]
+    environment:
+      REDIS_PASSWORD: ${REDIS_PASSWORD}
+    volumes:
+      - redis-data:/data
+    healthcheck:
+      test: ["CMD-SHELL", "redis-cli -a \"$$REDIS_PASSWORD\" --no-auth-warning ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    networks: [data]
+    logging: *default-logging
+
+  api:
+    restart: unless-stopped
+    build:
+      context: ..
+      dockerfile: webapp/backend/Dockerfile
+    environment:
+      WEBAPP_DATABASE_URL: postgresql+psycopg://presentations:${POSTGRES_PASSWORD}@postgres/presentations
+      WEBAPP_REDIS_URL: redis://:${REDIS_PASSWORD}@redis:6379/0
+      WEBAPP_DATA_ROOT: /data
+      WEBAPP_ALLOWED_ORIGINS: https://${PUBLIC_IP:?Set PUBLIC_IP in webapp/.env}
+      WEBAPP_ALLOWED_CLIENTS_JSON: ${WEBAPP_ALLOWED_CLIENTS_JSON:?Set WEBAPP_ALLOWED_CLIENTS_JSON in webapp/.env}
+      WEBAPP_COOKIE_SECURE: "true"
+      WEBAPP_TEMPLATE_ENRICHMENT_WORKERS: ${WEBAPP_TEMPLATE_ENRICHMENT_WORKERS:-4}
+      WEBAPP_TEMPLATE_VLM_TIMEOUT: ${WEBAPP_TEMPLATE_VLM_TIMEOUT:-90}
+      WEBAPP_GENERATION_JOB_TIMEOUT: ${WEBAPP_GENERATION_JOB_TIMEOUT:-420}
+    volumes:
+      - user-data:/data
+    depends_on:
+      postgres: {condition: service_healthy}
+      redis: {condition: service_healthy}
+    networks: [app, data]
+    logging: *default-logging
+
+  generation-worker:
+    restart: unless-stopped
+    build:
+      context: ..
+      dockerfile: webapp/backend/Dockerfile.worker
+    environment:
+      WEBAPP_DATABASE_URL: postgresql+psycopg://presentations:${POSTGRES_PASSWORD}@postgres/presentations
+      WEBAPP_REDIS_URL: redis://:${REDIS_PASSWORD}@redis:6379/0
+      WEBAPP_DATA_ROOT: /data
+      WEBAPP_WORKER_QUEUE: generation
+      WEBAPP_PLANNER_MAX_WORKERS: ${WEBAPP_PLANNER_MAX_WORKERS:-4}
+      WEBAPP_PLANNER_STRICT_BUDGET: ${WEBAPP_PLANNER_STRICT_BUDGET:-300}
+      WEBAPP_PLANNER_FAST_BUDGET: ${WEBAPP_PLANNER_FAST_BUDGET:-135}
+      WEBAPP_PLANNER_OUTLINE_WAVE_BUDGET: ${WEBAPP_PLANNER_OUTLINE_WAVE_BUDGET:-105}
+      WEBAPP_PLANNER_SLIDE_WAVE_BUDGET: ${WEBAPP_PLANNER_SLIDE_WAVE_BUDGET:-105}
+      WEBAPP_PLANNER_CRITIQUE_WAVE_BUDGET: ${WEBAPP_PLANNER_CRITIQUE_WAVE_BUDGET:-75}
+      WEBAPP_GENERATION_JOB_TIMEOUT: ${WEBAPP_GENERATION_JOB_TIMEOUT:-420}
+      LLM_BASE_URL: ${LLM_BASE_URL:?Set LLM_BASE_URL in webapp/.env}
+      LLM_MODEL: ${LLM_MODEL:?Set LLM_MODEL in webapp/.env}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      LLM_PROJECT: ${LLM_PROJECT:-}
+      LLM_API_MODE: ${LLM_API_MODE:-chat_completions}
+      LLM_STRUCTURED_OUTPUT: ${LLM_STRUCTURED_OUTPUT:-native}
+      LLM_TIMEOUT: ${LLM_TIMEOUT:-90}
+    volumes:
+      - user-data:/data
+    depends_on:
+      postgres: {condition: service_healthy}
+      redis: {condition: service_healthy}
+    networks: [data, worker-egress]
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    logging: *default-logging
+
+  template-analysis-worker:
+    restart: unless-stopped
+    build:
+      context: ..
+      dockerfile: webapp/backend/Dockerfile.worker
+    environment:
+      WEBAPP_DATABASE_URL: postgresql+psycopg://presentations:${POSTGRES_PASSWORD}@postgres/presentations
+      WEBAPP_REDIS_URL: redis://:${REDIS_PASSWORD}@redis:6379/0
+      WEBAPP_DATA_ROOT: /data
+      WEBAPP_WORKER_QUEUE: template-analysis
+      LLM_BASE_URL: ${LLM_BASE_URL:?Set LLM_BASE_URL in webapp/.env}
+      LLM_MODEL: ${LLM_MODEL:?Set LLM_MODEL in webapp/.env}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      LLM_PROJECT: ${LLM_PROJECT:-}
+      LLM_API_MODE: ${LLM_API_MODE:-chat_completions}
+      LLM_STRUCTURED_OUTPUT: ${LLM_STRUCTURED_OUTPUT:-native}
+      LLM_TIMEOUT: ${LLM_TIMEOUT:-90}
+      VLM_BASE_URL: ${VLM_BASE_URL:-}
+      VLM_MODEL: ${VLM_MODEL:-}
+      VLM_API_KEY: ${VLM_API_KEY:-}
+      VLM_PROJECT: ${VLM_PROJECT:-}
+      VLM_API_MODE: ${VLM_API_MODE:-}
+      VLM_TIMEOUT: ${VLM_TIMEOUT:-}
+    volumes:
+      - user-data:/data
+    depends_on:
+      postgres: {condition: service_healthy}
+      redis: {condition: service_healthy}
+    networks: [data, worker-egress]
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    logging: *default-logging
+
+  template-enrichment-worker:
+    restart: unless-stopped
+    build:
+      context: ..
+      dockerfile: webapp/backend/Dockerfile.worker
+    environment:
+      WEBAPP_DATABASE_URL: postgresql+psycopg://presentations:${POSTGRES_PASSWORD}@postgres/presentations
+      WEBAPP_REDIS_URL: redis://:${REDIS_PASSWORD}@redis:6379/0
+      WEBAPP_DATA_ROOT: /data
+      WEBAPP_WORKER_QUEUE: template-enrichment
+      WEBAPP_TEMPLATE_ENRICHMENT_WORKERS: ${WEBAPP_TEMPLATE_ENRICHMENT_WORKERS:-4}
+      WEBAPP_TEMPLATE_VLM_TIMEOUT: ${WEBAPP_TEMPLATE_VLM_TIMEOUT:-90}
+      LLM_BASE_URL: ${LLM_BASE_URL:?Set LLM_BASE_URL in webapp/.env}
+      LLM_MODEL: ${LLM_MODEL:?Set LLM_MODEL in webapp/.env}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      LLM_PROJECT: ${LLM_PROJECT:-}
+      LLM_API_MODE: ${LLM_API_MODE:-chat_completions}
+      LLM_STRUCTURED_OUTPUT: ${LLM_STRUCTURED_OUTPUT:-native}
+      LLM_TIMEOUT: ${LLM_TIMEOUT:-90}
+      VLM_BASE_URL: ${VLM_BASE_URL:-}
+      VLM_MODEL: ${VLM_MODEL:-}
+      VLM_API_KEY: ${VLM_API_KEY:-}
+      VLM_PROJECT: ${VLM_PROJECT:-}
+      VLM_API_MODE: ${VLM_API_MODE:-}
+      VLM_TIMEOUT: ${VLM_TIMEOUT:-}
+    volumes:
+      - user-data:/data
+    depends_on:
+      postgres: {condition: service_healthy}
+      redis: {condition: service_healthy}
+    networks: [data, worker-egress]
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    logging: *default-logging
+
+  frontend:
+    restart: unless-stopped
+    build:
+      context: ..
+      dockerfile: webapp/frontend/Dockerfile
+    depends_on:
+      - api
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://127.0.0.1/api/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+    networks: [edge, app]
+    logging: *default-logging
+
+  gateway:
+    restart: unless-stopped
+    build:
+      context: ..
+      dockerfile: webapp/gateway/Dockerfile
+    environment:
+      PUBLIC_IP: ${PUBLIC_IP:?Set PUBLIC_IP in webapp/.env}
+    ports:
+      - "80:8080"
+      - "443:8443"
+    volumes:
+      - certbot-data:/etc/letsencrypt:ro
+      - certbot-webroot:/var/www/certbot:ro
+    depends_on:
+      frontend: {condition: service_healthy}
+    networks: [edge]
+    security_opt:
+      - no-new-privileges:true
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://127.0.0.1:8080/gateway-health"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+    logging: *default-logging
+
+  certbot:
+    image: certbot/certbot:v5.8.0
+    restart: unless-stopped
+    entrypoint: ["/bin/sh", "/renew.sh"]
+    environment:
+      PUBLIC_IP: ${PUBLIC_IP:?Set PUBLIC_IP in webapp/.env}
+      TLS_EMAIL: ${TLS_EMAIL:?Set TLS_EMAIL in webapp/.env}
+    volumes:
+      - certbot-data:/etc/letsencrypt
+      - certbot-webroot:/var/www/certbot
+      - ./certbot/renew.sh:/renew.sh:ro
+    networks: [edge]
+    security_opt:
+      - no-new-privileges:true
+    logging: *default-logging
+
+volumes:
+  postgres-data:
+  redis-data:
+  user-data:
+  certbot-data:
+  certbot-webroot:
+
+networks:
+  edge:
+  app:
+    internal: true
+  data:
+    internal: true
+  worker-egress:

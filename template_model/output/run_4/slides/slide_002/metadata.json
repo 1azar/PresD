@@ -1,0 +1,114 @@
+{
+  "slide_number": 2,
+  "slide_id": 257,
+  "layout_name": "2_Титульный слайд",
+  "preview_path": "preview.png",
+  "elements": [
+    {
+      "shape_id": 407,
+      "name": "Google Shape;407;p43",
+      "type": "text",
+      "box": {
+        "x": 0.063569,
+        "y": 0.297738,
+        "width": 0.468972,
+        "height": 0.155545
+      },
+      "z_order": 0,
+      "placeholder_type": "title",
+      "text": "VK Tech",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 408,
+      "name": "Google Shape;408;p43",
+      "type": "text",
+      "box": {
+        "x": 0.063569,
+        "y": 0.459276,
+        "width": 0.468972,
+        "height": 0.055556
+      },
+      "z_order": 1,
+      "placeholder_type": "body",
+      "text": "Разработчик корпоративного ПО",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 409,
+      "name": "Google Shape;409;p43",
+      "type": "text",
+      "box": {
+        "x": 0.156445,
+        "y": 0.747114,
+        "width": 0.468972,
+        "height": 0.055556
+      },
+      "z_order": 2,
+      "placeholder_type": "body",
+      "text": "Имя Фамилия",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 410,
+      "name": "Google Shape;410;p43",
+      "type": "text",
+      "box": {
+        "x": 0.156445,
+        "y": 0.818001,
+        "width": 0.468972,
+        "height": 0.055556
+      },
+      "z_order": 3,
+      "placeholder_type": "body",
+      "text": "Должность",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 412,
+      "name": "Google Shape;412;p43",
+      "type": "text",
+      "box": {
+        "x": 0.063569,
+        "y": 0.782558,
+        "width": 0.095038,
+        "height": 0.055556
+      },
+      "z_order": 5,
+      "placeholder_type": null,
+      "text": "Вставить\nфото",
+      "table": null,
+      "chart": null,
+      "children": []
+    }
+  ],
+  "structures": [],
+  "vlm": {
+    "status": "ok",
+    "classification": "cover",
+    "tags": [
+      "blue_gradient",
+      "3d_glass_cube",
+      "glowing_edges",
+      "left_text_alignment",
+      "photo_placeholder",
+      "vk_logo",
+      "dark_background",
+      "white_typography",
+      "abstract_graphic",
+      "corporate_branding"
+    ],
+    "description": "A presentation cover slide introducing \"VK Tech\" with a large 3D glass cube graphic and placeholders for the presenter's photo and name.",
+    "confidence": 0.95,
+    "error": null
+  },
+  "warnings": []
+}

@@ -1,0 +1,5 @@
+Group semantically equivalent slide descriptors into reusable template families.
+
+Every slide_number must occur exactly once. Never mix different classifications in one family. Group variants that serve the same communication purpose and have the same logical slot structure even when capacity, orientation, or decoration differs. Keep materially different structures in separate families. Use stable descriptive snake_case family_id values and one concise family description.
+
+Return JSON only. Do not include commentary or markdown.

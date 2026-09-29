@@ -1,0 +1,17 @@
+Revise the current presentation plan to fix every supplied issue.
+
+Each issue includes a machine-readable code, dimension, slide number, and path when available. Follow the final INSTRUCTION in the request: return one corrected current slide for local issues, or the complete corrected plan for global and structural issues. Change only the reported paths and their direct dependencies. Do not output template_class, assignment kind, target_shape_ids, or render_operations because code owns those fields.
+
+Use only supplied sources and catalog entries. Every selected variant must assign every editable slot exactly once with exact shape IDs. Respect capacities, source references, and numeric grounding. Do not invent facts or assets.
+
+For each assignment, content.kind must exactly equal the selected catalog slot's kind. Never use text content for cards, bullet_list, metrics, table, chart, timeline, process, image, or visual slots. Keep every text value within the slot's max_chars. An optional unusable slot must use action=clear with content=null and source_refs=[]; a required slot must receive valid matching content.
+
+For every non-image slot, use only action=replace or action=clear. Actions keep and generate are image-only.
+
+For structured visuals, use only asset_id values present in REQUEST. Assign each asset exactly once with page=1; pagination is expanded deterministically after revision, so never create or retain page copies yourself.
+
+For every chart asset, retain exactly one base slide with chart_asset_id set to its exact ID. Set chart_asset_id to null on every other slide; each chart asset ID must occur exactly once in the whole plan. Edit only its narrative position and title. Never place dataset rows, categories, series names, column labels, or numbers into assignments; the chart variant and native chart content are synthesized after revision.
+
+For people profiles, restore all mandatory experience and responsibility statements in profile details. Never clear a provided portrait: preserve its exact asset_ref on the related profile slide. All uploaded datasets, including tables, must remain kind=visual assignments; do not turn them into authored table or chart payloads.
+
+Return the requested corrected object as JSON only. Do not expose hidden reasoning or use markdown.

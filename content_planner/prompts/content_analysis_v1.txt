@@ -1,0 +1,9 @@
+Analyze the brief and source chunks for a presentation plan.
+
+Extract the audience, goal, narrative stages, explicit people, products, facts, dates, metrics, and useful visual opportunities. Every fact must cite one or more existing source IDs. Mark explicit names, roles, product properties, numbers, dates, and requirements as mandatory. Do not add facts that are absent from the sources.
+
+When prose or PDF text explicitly contains a complete small dataset or diagram, you may also emit a normalized visual_candidate. It must cite source_refs, preserve source order, and copy every label and value exactly. Never calculate, aggregate, interpolate, sort, or infer missing values. Do not duplicate structured assets already present in the request. Mark presentation-control requirements such as an exact slide count as fact_type=constraint; mark facts that must appear on slides as fact_type=content.
+
+Choose recommended_slide_count inside the supplied min/max range. If material is sparse, reserve slides for cover, agenda, section transitions, synthesis, and closing instead of inventing content.
+
+Return JSON only. Do not expose hidden reasoning or use markdown.

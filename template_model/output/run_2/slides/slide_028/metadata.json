@@ -1,0 +1,178 @@
+{
+  "slide_number": 28,
+  "slide_id": 283,
+  "layout_name": "1_Свободный дизайн",
+  "preview_path": "preview.png",
+  "elements": [
+    {
+      "shape_id": 1122,
+      "name": "Google Shape;1122;p69",
+      "type": "image",
+      "box": {
+        "x": 0.03125,
+        "y": 0.23522,
+        "width": 0.358331,
+        "height": 0.632325
+      },
+      "z_order": 3,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1123,
+      "name": "Google Shape;1123;p69",
+      "type": "text",
+      "box": {
+        "x": 0.054687,
+        "y": 0.276881,
+        "width": 0.319269,
+        "height": 0.56289
+      },
+      "z_order": 4,
+      "placeholder_type": null,
+      "text": "Тестирование оборудования \nи софта до покупки",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1125,
+      "name": "Google Shape;1125;p69",
+      "type": "image",
+      "box": {
+        "x": 0.399998,
+        "y": 0.23522,
+        "width": 0.568747,
+        "height": 0.306904
+      },
+      "z_order": 6,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1126,
+      "name": "Google Shape;1126;p69",
+      "type": "text",
+      "box": {
+        "x": 0.423435,
+        "y": 0.276881,
+        "width": 0.529685,
+        "height": 0.072213
+      },
+      "z_order": 7,
+      "placeholder_type": null,
+      "text": "Логистика и сервисные услуги",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1127,
+      "name": "Google Shape;1127;p69",
+      "type": "image",
+      "box": {
+        "x": 0.584978,
+        "y": 0.23522,
+        "width": 0.383767,
+        "height": 0.306904
+      },
+      "z_order": 8,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1129,
+      "name": "Google Shape;1129;p69",
+      "type": "image",
+      "box": {
+        "x": 0.399998,
+        "y": 0.56064,
+        "width": 0.568747,
+        "height": 0.306904
+      },
+      "z_order": 10,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1130,
+      "name": "Google Shape;1130;p69",
+      "type": "text",
+      "box": {
+        "x": 0.423435,
+        "y": 0.602302,
+        "width": 0.298957,
+        "height": 0.130539
+      },
+      "z_order": 11,
+      "placeholder_type": null,
+      "text": "Демо на площадке заказчика",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1131,
+      "name": "Google Shape;1131;p69",
+      "type": "image",
+      "box": {
+        "x": 0.746308,
+        "y": 0.798239,
+        "width": 0.109287,
+        "height": 0.069305
+      },
+      "z_order": 12,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1132,
+      "name": "Google Shape;1132;p69",
+      "type": "text",
+      "box": {
+        "x": 0.019463,
+        "y": 0.055011,
+        "width": 0.74289,
+        "height": 0.1408
+      },
+      "z_order": 13,
+      "placeholder_type": "title",
+      "text": "Заголовок\u000bв две или одну строчку",
+      "table": null,
+      "chart": null,
+      "children": []
+    }
+  ],
+  "vlm": {
+    "status": "ok",
+    "classification": "content_text",
+    "tags": [
+      "text_blocks",
+      "3d_graphics",
+      "blue_accent",
+      "split_layout",
+      "russian_language",
+      "white_background",
+      "card_layout"
+    ],
+    "description": "A presentation slide with a title and three content cards featuring Russian text and 3D blue graphics illustrating testing, logistics, and demo services.",
+    "confidence": 0.9,
+    "error": null
+  },
+  "warnings": []
+}

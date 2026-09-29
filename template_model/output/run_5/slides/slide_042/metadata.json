@@ -1,0 +1,190 @@
+{
+  "slide_number": 42,
+  "slide_id": 297,
+  "layout_name": "1_Свободный дизайн",
+  "preview_path": "preview.png",
+  "elements": [
+    {
+      "shape_id": 2249,
+      "name": "Google Shape;2249;p83",
+      "type": "image",
+      "box": {
+        "x": 0.03125,
+        "y": 0.695345,
+        "width": 0.260415,
+        "height": 0.005555
+      },
+      "z_order": 0,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2250,
+      "name": "Google Shape;2250;p83",
+      "type": "image",
+      "box": {
+        "x": 0.343748,
+        "y": 0.695345,
+        "width": 0.411456,
+        "height": 0.005555
+      },
+      "z_order": 1,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2251,
+      "name": "Google Shape;2251;p83",
+      "type": "text",
+      "box": {
+        "x": 0.019463,
+        "y": 0.055011,
+        "width": 0.74289,
+        "height": 0.1408
+      },
+      "z_order": 2,
+      "placeholder_type": "title",
+      "text": "Заголовок в две или в одну строчку",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2252,
+      "name": "Google Shape;2252;p83",
+      "type": "text",
+      "box": {
+        "x": 0.019463,
+        "y": 0.323537,
+        "width": 0.260415,
+        "height": 0.425604
+      },
+      "z_order": 3,
+      "placeholder_type": null,
+      "text": "7",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2253,
+      "name": "Google Shape;2253;p83",
+      "type": "text",
+      "box": {
+        "x": 0.343748,
+        "y": 0.323537,
+        "width": 0.472502,
+        "height": 0.425604
+      },
+      "z_order": 4,
+      "placeholder_type": null,
+      "text": "10",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2254,
+      "name": "Google Shape;2254;p83",
+      "type": "text",
+      "box": {
+        "x": 0.028058,
+        "y": 0.71731,
+        "width": 0.155692,
+        "height": 0.06366
+      },
+      "z_order": 5,
+      "placeholder_type": null,
+      "text": "Описание",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2255,
+      "name": "Google Shape;2255;p83",
+      "type": "text",
+      "box": {
+        "x": 0.344308,
+        "y": 0.71731,
+        "width": 0.155692,
+        "height": 0.06366
+      },
+      "z_order": 6,
+      "placeholder_type": null,
+      "text": "Описание",
+      "table": null,
+      "chart": null,
+      "children": []
+    }
+  ],
+  "structures": [
+    {
+      "kind": "repeat",
+      "structure_id": "repeat_0",
+      "items": [
+        {
+          "index": 0,
+          "fields": {
+            "field_0": 2252,
+            "field_1": 2254
+          }
+        },
+        {
+          "index": 1,
+          "fields": {
+            "field_0": 2253,
+            "field_1": 2255
+          }
+        }
+      ],
+      "fields": [
+        {
+          "field_id": "field_0",
+          "shape_ids": [
+            2252,
+            2253
+          ]
+        },
+        {
+          "field_id": "field_1",
+          "shape_ids": [
+            2254,
+            2255
+          ]
+        }
+      ],
+      "content_shape_ids": [
+        2252,
+        2253,
+        2254,
+        2255
+      ],
+      "decoration_shape_ids": []
+    }
+  ],
+  "vlm": {
+    "status": "ok",
+    "classification": "metrics",
+    "tags": [
+      "large_numbers",
+      "blue_text",
+      "minimalist",
+      "two_columns",
+      "title_at_top",
+      "white_background",
+      "description_labels",
+      "vk_tech_logo"
+    ],
+    "description": "This slide displays two large blue numerical values, 7 and 10, each accompanied by a description label, under a main title on a white background.",
+    "confidence": 0.95,
+    "error": null
+  },
+  "warnings": []
+}

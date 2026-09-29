@@ -1,0 +1,12 @@
+Analyze the supplied presentation slide image and structural metadata.
+Return only one JSON object with these keys:
+classification, tags, description, confidence.
+
+classification must be exactly one of:
+cover, agenda, section, content_text, content_visual, comparison, process,
+timeline, metrics, table, chart, quote, profile, closing, other.
+
+tags must contain at most 10 unique lowercase snake_case visual or compositional
+features. description must be one concise sentence in the primary language of
+the slide. confidence must be a number from 0 to 1. Do not choose elements for
+replacement and do not propose layout changes.

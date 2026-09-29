@@ -1,0 +1,181 @@
+{
+  "slide_number": 19,
+  "slide_id": 274,
+  "layout_name": "1_Контент",
+  "preview_path": "preview.png",
+  "elements": [
+    {
+      "shape_id": 857,
+      "name": "Google Shape;857;p60",
+      "type": "text",
+      "box": {
+        "x": 0.047916,
+        "y": 0.309284,
+        "width": 0.330554,
+        "height": 0.032095
+      },
+      "z_order": 6,
+      "placeholder_type": null,
+      "text": "Безопасность",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 858,
+      "name": "Google Shape;858;p60",
+      "type": "text",
+      "box": {
+        "x": 0.047916,
+        "y": 0.353723,
+        "width": 0.329165,
+        "height": 0.166182
+      },
+      "z_order": 7,
+      "placeholder_type": null,
+      "text": "Оцените высокий уровень защищенности инфраструктуры и соответствие стандартам",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 861,
+      "name": "Google Shape;861;p60",
+      "type": "text",
+      "box": {
+        "x": 0.416664,
+        "y": 0.309284,
+        "width": 0.330554,
+        "height": 0.032095
+      },
+      "z_order": 10,
+      "placeholder_type": null,
+      "text": "Безопасность",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 862,
+      "name": "Google Shape;862;p60",
+      "type": "text",
+      "box": {
+        "x": 0.416665,
+        "y": 0.353723,
+        "width": 0.329165,
+        "height": 0.166182
+      },
+      "z_order": 11,
+      "placeholder_type": null,
+      "text": "Оцените высокий уровень защищенности инфраструктуры и соответствие стандартам",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 866,
+      "name": "Google Shape;866;p60",
+      "type": "text",
+      "box": {
+        "x": 0.047916,
+        "y": 0.634705,
+        "width": 0.330554,
+        "height": 0.032095
+      },
+      "z_order": 15,
+      "placeholder_type": null,
+      "text": "Безопасность",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 867,
+      "name": "Google Shape;867;p60",
+      "type": "text",
+      "box": {
+        "x": 0.047916,
+        "y": 0.679143,
+        "width": 0.329165,
+        "height": 0.166182
+      },
+      "z_order": 16,
+      "placeholder_type": null,
+      "text": "Оцените высокий уровень защищенности инфраструктуры и соответствие стандартам",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 870,
+      "name": "Google Shape;870;p60",
+      "type": "text",
+      "box": {
+        "x": 0.416664,
+        "y": 0.634705,
+        "width": 0.330554,
+        "height": 0.032095
+      },
+      "z_order": 19,
+      "placeholder_type": null,
+      "text": "Безопасность",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 871,
+      "name": "Google Shape;871;p60",
+      "type": "text",
+      "box": {
+        "x": 0.416665,
+        "y": 0.679143,
+        "width": 0.329165,
+        "height": 0.166182
+      },
+      "z_order": 20,
+      "placeholder_type": null,
+      "text": "Оцените высокий уровень защищенности инфраструктуры и соответствие стандартам",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 872,
+      "name": "Google Shape;872;p60",
+      "type": "text",
+      "box": {
+        "x": 0.019463,
+        "y": 0.055011,
+        "width": 0.549584,
+        "height": 0.14647
+      },
+      "z_order": 21,
+      "placeholder_type": "title",
+      "text": "Заголовок\u000bв одну или две строчки",
+      "table": null,
+      "chart": null,
+      "children": []
+    }
+  ],
+  "vlm": {
+    "status": "ok",
+    "classification": "content_text",
+    "tags": [
+      "grid_layout",
+      "text_cards",
+      "numbered_background",
+      "russian_text",
+      "blue_accents",
+      "white_background",
+      "placeholder_text",
+      "title_header",
+      "minimalist_design",
+      "clean_layout"
+    ],
+    "description": "A presentation slide featuring a title and a 2x2 grid of white cards, each displaying the heading \"Security\" and descriptive text with large background numbers.",
+    "confidence": 0.95,
+    "error": null
+  },
+  "warnings": []
+}

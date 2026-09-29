@@ -1,0 +1,182 @@
+{
+  "slide_number": 51,
+  "slide_id": 306,
+  "layout_name": "13_Контент",
+  "preview_path": "preview.png",
+  "elements": [
+    {
+      "shape_id": 2535,
+      "name": "Google Shape;2535;p92",
+      "type": "text",
+      "box": {
+        "x": 0.019463,
+        "y": 0.055011,
+        "width": 0.649584,
+        "height": 0.095254
+      },
+      "z_order": 5,
+      "placeholder_type": "title",
+      "text": "Заголовок в две или в одну строчку",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2536,
+      "name": "Google Shape;2536;p92",
+      "type": "text",
+      "box": {
+        "x": 0.041406,
+        "y": 0.5,
+        "width": 0.176605,
+        "height": 0.029091
+      },
+      "z_order": 6,
+      "placeholder_type": null,
+      "text": "Заголовок",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2537,
+      "name": "Google Shape;2537;p92",
+      "type": "text",
+      "box": {
+        "x": 0.041406,
+        "y": 0.542246,
+        "width": 0.176605,
+        "height": 0.039364
+      },
+      "z_order": 7,
+      "placeholder_type": null,
+      "text": "Текст",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2538,
+      "name": "Google Shape;2538;p92",
+      "type": "text",
+      "box": {
+        "x": 0.281509,
+        "y": 0.418138,
+        "width": 0.176605,
+        "height": 0.029091
+      },
+      "z_order": 8,
+      "placeholder_type": null,
+      "text": "Заголовок",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2539,
+      "name": "Google Shape;2539;p92",
+      "type": "text",
+      "box": {
+        "x": 0.281509,
+        "y": 0.460384,
+        "width": 0.176605,
+        "height": 0.039364
+      },
+      "z_order": 9,
+      "placeholder_type": null,
+      "text": "Текст",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2540,
+      "name": "Google Shape;2540;p92",
+      "type": "text",
+      "box": {
+        "x": 0.527081,
+        "y": 0.327998,
+        "width": 0.176605,
+        "height": 0.029091
+      },
+      "z_order": 10,
+      "placeholder_type": null,
+      "text": "Заголовок",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2541,
+      "name": "Google Shape;2541;p92",
+      "type": "text",
+      "box": {
+        "x": 0.527081,
+        "y": 0.370244,
+        "width": 0.176605,
+        "height": 0.039364
+      },
+      "z_order": 11,
+      "placeholder_type": null,
+      "text": "Текст",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2542,
+      "name": "Google Shape;2542;p92",
+      "type": "text",
+      "box": {
+        "x": 0.767184,
+        "y": 0.207304,
+        "width": 0.176605,
+        "height": 0.029091
+      },
+      "z_order": 12,
+      "placeholder_type": null,
+      "text": "Заголовок",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2543,
+      "name": "Google Shape;2543;p92",
+      "type": "text",
+      "box": {
+        "x": 0.767184,
+        "y": 0.249551,
+        "width": 0.176605,
+        "height": 0.039364
+      },
+      "z_order": 13,
+      "placeholder_type": null,
+      "text": "Текст",
+      "table": null,
+      "chart": null,
+      "children": []
+    }
+  ],
+  "structures": [],
+  "vlm": {
+    "status": "ok",
+    "classification": "chart",
+    "tags": [
+      "bar_chart",
+      "vertical_bars",
+      "upward_arrow",
+      "blue_theme",
+      "rounded_corners",
+      "title",
+      "text_blocks",
+      "growth",
+      "four_items",
+      "placeholder"
+    ],
+    "description": "The slide features a title and four vertical blue bars of increasing height, each containing a title and text, with a large arrow pointing upwards across the bars.",
+    "confidence": 0.95,
+    "error": null
+  },
+  "warnings": []
+}

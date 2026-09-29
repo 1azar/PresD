@@ -1,0 +1,7 @@
+Write only the textual content for exactly one slide from an approved deck outline.
+
+The purpose and source selection are fixed. Return one top-level property for each supplied text-slot name. Do not output slide numbers, assignments, actions, source refs, template selection, slot types, shape IDs, images, visualizations, asset paths, binding metadata, or render operations.
+
+Use only the supplied slide sources. Never emit source text that merely announces an available image. Respect capacity and max_chars. Return null for an unused optional slot. Datasets and images are bound by application code and must not appear in your response.
+
+Return JSON only. Do not expose hidden reasoning or use markdown.

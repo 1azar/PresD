@@ -1,0 +1,161 @@
+{
+  "slide_number": 7,
+  "slide_id": 262,
+  "layout_name": "1_Содержание",
+  "preview_path": "preview.png",
+  "elements": [
+    {
+      "shape_id": 453,
+      "name": "Google Shape;453;p48",
+      "type": "text",
+      "box": {
+        "x": 0.019463,
+        "y": 0.055011,
+        "width": 0.44387,
+        "height": 0.14647
+      },
+      "z_order": 0,
+      "placeholder_type": "title",
+      "text": "Заголовок",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 460,
+      "name": "Google Shape;460;p48",
+      "type": "image",
+      "box": {
+        "x": 0.036947,
+        "y": 0.119214,
+        "width": 0.550422,
+        "height": 0.880565
+      },
+      "z_order": 7,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 462,
+      "name": "Google Shape;462;p48",
+      "type": "image",
+      "box": {
+        "x": 0.51794,
+        "y": 0.15764,
+        "width": 0.02163,
+        "height": 0.037709
+      },
+      "z_order": 9,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 464,
+      "name": "Google Shape;464;p48",
+      "type": "image",
+      "box": {
+        "x": 0.51794,
+        "y": 0.28571,
+        "width": 0.02163,
+        "height": 0.037709
+      },
+      "z_order": 11,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 466,
+      "name": "Google Shape;466;p48",
+      "type": "image",
+      "box": {
+        "x": 0.51794,
+        "y": 0.413779,
+        "width": 0.02163,
+        "height": 0.037709
+      },
+      "z_order": 13,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 468,
+      "name": "Google Shape;468;p48",
+      "type": "image",
+      "box": {
+        "x": 0.51794,
+        "y": 0.541848,
+        "width": 0.02163,
+        "height": 0.037709
+      },
+      "z_order": 15,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 470,
+      "name": "Google Shape;470;p48",
+      "type": "image",
+      "box": {
+        "x": 0.51794,
+        "y": 0.676333,
+        "width": 0.02163,
+        "height": 0.037709
+      },
+      "z_order": 17,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 472,
+      "name": "Google Shape;472;p48",
+      "type": "image",
+      "box": {
+        "x": 0.51794,
+        "y": 0.810819,
+        "width": 0.02163,
+        "height": 0.037709
+      },
+      "z_order": 19,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    }
+  ],
+  "vlm": {
+    "status": "ok",
+    "classification": "content_visual",
+    "tags": [
+      "vertical_list",
+      "gear_icons",
+      "3d_spiral",
+      "white_background",
+      "title",
+      "tech_logo",
+      "minimalist"
+    ],
+    "description": "Слайд содержит заголовок, большую абстрактную спираль и вертикальный ряд иконок шестеренок.",
+    "confidence": 0.8,
+    "error": null
+  },
+  "warnings": []
+}

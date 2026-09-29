@@ -1,0 +1,111 @@
+{
+  "slide_number": 27,
+  "slide_id": 282,
+  "layout_name": "5_Контент",
+  "preview_path": "preview.png",
+  "elements": [
+    {
+      "shape_id": 1109,
+      "name": "Google Shape;1109;p68",
+      "type": "text",
+      "box": {
+        "x": 0.019463,
+        "y": 0.055011,
+        "width": 0.559847,
+        "height": 0.14647
+      },
+      "z_order": 2,
+      "placeholder_type": "title",
+      "text": "Заголовок\u000bв две или одну строчку",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1110,
+      "name": "Google Shape;1110;p68",
+      "type": "text",
+      "box": {
+        "x": 0.072597,
+        "y": 0.596955,
+        "width": 0.143495,
+        "height": 0.030375
+      },
+      "z_order": 3,
+      "placeholder_type": null,
+      "text": "Заголовок",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1111,
+      "name": "Google Shape;1111;p68",
+      "type": "text",
+      "box": {
+        "x": 0.272597,
+        "y": 0.733591,
+        "width": 0.143495,
+        "height": 0.030375
+      },
+      "z_order": 4,
+      "placeholder_type": null,
+      "text": "Заголовок",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1112,
+      "name": "Google Shape;1112;p68",
+      "type": "text",
+      "box": {
+        "x": 0.572283,
+        "y": 0.557925,
+        "width": 0.143495,
+        "height": 0.030375
+      },
+      "z_order": 5,
+      "placeholder_type": null,
+      "text": "Заголовок",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1113,
+      "name": "Google Shape;1113;p68",
+      "type": "text",
+      "box": {
+        "x": 0.764421,
+        "y": 0.711496,
+        "width": 0.143495,
+        "height": 0.030375
+      },
+      "z_order": 6,
+      "placeholder_type": null,
+      "text": "Заголовок",
+      "table": null,
+      "chart": null,
+      "children": []
+    }
+  ],
+  "vlm": {
+    "status": "ok",
+    "classification": "process",
+    "tags": [
+      "numbered_cards",
+      "dashed_line",
+      "blue_numbers",
+      "white_cards",
+      "minimalist",
+      "step_sequence",
+      "rounded_corners",
+      "clean_layout"
+    ],
+    "description": "Слайд с заголовком и четырьмя пронумерованными карточками, соединенными пунктирной линией.",
+    "confidence": 0.9,
+    "error": null
+  },
+  "warnings": []
+}

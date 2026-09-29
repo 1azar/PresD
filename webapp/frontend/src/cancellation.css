@@ -1,0 +1,80 @@
+.badge.canceled {
+  color: var(--muted);
+}
+
+.history-head,
+.history-row {
+  grid-template-columns: 110px 2fr 1.3fr 100px 76px;
+}
+
+.history-title {
+  overflow: hidden;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.history-title:hover,
+.history-arrow:hover {
+  color: var(--accent);
+}
+
+.history-arrow {
+  text-align: right;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.cancel-link {
+  padding: 4px 0;
+  border: 0;
+  background: transparent;
+  color: var(--danger);
+  font-size: 11px;
+  font-weight: 700;
+  text-align: right;
+  cursor: pointer;
+}
+
+.cancel-link:hover {
+  text-decoration: underline;
+}
+
+.cancel-link:disabled,
+.danger-button:disabled {
+  opacity: 0.5;
+  cursor: wait;
+}
+
+.history-error {
+  margin-bottom: 18px;
+}
+
+.cancel-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin: -10px 0 18px;
+}
+
+.danger-button {
+  height: 38px;
+  padding: 0 14px;
+  border: 1px solid #e6aaa5;
+  border-radius: 8px;
+  background: #fff7f6;
+  color: var(--danger);
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.danger-button:hover {
+  background: #fff0ee;
+}
+
+@media (max-width: 760px) {
+  .history-head,
+  .history-row {
+    min-width: 760px;
+  }
+}

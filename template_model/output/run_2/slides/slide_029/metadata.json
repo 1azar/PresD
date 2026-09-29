@@ -1,0 +1,215 @@
+{
+  "slide_number": 29,
+  "slide_id": 284,
+  "layout_name": "7_Контент",
+  "preview_path": "preview.png",
+  "elements": [
+    {
+      "shape_id": 1151,
+      "name": "Google Shape;1151;p70",
+      "type": "text",
+      "box": {
+        "x": 0.019463,
+        "y": 0.055011,
+        "width": 0.44387,
+        "height": 0.14647
+      },
+      "z_order": 13,
+      "placeholder_type": "title",
+      "text": "Заголовок\u000bв две или одну строчку",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1152,
+      "name": "Google Shape;1152;p70",
+      "type": "text",
+      "box": {
+        "x": 0.046895,
+        "y": 0.583274,
+        "width": 0.176605,
+        "height": 0.029091
+      },
+      "z_order": 14,
+      "placeholder_type": null,
+      "text": "Заголовок",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1153,
+      "name": "Google Shape;1153;p70",
+      "type": "text",
+      "box": {
+        "x": 0.046895,
+        "y": 0.6189,
+        "width": 0.176605,
+        "height": 0.039364
+      },
+      "z_order": 15,
+      "placeholder_type": null,
+      "text": "Текст",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1154,
+      "name": "Google Shape;1154;p70",
+      "type": "text",
+      "box": {
+        "x": 0.23806,
+        "y": 0.576899,
+        "width": 0.176605,
+        "height": 0.029091
+      },
+      "z_order": 16,
+      "placeholder_type": null,
+      "text": "Заголовок",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1155,
+      "name": "Google Shape;1155;p70",
+      "type": "text",
+      "box": {
+        "x": 0.23806,
+        "y": 0.612525,
+        "width": 0.176605,
+        "height": 0.039364
+      },
+      "z_order": 17,
+      "placeholder_type": null,
+      "text": "Текст",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1156,
+      "name": "Google Shape;1156;p70",
+      "type": "text",
+      "box": {
+        "x": 0.434589,
+        "y": 0.576184,
+        "width": 0.176605,
+        "height": 0.029091
+      },
+      "z_order": 18,
+      "placeholder_type": null,
+      "text": "Заголовок",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1157,
+      "name": "Google Shape;1157;p70",
+      "type": "text",
+      "box": {
+        "x": 0.434589,
+        "y": 0.611809,
+        "width": 0.176605,
+        "height": 0.039364
+      },
+      "z_order": 19,
+      "placeholder_type": null,
+      "text": "Текст",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1158,
+      "name": "Google Shape;1158;p70",
+      "type": "text",
+      "box": {
+        "x": 0.620808,
+        "y": 0.58367,
+        "width": 0.176605,
+        "height": 0.029091
+      },
+      "z_order": 20,
+      "placeholder_type": null,
+      "text": "Заголовок",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1159,
+      "name": "Google Shape;1159;p70",
+      "type": "text",
+      "box": {
+        "x": 0.620808,
+        "y": 0.619296,
+        "width": 0.176605,
+        "height": 0.039364
+      },
+      "z_order": 21,
+      "placeholder_type": null,
+      "text": "Текст",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1160,
+      "name": "Google Shape;1160;p70",
+      "type": "text",
+      "box": {
+        "x": 0.811602,
+        "y": 0.582886,
+        "width": 0.176605,
+        "height": 0.029091
+      },
+      "z_order": 22,
+      "placeholder_type": null,
+      "text": "Заголовок",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1161,
+      "name": "Google Shape;1161;p70",
+      "type": "text",
+      "box": {
+        "x": 0.811602,
+        "y": 0.618512,
+        "width": 0.176605,
+        "height": 0.039364
+      },
+      "z_order": 23,
+      "placeholder_type": null,
+      "text": "Текст",
+      "table": null,
+      "chart": null,
+      "children": []
+    }
+  ],
+  "vlm": {
+    "status": "ok",
+    "classification": "content_text",
+    "tags": [
+      "numbered_list",
+      "horizontal_layout",
+      "cards",
+      "blue_accents",
+      "checkmarks",
+      "placeholder_text",
+      "title",
+      "five_columns",
+      "clean_design",
+      "white_background"
+    ],
+    "description": "A slide with a main title and five horizontal cards, each containing a large number, a checkmark icon, and text placeholders.",
+    "confidence": 0.9,
+    "error": null
+  },
+  "warnings": []
+}

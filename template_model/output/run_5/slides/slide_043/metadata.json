@@ -1,0 +1,108 @@
+{
+  "slide_number": 43,
+  "slide_id": 298,
+  "layout_name": "1_Свободный дизайн",
+  "preview_path": "preview.png",
+  "elements": [
+    {
+      "shape_id": 2261,
+      "name": "Google Shape;2261;p84",
+      "type": "image",
+      "box": {
+        "x": 0.349477,
+        "y": 0.143565,
+        "width": 0.456768,
+        "height": 0.798044
+      },
+      "z_order": 0,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2262,
+      "name": "Google Shape;2262;p84",
+      "type": "image",
+      "box": {
+        "x": 0.349477,
+        "y": 0.225036,
+        "width": 0.616143,
+        "height": 0.708241
+      },
+      "z_order": 1,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2263,
+      "name": "Google Shape;2263;p84",
+      "type": "text",
+      "box": {
+        "x": 0.019463,
+        "y": 0.055011,
+        "width": 0.74289,
+        "height": 0.1408
+      },
+      "z_order": 2,
+      "placeholder_type": "title",
+      "text": "Заголовок в две или в одну строчку",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2264,
+      "name": "Google Shape;2264;p84",
+      "type": "text",
+      "box": {
+        "x": 0.019842,
+        "y": 0.212264,
+        "width": 0.449158,
+        "height": 0.06366
+      },
+      "z_order": 3,
+      "placeholder_type": null,
+      "text": "Описание",
+      "table": null,
+      "chart": null,
+      "children": []
+    }
+  ],
+  "structures": [
+    {
+      "kind": "static_visual",
+      "structure_id": "static_visual_0",
+      "shape_ids": [
+        2261,
+        2262,
+        2263,
+        2264
+      ]
+    }
+  ],
+  "vlm": {
+    "status": "ok",
+    "classification": "content_visual",
+    "tags": [
+      "laptop",
+      "video_call",
+      "interface",
+      "chat_bubbles",
+      "task_card",
+      "text_overlay",
+      "white_background",
+      "mockup",
+      "ui_design",
+      "vk_tech"
+    ],
+    "description": "A presentation slide featuring a laptop mockup of a video call interface with overlaid UI elements and Russian text.",
+    "confidence": 0.9,
+    "error": null
+  },
+  "warnings": []
+}

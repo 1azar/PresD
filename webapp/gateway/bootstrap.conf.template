@@ -1,0 +1,23 @@
+limit_req_zone $binary_remote_addr zone=auth:10m rate=5r/m;
+
+server {
+    listen 8080 default_server;
+    server_name ${PUBLIC_IP};
+    server_tokens off;
+
+    location = /gateway-health {
+        access_log off;
+        return 200 "ok\n";
+    }
+
+    location ^~ /.well-known/acme-challenge/ {
+        root /var/www/certbot;
+        default_type text/plain;
+        try_files $uri =404;
+    }
+
+    location / {
+        default_type text/plain;
+        return 503 "TLS certificate is being provisioned. Try again shortly.\n";
+    }
+}

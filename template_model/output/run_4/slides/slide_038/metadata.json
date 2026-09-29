@@ -1,0 +1,107 @@
+{
+  "slide_number": 38,
+  "slide_id": 293,
+  "layout_name": "1_Свободный дизайн",
+  "preview_path": "preview.png",
+  "elements": [
+    {
+      "shape_id": 2104,
+      "name": "Google Shape;2104;p79",
+      "type": "text",
+      "box": {
+        "x": 0.019463,
+        "y": 0.055011,
+        "width": 0.74289,
+        "height": 0.1408
+      },
+      "z_order": 0,
+      "placeholder_type": "title",
+      "text": "Заголовок в две или в одну строчку",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2105,
+      "name": "Google Shape;2105;p79",
+      "type": "image",
+      "box": {
+        "x": 0.058333,
+        "y": 0.295397,
+        "width": 0.883329,
+        "height": 0.035181
+      },
+      "z_order": 1,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2106,
+      "name": "Google Shape;2106;p79",
+      "type": "image",
+      "box": {
+        "x": 0.084375,
+        "y": 0.260216,
+        "width": 0.830725,
+        "height": 0.035181
+      },
+      "z_order": 2,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2107,
+      "name": "Google Shape;2107;p79",
+      "type": "image",
+      "box": {
+        "x": 0.03125,
+        "y": 0.330983,
+        "width": 0.936974,
+        "height": 0.668952
+      },
+      "z_order": 3,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    }
+  ],
+  "structures": [
+    {
+      "kind": "static_visual",
+      "structure_id": "static_visual_0",
+      "shape_ids": [
+        2105,
+        2106,
+        2107
+      ]
+    }
+  ],
+  "vlm": {
+    "status": "ok",
+    "classification": "content_visual",
+    "tags": [
+      "screenshot",
+      "user_interface",
+      "cloud_storage",
+      "file_manager",
+      "sidebar_navigation",
+      "folder_list",
+      "storage_indicator",
+      "russian_language",
+      "white_background",
+      "header_text"
+    ],
+    "description": "This slide displays a large screenshot of a cloud storage interface showing a sidebar and a list of personal folders, accompanied by a Russian title at the top.",
+    "confidence": 0.95,
+    "error": null
+  },
+  "warnings": []
+}

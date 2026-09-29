@@ -1,0 +1,250 @@
+{
+  "slide_number": 22,
+  "slide_id": 277,
+  "layout_name": "1_Свободный дизайн",
+  "preview_path": "preview.png",
+  "elements": [
+    {
+      "shape_id": 962,
+      "name": "Google Shape;962;p63",
+      "type": "image",
+      "box": {
+        "x": 0.03125,
+        "y": 0.190781,
+        "width": 0.468748,
+        "height": 0.324032
+      },
+      "z_order": 2,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 966,
+      "name": "Google Shape;966;p63",
+      "type": "text",
+      "box": {
+        "x": 0.075,
+        "y": 0.2867,
+        "width": 0.432834,
+        "height": 0.089049
+      },
+      "z_order": 6,
+      "placeholder_type": null,
+      "text": "Заголовок",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 967,
+      "name": "Google Shape;967;p63",
+      "type": "text",
+      "box": {
+        "x": 0.075,
+        "y": 0.377233,
+        "width": 0.42866,
+        "height": 0.056503
+      },
+      "z_order": 7,
+      "placeholder_type": null,
+      "text": "Подзаголовок",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 968,
+      "name": "Google Shape;968;p63",
+      "type": "image",
+      "box": {
+        "x": 0.499997,
+        "y": 0.190781,
+        "width": 0.468748,
+        "height": 0.324032
+      },
+      "z_order": 8,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 969,
+      "name": "Google Shape;969;p63",
+      "type": "image",
+      "box": {
+        "x": 0.504164,
+        "y": 0.198187,
+        "width": 0.460414,
+        "height": 0.309219
+      },
+      "z_order": 9,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 970,
+      "name": "Google Shape;970;p63",
+      "type": "image",
+      "box": {
+        "x": 0.817261,
+        "y": 0.401328,
+        "width": 0.078707,
+        "height": 0.106079
+      },
+      "z_order": 10,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 971,
+      "name": "Google Shape;971;p63",
+      "type": "image",
+      "box": {
+        "x": 0.03125,
+        "y": 0.531477,
+        "width": 0.468748,
+        "height": 0.324032
+      },
+      "z_order": 11,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 972,
+      "name": "Google Shape;972;p63",
+      "type": "image",
+      "box": {
+        "x": 0.035417,
+        "y": 0.538884,
+        "width": 0.460414,
+        "height": 0.309219
+      },
+      "z_order": 12,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 973,
+      "name": "Google Shape;973;p63",
+      "type": "image",
+      "box": {
+        "x": 0.499997,
+        "y": 0.531477,
+        "width": 0.468748,
+        "height": 0.324032
+      },
+      "z_order": 13,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 977,
+      "name": "Google Shape;977;p63",
+      "type": "text",
+      "box": {
+        "x": 0.536456,
+        "y": 0.627396,
+        "width": 0.432834,
+        "height": 0.089049
+      },
+      "z_order": 17,
+      "placeholder_type": null,
+      "text": "Заголовок",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 978,
+      "name": "Google Shape;978;p63",
+      "type": "text",
+      "box": {
+        "x": 0.536455,
+        "y": 0.717929,
+        "width": 0.42866,
+        "height": 0.056503
+      },
+      "z_order": 18,
+      "placeholder_type": null,
+      "text": "Подзаголовок",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 980,
+      "name": "Google Shape;980;p63",
+      "type": "text",
+      "box": {
+        "x": 0.018364,
+        "y": 0.040592,
+        "width": 0.74289,
+        "height": 0.083925
+      },
+      "z_order": 20,
+      "placeholder_type": "title",
+      "text": "Заголовок в одну строчку",
+      "table": null,
+      "chart": null,
+      "children": []
+    }
+  ],
+  "structures": [
+    {
+      "kind": "static_visual",
+      "structure_id": "static_visual_0",
+      "shape_ids": [
+        962,
+        966,
+        967,
+        968,
+        969,
+        970,
+        971,
+        972,
+        973,
+        977,
+        978
+      ]
+    }
+  ],
+  "vlm": {
+    "status": "ok",
+    "classification": "content_visual",
+    "tags": [
+      "white_background",
+      "two_rows",
+      "text_and_image",
+      "3d_graphics",
+      "title",
+      "subtitle",
+      "split_layout",
+      "horizontal_cards",
+      "vk_tech_logo"
+    ],
+    "description": "A presentation slide with a main title and two horizontal sections, each containing a title, subtitle, and abstract 3D imagery.",
+    "confidence": 0.9,
+    "error": null
+  },
+  "warnings": []
+}

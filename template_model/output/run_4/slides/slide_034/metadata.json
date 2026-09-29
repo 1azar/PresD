@@ -1,0 +1,1024 @@
+{
+  "slide_number": 34,
+  "slide_id": 289,
+  "layout_name": "1_Свободный дизайн",
+  "preview_path": "preview.png",
+  "elements": [
+    {
+      "shape_id": 1351,
+      "name": "Google Shape;1351;p75",
+      "type": "text",
+      "box": {
+        "x": 0.019463,
+        "y": 0.055011,
+        "width": 0.74289,
+        "height": 0.1408
+      },
+      "z_order": 0,
+      "placeholder_type": "title",
+      "text": "Заголовок в две или в одну строчку",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1352,
+      "name": "Google Shape;1352;p75",
+      "type": "text",
+      "box": {
+        "x": 0.019842,
+        "y": 0.212264,
+        "width": 0.449158,
+        "height": 0.06366
+      },
+      "z_order": 1,
+      "placeholder_type": null,
+      "text": "Описание",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1353,
+      "name": "Google Shape;1353;p75",
+      "type": "image",
+      "box": {
+        "x": 0.44531,
+        "y": 0.249107,
+        "width": 0.523435,
+        "height": 0.621405
+      },
+      "z_order": 2,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1357,
+      "name": "Google Shape;1357;p75",
+      "type": "text",
+      "box": {
+        "x": 0.469376,
+        "y": 0.291885,
+        "width": 0.083447,
+        "height": 0.033532
+      },
+      "z_order": 6,
+      "placeholder_type": null,
+      "text": "Заголовок",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1358,
+      "name": "Google Shape;1358;p75",
+      "type": "text",
+      "box": {
+        "x": 0.638871,
+        "y": 0.291885,
+        "width": 0.090739,
+        "height": 0.033532
+      },
+      "z_order": 7,
+      "placeholder_type": null,
+      "text": "Показатель",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1359,
+      "name": "Google Shape;1359;p75",
+      "type": "text",
+      "box": {
+        "x": 0.815657,
+        "y": 0.291885,
+        "width": 0.090739,
+        "height": 0.033532
+      },
+      "z_order": 8,
+      "placeholder_type": null,
+      "text": "Показатель",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1361,
+      "name": "Google Shape;1361;p75",
+      "type": "image",
+      "box": {
+        "x": 0.469,
+        "y": 0.331433,
+        "width": 0.476055,
+        "height": 0.001338
+      },
+      "z_order": 10,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1365,
+      "name": "Google Shape;1365;p75",
+      "type": "text",
+      "box": {
+        "x": 0.469376,
+        "y": 0.346806,
+        "width": 0.172646,
+        "height": 0.033532
+      },
+      "z_order": 14,
+      "placeholder_type": null,
+      "text": "Заголовок",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1368,
+      "name": "Google Shape;1368;p75",
+      "type": "text",
+      "box": {
+        "x": 0.638262,
+        "y": 0.346806,
+        "width": 0.039698,
+        "height": 0.033532
+      },
+      "z_order": 17,
+      "placeholder_type": null,
+      "text": ">50*",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1371,
+      "name": "Google Shape;1371;p75",
+      "type": "text",
+      "box": {
+        "x": 0.817837,
+        "y": 0.346806,
+        "width": 0.039698,
+        "height": 0.033532
+      },
+      "z_order": 20,
+      "placeholder_type": null,
+      "text": ">50*",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1373,
+      "name": "Google Shape;1373;p75",
+      "type": "image",
+      "box": {
+        "x": 0.469,
+        "y": 0.386354,
+        "width": 0.476055,
+        "height": 0.001338
+      },
+      "z_order": 22,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1377,
+      "name": "Google Shape;1377;p75",
+      "type": "text",
+      "box": {
+        "x": 0.469376,
+        "y": 0.401729,
+        "width": 0.172646,
+        "height": 0.033532
+      },
+      "z_order": 26,
+      "placeholder_type": null,
+      "text": "Заголовок",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1380,
+      "name": "Google Shape;1380;p75",
+      "type": "text",
+      "box": {
+        "x": 0.638262,
+        "y": 0.401729,
+        "width": 0.039698,
+        "height": 0.033532
+      },
+      "z_order": 29,
+      "placeholder_type": null,
+      "text": ">50*",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1383,
+      "name": "Google Shape;1383;p75",
+      "type": "text",
+      "box": {
+        "x": 0.817837,
+        "y": 0.401729,
+        "width": 0.039698,
+        "height": 0.033532
+      },
+      "z_order": 32,
+      "placeholder_type": null,
+      "text": ">50*",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1385,
+      "name": "Google Shape;1385;p75",
+      "type": "image",
+      "box": {
+        "x": 0.469,
+        "y": 0.441277,
+        "width": 0.476055,
+        "height": 0.001338
+      },
+      "z_order": 34,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1389,
+      "name": "Google Shape;1389;p75",
+      "type": "text",
+      "box": {
+        "x": 0.469376,
+        "y": 0.45665,
+        "width": 0.172646,
+        "height": 0.033532
+      },
+      "z_order": 38,
+      "placeholder_type": null,
+      "text": "Заголовок",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1392,
+      "name": "Google Shape;1392;p75",
+      "type": "text",
+      "box": {
+        "x": 0.638262,
+        "y": 0.45665,
+        "width": 0.039698,
+        "height": 0.033532
+      },
+      "z_order": 41,
+      "placeholder_type": null,
+      "text": ">50*",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1395,
+      "name": "Google Shape;1395;p75",
+      "type": "text",
+      "box": {
+        "x": 0.817837,
+        "y": 0.45665,
+        "width": 0.039698,
+        "height": 0.033532
+      },
+      "z_order": 44,
+      "placeholder_type": null,
+      "text": ">50*",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1397,
+      "name": "Google Shape;1397;p75",
+      "type": "image",
+      "box": {
+        "x": 0.469,
+        "y": 0.496197,
+        "width": 0.476055,
+        "height": 0.001338
+      },
+      "z_order": 46,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1401,
+      "name": "Google Shape;1401;p75",
+      "type": "text",
+      "box": {
+        "x": 0.469376,
+        "y": 0.511573,
+        "width": 0.172646,
+        "height": 0.033532
+      },
+      "z_order": 50,
+      "placeholder_type": null,
+      "text": "Заголовок",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1404,
+      "name": "Google Shape;1404;p75",
+      "type": "text",
+      "box": {
+        "x": 0.638262,
+        "y": 0.511573,
+        "width": 0.039698,
+        "height": 0.033532
+      },
+      "z_order": 53,
+      "placeholder_type": null,
+      "text": ">50*",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1407,
+      "name": "Google Shape;1407;p75",
+      "type": "text",
+      "box": {
+        "x": 0.817837,
+        "y": 0.511573,
+        "width": 0.039698,
+        "height": 0.033532
+      },
+      "z_order": 56,
+      "placeholder_type": null,
+      "text": ">50*",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1409,
+      "name": "Google Shape;1409;p75",
+      "type": "image",
+      "box": {
+        "x": 0.469,
+        "y": 0.55112,
+        "width": 0.476055,
+        "height": 0.001338
+      },
+      "z_order": 58,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1413,
+      "name": "Google Shape;1413;p75",
+      "type": "text",
+      "box": {
+        "x": 0.469376,
+        "y": 0.566493,
+        "width": 0.172646,
+        "height": 0.033532
+      },
+      "z_order": 62,
+      "placeholder_type": null,
+      "text": "Заголовок",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1416,
+      "name": "Google Shape;1416;p75",
+      "type": "text",
+      "box": {
+        "x": 0.638262,
+        "y": 0.566493,
+        "width": 0.039698,
+        "height": 0.033532
+      },
+      "z_order": 65,
+      "placeholder_type": null,
+      "text": ">50*",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1419,
+      "name": "Google Shape;1419;p75",
+      "type": "text",
+      "box": {
+        "x": 0.817837,
+        "y": 0.566493,
+        "width": 0.039698,
+        "height": 0.033532
+      },
+      "z_order": 68,
+      "placeholder_type": null,
+      "text": ">50*",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1421,
+      "name": "Google Shape;1421;p75",
+      "type": "image",
+      "box": {
+        "x": 0.469,
+        "y": 0.606041,
+        "width": 0.476055,
+        "height": 0.001338
+      },
+      "z_order": 70,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1425,
+      "name": "Google Shape;1425;p75",
+      "type": "text",
+      "box": {
+        "x": 0.469376,
+        "y": 0.621414,
+        "width": 0.172646,
+        "height": 0.033532
+      },
+      "z_order": 74,
+      "placeholder_type": null,
+      "text": "Заголовок",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1428,
+      "name": "Google Shape;1428;p75",
+      "type": "text",
+      "box": {
+        "x": 0.638262,
+        "y": 0.621414,
+        "width": 0.039698,
+        "height": 0.033532
+      },
+      "z_order": 77,
+      "placeholder_type": null,
+      "text": ">50*",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1431,
+      "name": "Google Shape;1431;p75",
+      "type": "text",
+      "box": {
+        "x": 0.817837,
+        "y": 0.621414,
+        "width": 0.039698,
+        "height": 0.033532
+      },
+      "z_order": 80,
+      "placeholder_type": null,
+      "text": ">50*",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1433,
+      "name": "Google Shape;1433;p75",
+      "type": "image",
+      "box": {
+        "x": 0.469,
+        "y": 0.660962,
+        "width": 0.476055,
+        "height": 0.001338
+      },
+      "z_order": 82,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1437,
+      "name": "Google Shape;1437;p75",
+      "type": "text",
+      "box": {
+        "x": 0.469376,
+        "y": 0.676337,
+        "width": 0.172646,
+        "height": 0.033532
+      },
+      "z_order": 86,
+      "placeholder_type": null,
+      "text": "Заголовок",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1440,
+      "name": "Google Shape;1440;p75",
+      "type": "text",
+      "box": {
+        "x": 0.638262,
+        "y": 0.676337,
+        "width": 0.039698,
+        "height": 0.033532
+      },
+      "z_order": 89,
+      "placeholder_type": null,
+      "text": ">50*",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1443,
+      "name": "Google Shape;1443;p75",
+      "type": "text",
+      "box": {
+        "x": 0.817837,
+        "y": 0.676337,
+        "width": 0.039698,
+        "height": 0.033532
+      },
+      "z_order": 92,
+      "placeholder_type": null,
+      "text": ">50*",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1445,
+      "name": "Google Shape;1445;p75",
+      "type": "image",
+      "box": {
+        "x": 0.469,
+        "y": 0.715885,
+        "width": 0.476055,
+        "height": 0.001338
+      },
+      "z_order": 94,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1449,
+      "name": "Google Shape;1449;p75",
+      "type": "text",
+      "box": {
+        "x": 0.469376,
+        "y": 0.731258,
+        "width": 0.172646,
+        "height": 0.033532
+      },
+      "z_order": 98,
+      "placeholder_type": null,
+      "text": "Заголовок",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1452,
+      "name": "Google Shape;1452;p75",
+      "type": "text",
+      "box": {
+        "x": 0.638262,
+        "y": 0.731258,
+        "width": 0.039698,
+        "height": 0.033532
+      },
+      "z_order": 101,
+      "placeholder_type": null,
+      "text": ">50*",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1455,
+      "name": "Google Shape;1455;p75",
+      "type": "text",
+      "box": {
+        "x": 0.817837,
+        "y": 0.731258,
+        "width": 0.039698,
+        "height": 0.033532
+      },
+      "z_order": 104,
+      "placeholder_type": null,
+      "text": ">50*",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1457,
+      "name": "Google Shape;1457;p75",
+      "type": "image",
+      "box": {
+        "x": 0.469,
+        "y": 0.770805,
+        "width": 0.476055,
+        "height": 0.001338
+      },
+      "z_order": 106,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1461,
+      "name": "Google Shape;1461;p75",
+      "type": "text",
+      "box": {
+        "x": 0.469376,
+        "y": 0.786181,
+        "width": 0.172646,
+        "height": 0.033532
+      },
+      "z_order": 110,
+      "placeholder_type": null,
+      "text": "Заголовок",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1464,
+      "name": "Google Shape;1464;p75",
+      "type": "text",
+      "box": {
+        "x": 0.638262,
+        "y": 0.786181,
+        "width": 0.039698,
+        "height": 0.033532
+      },
+      "z_order": 113,
+      "placeholder_type": null,
+      "text": ">50*",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1467,
+      "name": "Google Shape;1467;p75",
+      "type": "text",
+      "box": {
+        "x": 0.817837,
+        "y": 0.786181,
+        "width": 0.039698,
+        "height": 0.033532
+      },
+      "z_order": 116,
+      "placeholder_type": null,
+      "text": ">50*",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 1469,
+      "name": "Google Shape;1469;p75",
+      "type": "image",
+      "box": {
+        "x": 0.469,
+        "y": 0.825728,
+        "width": 0.476055,
+        "height": 0.001338
+      },
+      "z_order": 118,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    }
+  ],
+  "structures": [
+    {
+      "kind": "grid",
+      "structure_id": "grid_0",
+      "rows": 10,
+      "columns": 3,
+      "header_rows": 1,
+      "cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "shape_ids": [
+            1357
+          ]
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "shape_ids": [
+            1358
+          ]
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "shape_ids": [
+            1359
+          ]
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "shape_ids": [
+            1365
+          ]
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "shape_ids": [
+            1368
+          ]
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "shape_ids": [
+            1371
+          ]
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "shape_ids": [
+            1377
+          ]
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "shape_ids": [
+            1380
+          ]
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "shape_ids": [
+            1383
+          ]
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "shape_ids": [
+            1389
+          ]
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "shape_ids": [
+            1392
+          ]
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "shape_ids": [
+            1395
+          ]
+        },
+        {
+          "row": 4,
+          "column": 0,
+          "shape_ids": [
+            1401
+          ]
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "shape_ids": [
+            1404
+          ]
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "shape_ids": [
+            1407
+          ]
+        },
+        {
+          "row": 5,
+          "column": 0,
+          "shape_ids": [
+            1413
+          ]
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "shape_ids": [
+            1416
+          ]
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "shape_ids": [
+            1419
+          ]
+        },
+        {
+          "row": 6,
+          "column": 0,
+          "shape_ids": [
+            1425
+          ]
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "shape_ids": [
+            1428
+          ]
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "shape_ids": [
+            1431
+          ]
+        },
+        {
+          "row": 7,
+          "column": 0,
+          "shape_ids": [
+            1437
+          ]
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "shape_ids": [
+            1440
+          ]
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "shape_ids": [
+            1443
+          ]
+        },
+        {
+          "row": 8,
+          "column": 0,
+          "shape_ids": [
+            1449
+          ]
+        },
+        {
+          "row": 8,
+          "column": 1,
+          "shape_ids": [
+            1452
+          ]
+        },
+        {
+          "row": 8,
+          "column": 2,
+          "shape_ids": [
+            1455
+          ]
+        },
+        {
+          "row": 9,
+          "column": 0,
+          "shape_ids": [
+            1461
+          ]
+        },
+        {
+          "row": 9,
+          "column": 1,
+          "shape_ids": [
+            1464
+          ]
+        },
+        {
+          "row": 9,
+          "column": 2,
+          "shape_ids": [
+            1467
+          ]
+        }
+      ],
+      "content_shape_ids": [
+        1357,
+        1358,
+        1359,
+        1365,
+        1368,
+        1371,
+        1377,
+        1380,
+        1383,
+        1389,
+        1392,
+        1395,
+        1401,
+        1404,
+        1407,
+        1413,
+        1416,
+        1419,
+        1425,
+        1428,
+        1431,
+        1437,
+        1440,
+        1443,
+        1449,
+        1452,
+        1455,
+        1461,
+        1464,
+        1467
+      ],
+      "decoration_shape_ids": [
+        1353,
+        1361,
+        1373,
+        1385,
+        1397,
+        1409,
+        1421,
+        1433,
+        1445,
+        1457
+      ]
+    }
+  ],
+  "vlm": {
+    "status": "ok",
+    "classification": "table",
+    "tags": [
+      "table",
+      "grid",
+      "text",
+      "header",
+      "rows",
+      "columns",
+      "blue_text",
+      "light_background",
+      "minimalist",
+      "structured"
+    ],
+    "description": "A presentation slide featuring a title and description on the left, alongside a structured table with three columns and multiple rows of data on the right.",
+    "confidence": 0.95,
+    "error": null
+  },
+  "warnings": []
+}

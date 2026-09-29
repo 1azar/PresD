@@ -1,0 +1,1163 @@
+{
+  "status": "ok",
+  "schema_version": "3.0",
+  "model": "gpt://b1gelbl746n4gspqkjct/qwen3.6-35b-a3b/latest",
+  "template": {
+    "source_sha256": "cbbe3aa6a21d23cebc4d1383b93dd07a9cea460d683de1903567b616c839485d",
+    "catalog_version": "3.0"
+  },
+  "deck": {
+    "title": {
+      "text": "Northstar Team Presentation",
+      "source_refs": [
+        "brief"
+      ]
+    },
+    "summary": {
+      "text": "Overview of the Northstar IT team, their products, and Q4 2026 roadmap.",
+      "source_refs": [
+        "brief"
+      ]
+    },
+    "language": "English"
+  },
+  "sources": [
+    {
+      "id": "brief",
+      "text": "Подготовить для продуктового комитета связную презентацию об IT-команде Northstar и её продуктах: представить участников, показать измеримый эффект трёх решений и завершить планом развития на четвёртый квартал 2026 года."
+    },
+    {
+      "id": "content_001",
+      "text": "Команда Northstar разрабатывает внутренние платформы для инженерных подразделений."
+    },
+    {
+      "id": "content_002",
+      "text": "- Анна Лебедева — руководитель продукта, отвечает за стратегию и развитие портфеля."
+    },
+    {
+      "id": "content_003",
+      "text": "- Михаил Орлов — технический директор, отвечает за архитектуру и надёжность."
+    },
+    {
+      "id": "content_004",
+      "text": "- Софья Власова — ML-инженер, развивает интеллектуальный поиск и автоматизацию."
+    },
+    {
+      "id": "content_005",
+      "text": "- Илья Ким — backend-разработчик, отвечает за интеграции и высоконагруженные сервисы."
+    },
+    {
+      "id": "content_006",
+      "text": "- Мария Соколова — UX-дизайнер, отвечает за исследования и пользовательские сценарии."
+    },
+    {
+      "id": "content_007",
+      "text": "- OrbitOps — платформа мониторинга и управления инцидентами. Ею пользуются 42 команды; среднее время восстановления сократилось с 58 до 34 минут."
+    },
+    {
+      "id": "content_008",
+      "text": "- DeployRail — платформа доставки ПО. Через неё проходит 2 800 релизов в месяц, доля успешных развёртываний составляет 99,4%."
+    },
+    {
+      "id": "content_009",
+      "text": "- VectorDocs — AI-база знаний, объединяющая 18 000 документов и автоматически закрывающая 76% пользовательских вопросов."
+    },
+    {
+      "id": "content_010",
+      "text": "- План на четвёртый квартал 2026 года: единый вход, общая аналитика продуктов и каталог интеграций."
+    }
+  ],
+  "slides": [
+    {
+      "number": 1,
+      "purpose": "Cover slide introducing the Northstar team.",
+      "template_family_id": "cover",
+      "template_slide_number": 1,
+      "template_class": "cover",
+      "assignments": [
+        {
+          "slot_id": "title",
+          "kind": "text",
+          "target_shape_ids": [
+            401
+          ],
+          "action": "replace",
+          "source_refs": [
+            "brief",
+            "content_001"
+          ],
+          "content": {
+            "kind": "text",
+            "text": "Northstar Team",
+            "fields": {}
+          }
+        },
+        {
+          "slot_id": "subtitle",
+          "kind": "text",
+          "target_shape_ids": [
+            402
+          ],
+          "action": "replace",
+          "source_refs": [
+            "content_001"
+          ],
+          "content": {
+            "kind": "text",
+            "text": "Internal Engineering Platforms",
+            "fields": {}
+          }
+        }
+      ],
+      "render_operations": [
+        {
+          "shape_id": 401,
+          "renderer": "text",
+          "action": "replace",
+          "text": [
+            "Northstar Team"
+          ],
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 402,
+          "renderer": "text",
+          "action": "replace",
+          "text": [
+            "Internal Engineering Platforms"
+          ],
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "purpose": "Agenda slide outlining the presentation structure.",
+      "template_family_id": "agenda",
+      "template_slide_number": 9,
+      "template_class": "agenda",
+      "assignments": [
+        {
+          "slot_id": "title",
+          "kind": "text",
+          "target_shape_ids": [
+            503
+          ],
+          "action": "replace",
+          "source_refs": [
+            "brief"
+          ],
+          "content": {
+            "kind": "text",
+            "text": "Agenda",
+            "fields": {}
+          }
+        },
+        {
+          "slot_id": "agenda_list",
+          "kind": "bullet_list",
+          "target_shape_ids": [
+            505
+          ],
+          "action": "replace",
+          "source_refs": [
+            "brief"
+          ],
+          "content": {
+            "kind": "bullet_list",
+            "items": [
+              "Team Introduction",
+              "Product Impact",
+              "Development Roadmap"
+            ]
+          }
+        },
+        {
+          "slot_id": "image_placeholder",
+          "kind": "image",
+          "target_shape_ids": [
+            507
+          ],
+          "action": "clear",
+          "source_refs": [
+            "brief"
+          ],
+          "content": null
+        }
+      ],
+      "render_operations": [
+        {
+          "shape_id": 503,
+          "renderer": "text",
+          "action": "replace",
+          "text": [
+            "Agenda"
+          ],
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 505,
+          "renderer": "text",
+          "action": "replace",
+          "text": [
+            "Team Introduction",
+            "Product Impact",
+            "Development Roadmap"
+          ],
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 507,
+          "renderer": "image_box",
+          "action": "clear",
+          "text": null,
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "purpose": "Team profile slide introducing Northstar members.",
+      "template_family_id": "team_profile",
+      "template_slide_number": 12,
+      "template_class": "profile",
+      "assignments": [
+        {
+          "slot_id": "title",
+          "kind": "text",
+          "target_shape_ids": [
+            531
+          ],
+          "action": "replace",
+          "source_refs": [
+            "content_001"
+          ],
+          "content": {
+            "kind": "text",
+            "text": "Northstar Team",
+            "fields": {}
+          }
+        },
+        {
+          "slot_id": "profiles_grid",
+          "kind": "profiles",
+          "target_shape_ids": [
+            535,
+            536,
+            539,
+            540,
+            543,
+            544,
+            547,
+            548,
+            551,
+            552,
+            557,
+            558,
+            561,
+            562,
+            565,
+            566,
+            569,
+            570,
+            573,
+            574
+          ],
+          "action": "replace",
+          "source_refs": [
+            "content_002",
+            "content_003",
+            "content_004",
+            "content_005",
+            "content_006"
+          ],
+          "content": {
+            "kind": "profiles",
+            "items": [
+              {
+                "name": "Anna Lebedeva",
+                "role": "Product Lead",
+                "details": [
+                  "Strategy and portfolio development"
+                ]
+              },
+              {
+                "name": "Mikhail Orlov",
+                "role": "CTO",
+                "details": [
+                  "Architecture and reliability"
+                ]
+              },
+              {
+                "name": "Sofia Vlasova",
+                "role": "ML Engineer",
+                "details": [
+                  "Intelligent search and automation"
+                ]
+              },
+              {
+                "name": "Ilya Kim",
+                "role": "Backend Developer",
+                "details": [
+                  "Integrations and high-load services"
+                ]
+              },
+              {
+                "name": "Maria Sokolova",
+                "role": "UX Designer",
+                "details": [
+                  "Research and user scenarios"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "render_operations": [
+        {
+          "shape_id": 531,
+          "renderer": "text",
+          "action": "replace",
+          "text": [
+            "Northstar Team"
+          ],
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 535,
+          "renderer": "text",
+          "action": "replace",
+          "text": [
+            "Anna Lebedeva"
+          ],
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 536,
+          "renderer": "text",
+          "action": "replace",
+          "text": [
+            "Product Lead"
+          ],
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 539,
+          "renderer": "text",
+          "action": "replace",
+          "text": [
+            "Mikhail Orlov"
+          ],
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 540,
+          "renderer": "text",
+          "action": "replace",
+          "text": [
+            "CTO"
+          ],
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 543,
+          "renderer": "text",
+          "action": "replace",
+          "text": [
+            "Sofia Vlasova"
+          ],
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 544,
+          "renderer": "text",
+          "action": "replace",
+          "text": [
+            "ML Engineer"
+          ],
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 547,
+          "renderer": "text",
+          "action": "replace",
+          "text": [
+            "Ilya Kim"
+          ],
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 548,
+          "renderer": "text",
+          "action": "replace",
+          "text": [
+            "Backend Developer"
+          ],
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 551,
+          "renderer": "text",
+          "action": "replace",
+          "text": [
+            "Maria Sokolova"
+          ],
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 552,
+          "renderer": "text",
+          "action": "replace",
+          "text": [
+            "UX Designer"
+          ],
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 557,
+          "renderer": "text",
+          "action": "clear",
+          "text": null,
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 558,
+          "renderer": "text",
+          "action": "clear",
+          "text": null,
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 561,
+          "renderer": "text",
+          "action": "clear",
+          "text": null,
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 562,
+          "renderer": "text",
+          "action": "clear",
+          "text": null,
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 565,
+          "renderer": "text",
+          "action": "clear",
+          "text": null,
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 566,
+          "renderer": "text",
+          "action": "clear",
+          "text": null,
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 569,
+          "renderer": "text",
+          "action": "clear",
+          "text": null,
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 570,
+          "renderer": "text",
+          "action": "clear",
+          "text": null,
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 573,
+          "renderer": "text",
+          "action": "clear",
+          "text": null,
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 574,
+          "renderer": "text",
+          "action": "clear",
+          "text": null,
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "purpose": "Section divider for product solutions.",
+      "template_family_id": "section_divider",
+      "template_slide_number": 3,
+      "template_class": "section",
+      "assignments": [
+        {
+          "slot_id": "section_title",
+          "kind": "text",
+          "target_shape_ids": [
+            417
+          ],
+          "action": "replace",
+          "source_refs": [
+            "brief"
+          ],
+          "content": {
+            "kind": "text",
+            "text": "Key Solutions",
+            "fields": {}
+          }
+        },
+        {
+          "slot_id": "section_body",
+          "kind": "text",
+          "target_shape_ids": [
+            418
+          ],
+          "action": "replace",
+          "source_refs": [
+            "brief"
+          ],
+          "content": {
+            "kind": "text",
+            "text": "Measurable Impact",
+            "fields": {}
+          }
+        }
+      ],
+      "render_operations": [
+        {
+          "shape_id": 417,
+          "renderer": "text",
+          "action": "replace",
+          "text": [
+            "Key Solutions"
+          ],
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 418,
+          "renderer": "text",
+          "action": "replace",
+          "text": [
+            "Measurable Impact"
+          ],
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "purpose": "Feature cards showcasing product impact metrics.",
+      "template_family_id": "feature_cards",
+      "template_slide_number": 14,
+      "template_class": "content_text",
+      "assignments": [
+        {
+          "slot_id": "title",
+          "kind": "text",
+          "target_shape_ids": [
+            685
+          ],
+          "action": "replace",
+          "source_refs": [
+            "brief"
+          ],
+          "content": {
+            "kind": "text",
+            "text": "Product Impact",
+            "fields": {}
+          }
+        },
+        {
+          "slot_id": "feature_cards",
+          "kind": "cards",
+          "target_shape_ids": [
+            668,
+            669,
+            673,
+            674,
+            678,
+            679,
+            683,
+            684
+          ],
+          "action": "replace",
+          "source_refs": [
+            "content_007",
+            "content_008",
+            "content_009"
+          ],
+          "content": {
+            "kind": "cards",
+            "items": [
+              {
+                "title": "OrbitOps",
+                "body": "Incident monitoring for 42 teams",
+                "value": "MTTR: 58 -> 34 min"
+              },
+              {
+                "title": "DeployRail",
+                "body": "2 800 releases/month",
+                "value": "99.4% success"
+              },
+              {
+                "title": "VectorDocs",
+                "body": "18 000 docs",
+                "value": "76% auto-resolved"
+              }
+            ]
+          }
+        }
+      ],
+      "render_operations": [
+        {
+          "shape_id": 685,
+          "renderer": "text",
+          "action": "replace",
+          "text": [
+            "Product Impact"
+          ],
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 668,
+          "renderer": "text",
+          "action": "replace",
+          "text": [
+            "OrbitOps"
+          ],
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 669,
+          "renderer": "text",
+          "action": "replace",
+          "text": [
+            "Incident monitoring for 42 teams"
+          ],
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 673,
+          "renderer": "text",
+          "action": "replace",
+          "text": [
+            "DeployRail"
+          ],
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 674,
+          "renderer": "text",
+          "action": "replace",
+          "text": [
+            "2 800 releases/month"
+          ],
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 678,
+          "renderer": "text",
+          "action": "replace",
+          "text": [
+            "VectorDocs"
+          ],
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 679,
+          "renderer": "text",
+          "action": "replace",
+          "text": [
+            "18 000 docs"
+          ],
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 683,
+          "renderer": "text",
+          "action": "clear",
+          "text": null,
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 684,
+          "renderer": "text",
+          "action": "clear",
+          "text": null,
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "purpose": "Section divider for the development roadmap.",
+      "template_family_id": "section_divider",
+      "template_slide_number": 3,
+      "template_class": "section",
+      "assignments": [
+        {
+          "slot_id": "section_title",
+          "kind": "text",
+          "target_shape_ids": [
+            417
+          ],
+          "action": "replace",
+          "source_refs": [
+            "brief"
+          ],
+          "content": {
+            "kind": "text",
+            "text": "Roadmap",
+            "fields": {}
+          }
+        },
+        {
+          "slot_id": "section_body",
+          "kind": "text",
+          "target_shape_ids": [
+            418
+          ],
+          "action": "replace",
+          "source_refs": [
+            "content_010"
+          ],
+          "content": {
+            "kind": "text",
+            "text": "Q4 2026",
+            "fields": {}
+          }
+        }
+      ],
+      "render_operations": [
+        {
+          "shape_id": 417,
+          "renderer": "text",
+          "action": "replace",
+          "text": [
+            "Roadmap"
+          ],
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 418,
+          "renderer": "text",
+          "action": "replace",
+          "text": [
+            "Q4 2026"
+          ],
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "purpose": "Timeline steps outlining the Q4 2026 plan.",
+      "template_family_id": "timeline_steps",
+      "template_slide_number": 48,
+      "template_class": "timeline",
+      "assignments": [
+        {
+          "slot_id": "title",
+          "kind": "text",
+          "target_shape_ids": [
+            2435
+          ],
+          "action": "replace",
+          "source_refs": [
+            "content_010"
+          ],
+          "content": {
+            "kind": "text",
+            "text": "Q4 2026 Plan",
+            "fields": {}
+          }
+        },
+        {
+          "slot_id": "steps",
+          "kind": "cards",
+          "target_shape_ids": [
+            2436,
+            2437,
+            2438,
+            2439,
+            2440,
+            2441,
+            2442,
+            2443,
+            2444
+          ],
+          "action": "replace",
+          "source_refs": [
+            "content_010"
+          ],
+          "content": {
+            "kind": "cards",
+            "items": [
+              {
+                "title": "Single sign-on",
+                "body": null,
+                "value": null
+              },
+              {
+                "title": "Unified analytics",
+                "body": null,
+                "value": null
+              },
+              {
+                "title": "Integration catalog",
+                "body": null,
+                "value": null
+              }
+            ]
+          }
+        }
+      ],
+      "render_operations": [
+        {
+          "shape_id": 2435,
+          "renderer": "text",
+          "action": "replace",
+          "text": [
+            "Q4 2026 Plan"
+          ],
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 2436,
+          "renderer": "text",
+          "action": "replace",
+          "text": [
+            "Single sign-on"
+          ],
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 2437,
+          "renderer": "text",
+          "action": "clear",
+          "text": null,
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 2438,
+          "renderer": "text",
+          "action": "clear",
+          "text": null,
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 2439,
+          "renderer": "text",
+          "action": "replace",
+          "text": [
+            "Unified analytics"
+          ],
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 2440,
+          "renderer": "text",
+          "action": "clear",
+          "text": null,
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 2441,
+          "renderer": "text",
+          "action": "clear",
+          "text": null,
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 2442,
+          "renderer": "text",
+          "action": "replace",
+          "text": [
+            "Integration catalog"
+          ],
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 2443,
+          "renderer": "text",
+          "action": "clear",
+          "text": null,
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 2444,
+          "renderer": "text",
+          "action": "clear",
+          "text": null,
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "purpose": "Closing slide with thank you message.",
+      "template_family_id": "closing",
+      "template_slide_number": 5,
+      "template_class": "closing",
+      "assignments": [
+        {
+          "slot_id": "qr_code",
+          "kind": "image",
+          "target_shape_ids": [
+            442
+          ],
+          "action": "clear",
+          "source_refs": [
+            "brief"
+          ],
+          "content": null
+        },
+        {
+          "slot_id": "info_text",
+          "kind": "text",
+          "target_shape_ids": [
+            440
+          ],
+          "action": "replace",
+          "source_refs": [
+            "brief"
+          ],
+          "content": {
+            "kind": "text",
+            "text": "Thank you",
+            "fields": {}
+          }
+        }
+      ],
+      "render_operations": [
+        {
+          "shape_id": 442,
+          "renderer": "image_box",
+          "action": "clear",
+          "text": null,
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        },
+        {
+          "shape_id": 440,
+          "renderer": "text",
+          "action": "replace",
+          "text": [
+            "Thank you"
+          ],
+          "asset_ref": null,
+          "prompt": null,
+          "alt_text": null,
+          "data": null,
+          "image_fit": "cover"
+        }
+      ]
+    }
+  ],
+  "quality": {
+    "status": "passed",
+    "revision_count": 1,
+    "warnings": []
+  }
+}

@@ -1,0 +1,9 @@
+Create one compact global outline for the presentation.
+
+The form's slide_count min/max is authoritative. A request such as "exactly N slides" in prose is only a preference when N is inside that range and never overrides the form. Return slides in final order with consecutive numbers starting at 1.
+
+For each slide state its purpose, semantic content_type, and the source_refs needed to support it. The application assigns datasets and explicitly named images from its material registry and chooses the concrete template itself. Do not return family IDs, template or slide numbers, slot kinds or IDs, shape IDs, actions, asset IDs or paths, bindings, or renderer data.
+
+Build a coherent opening, body, and ending. Never invent facts or assets.
+
+Return JSON only. Do not expose hidden reasoning or use markdown.

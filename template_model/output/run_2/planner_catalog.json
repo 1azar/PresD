@@ -1,0 +1,2892 @@
+{
+  "schema_version": "1.0",
+  "prompt_version": "catalog_v1",
+  "model": "gpt://b1gelbl746n4gspqkjct/qwen3.6-35b-a3b/latest",
+  "source_sha256": "cbbe3aa6a21d23cebc4d1383b93dd07a9cea460d683de1903567b616c839485d",
+  "families": [
+    {
+      "family_id": "cover",
+      "slide_class": "cover",
+      "description": "Cover slide with title and subtitle",
+      "variants": [
+        {
+          "slide_number": 1,
+          "description": "This cover slide displays the title 'VK Tech' and a subtitle in Russian against a dark blue background featuring a glowing 3D glass cube.",
+          "slots": [
+            {
+              "slot_id": "cover_text",
+              "kind": "text",
+              "role": "title_and_subtitle",
+              "target_shape_ids": [
+                401,
+                402
+              ],
+              "required": true,
+              "capacity": 1,
+              "max_chars": 50
+            }
+          ],
+          "static_shape_ids": []
+        }
+      ]
+    },
+    {
+      "family_id": "profile_header_card",
+      "slide_class": "profile",
+      "description": "Profile slide with header and employee card",
+      "variants": [
+        {
+          "slide_number": 2,
+          "description": "A presentation slide featuring the VK Tech logo and title, a large blue 3D geometric shape, and placeholders for a photo, name, and job title.",
+          "slots": [
+            {
+              "slot_id": "header_text",
+              "kind": "text",
+              "role": "company_name",
+              "target_shape_ids": [
+                407,
+                408
+              ],
+              "required": true,
+              "capacity": 1,
+              "max_chars": 40
+            },
+            {
+              "slot_id": "profile_card",
+              "kind": "profiles",
+              "role": "employee_info",
+              "target_shape_ids": [
+                409,
+                410,
+                412
+              ],
+              "required": true,
+              "capacity": 1,
+              "max_chars": 30
+            }
+          ],
+          "static_shape_ids": []
+        }
+      ]
+    },
+    {
+      "family_id": "section_divider",
+      "slide_class": "section",
+      "description": "Section divider with title and description",
+      "variants": [
+        {
+          "slide_number": 3,
+          "description": "This slide serves as a section divider featuring a large Russian title and a subtitle on a clean white background.",
+          "slots": [
+            {
+              "slot_id": "section_text",
+              "kind": "text",
+              "role": "section_title",
+              "target_shape_ids": [
+                417,
+                418
+              ],
+              "required": true,
+              "capacity": 1,
+              "max_chars": 50
+            }
+          ],
+          "static_shape_ids": []
+        }
+      ]
+    },
+    {
+      "family_id": "closing_contact",
+      "slide_class": "closing",
+      "description": "Closing slide with thank you message and contact details",
+      "variants": [
+        {
+          "slide_number": 4,
+          "description": "This closing slide features a dark blue gradient background with the Russian text 'Thank you for your attention!', contact placeholders, and a large 3D glass cube graphic.",
+          "slots": [
+            {
+              "slot_id": "closing_contact",
+              "kind": "text",
+              "role": "thank_you_and_contact",
+              "target_shape_ids": [
+                429,
+                430,
+                431,
+                433
+              ],
+              "required": true,
+              "capacity": 1,
+              "max_chars": 50
+            }
+          ],
+          "static_shape_ids": []
+        }
+      ]
+    },
+    {
+      "family_id": "closing_qr",
+      "slide_class": "closing",
+      "description": "Closing slide with thank you message and QR code placeholder",
+      "variants": [
+        {
+          "slide_number": 5,
+          "description": "This closing slide features a dark blue background with the Russian text 'Thank you for your attention!', a VK Tech logo, a QR code placeholder, and a large abstract 3D geometric graphic.",
+          "slots": [
+            {
+              "slot_id": "closing_qr",
+              "kind": "text",
+              "role": "thank_you_and_qr",
+              "target_shape_ids": [
+                438,
+                439,
+                440,
+                442
+              ],
+              "required": true,
+              "capacity": 1,
+              "max_chars": 50
+            }
+          ],
+          "static_shape_ids": []
+        }
+      ]
+    },
+    {
+      "family_id": "closing_simple",
+      "slide_class": "closing",
+      "description": "Closing slide with thank you message and additional info",
+      "variants": [
+        {
+          "slide_number": 6,
+          "description": "This closing slide features the Russian phrase 'Thank you for your attention' alongside a large white placeholder box and a paper plane icon.",
+          "slots": [
+            {
+              "slot_id": "closing_simple",
+              "kind": "text",
+              "role": "thank_you_and_info",
+              "target_shape_ids": [
+                447,
+                448
+              ],
+              "required": true,
+              "capacity": 1,
+              "max_chars": 50
+            }
+          ],
+          "static_shape_ids": []
+        }
+      ]
+    },
+    {
+      "family_id": "title_only",
+      "slide_class": "content_visual",
+      "description": "Slide with main title and decorative elements",
+      "variants": [
+        {
+          "slide_number": 7,
+          "description": "Слайд содержит заголовок, большую абстрактную спираль и вертикальный ряд иконок шестеренок.",
+          "slots": [
+            {
+              "slot_id": "title",
+              "kind": "text",
+              "role": "main_title",
+              "target_shape_ids": [
+                453
+              ],
+              "required": true,
+              "capacity": null,
+              "max_chars": 50
+            }
+          ],
+          "static_shape_ids": [
+            460,
+            462,
+            464,
+            466,
+            468,
+            470,
+            472
+          ]
+        }
+      ]
+    },
+    {
+      "family_id": "title_and_process",
+      "slide_class": "content_text",
+      "description": "Slide with title and vertical process steps",
+      "variants": [
+        {
+          "slide_number": 8,
+          "description": "A presentation slide featuring a large abstract glass tube graphic on the left and a vertical list of five items with gear icons on the right, topped by a title.",
+          "slots": [
+            {
+              "slot_id": "title",
+              "kind": "text",
+              "role": "main_title",
+              "target_shape_ids": [
+                487
+              ],
+              "required": true,
+              "capacity": null,
+              "max_chars": 50
+            },
+            {
+              "slot_id": "process_steps",
+              "kind": "process",
+              "role": "step_list",
+              "target_shape_ids": [
+                478,
+                480,
+                482,
+                484,
+                486,
+                494,
+                495,
+                496,
+                497,
+                498
+              ],
+              "required": false,
+              "capacity": 5,
+              "max_chars": null
+            }
+          ],
+          "static_shape_ids": [
+            477
+          ]
+        }
+      ]
+    },
+    {
+      "family_id": "agenda_with_photo",
+      "slide_class": "agenda",
+      "description": "Agenda slide with title, section header, list, and photo placeholder",
+      "variants": [
+        {
+          "slide_number": 9,
+          "description": "Слайд содержит заголовок, список содержания и плейсхолдер для изображения.",
+          "slots": [
+            {
+              "slot_id": "title",
+              "kind": "text",
+              "role": "main_title",
+              "target_shape_ids": [
+                503
+              ],
+              "required": true,
+              "capacity": null,
+              "max_chars": 50
+            },
+            {
+              "slot_id": "section_header",
+              "kind": "text",
+              "role": "section_title",
+              "target_shape_ids": [
+                504
+              ],
+              "required": false,
+              "capacity": null,
+              "max_chars": 30
+            },
+            {
+              "slot_id": "agenda_items",
+              "kind": "bullet_list",
+              "role": "list_items",
+              "target_shape_ids": [
+                505
+              ],
+              "required": false,
+              "capacity": 4,
+              "max_chars": 40
+            },
+            {
+              "slot_id": "photo_area",
+              "kind": "image",
+              "role": "image_placeholder",
+              "target_shape_ids": [
+                507
+              ],
+              "required": false,
+              "capacity": null,
+              "max_chars": null
+            }
+          ],
+          "static_shape_ids": []
+        }
+      ]
+    },
+    {
+      "family_id": "profile_card",
+      "slide_class": "profile",
+      "description": "Profile card with photo placeholder, name, role, and details list",
+      "variants": [
+        {
+          "slide_number": 10,
+          "description": "This slide serves as a profile card, displaying a photo placeholder, name, and job title on the left alongside a bulleted list on a light blue background.",
+          "slots": [
+            {
+              "slot_id": "title",
+              "kind": "text",
+              "role": "main_title",
+              "target_shape_ids": [
+                515
+              ],
+              "required": true,
+              "capacity": null,
+              "max_chars": 40
+            },
+            {
+              "slot_id": "profile_name",
+              "kind": "text",
+              "role": "person_name",
+              "target_shape_ids": [
+                513
+              ],
+              "required": true,
+              "capacity": null,
+              "max_chars": 30
+            },
+            {
+              "slot_id": "profile_role",
+              "kind": "text",
+              "role": "person_role",
+              "target_shape_ids": [
+                514
+              ],
+              "required": true,
+              "capacity": null,
+              "max_chars": 30
+            },
+            {
+              "slot_id": "profile_details",
+              "kind": "bullet_list",
+              "role": "details_list",
+              "target_shape_ids": [
+                512
+              ],
+              "required": false,
+              "capacity": 5,
+              "max_chars": 50
+            },
+            {
+              "slot_id": "profile_photo",
+              "kind": "image",
+              "role": "image_placeholder",
+              "target_shape_ids": [
+                517
+              ],
+              "required": false,
+              "capacity": null,
+              "max_chars": null
+            }
+          ],
+          "static_shape_ids": []
+        },
+        {
+          "slide_number": 11,
+          "description": "Слайд профиля сотрудника с именем, должностью и списком пунктов слева, и местом для фото справа.",
+          "slots": [
+            {
+              "slot_id": "title",
+              "kind": "text",
+              "role": "main_title",
+              "target_shape_ids": [
+                524
+              ],
+              "required": true,
+              "capacity": null,
+              "max_chars": 40
+            },
+            {
+              "slot_id": "profile_role",
+              "kind": "text",
+              "role": "person_role",
+              "target_shape_ids": [
+                523
+              ],
+              "required": true,
+              "capacity": null,
+              "max_chars": 30
+            },
+            {
+              "slot_id": "profile_details",
+              "kind": "bullet_list",
+              "role": "details_list",
+              "target_shape_ids": [
+                522
+              ],
+              "required": false,
+              "capacity": 4,
+              "max_chars": 50
+            },
+            {
+              "slot_id": "profile_photo",
+              "kind": "image",
+              "role": "image_placeholder",
+              "target_shape_ids": [
+                526
+              ],
+              "required": false,
+              "capacity": null,
+              "max_chars": null
+            }
+          ],
+          "static_shape_ids": []
+        }
+      ]
+    },
+    {
+      "family_id": "team_grid",
+      "slide_class": "profile",
+      "description": "Team grid slide with title and profile cards",
+      "variants": [
+        {
+          "slide_number": 12,
+          "description": "Слайд содержит сетку из десяти круглых плейсхолдеров для фотографий участников команды, расположенных в два ряда, с подписями имен и должностей.",
+          "slots": [
+            {
+              "slot_id": "title",
+              "kind": "text",
+              "role": "main_title",
+              "target_shape_ids": [
+                531
+              ],
+              "required": true,
+              "capacity": null,
+              "max_chars": 40
+            },
+            {
+              "slot_id": "team_profiles",
+              "kind": "profiles",
+              "role": "employee_grid",
+              "target_shape_ids": [
+                535,
+                536,
+                539,
+                540,
+                543,
+                544,
+                547,
+                548,
+                551,
+                552,
+                557,
+                558,
+                561,
+                562,
+                565,
+                566,
+                569,
+                570,
+                573,
+                574
+              ],
+              "required": false,
+              "capacity": 10,
+              "max_chars": 20
+            }
+          ],
+          "static_shape_ids": []
+        },
+        {
+          "slide_number": 13,
+          "description": "A presentation slide titled 'Team business card slide' displaying a structured grid of profile cards with placeholders for team names, photos, and member details.",
+          "slots": [
+            {
+              "slot_id": "title",
+              "kind": "text",
+              "role": "Main title",
+              "target_shape_ids": [
+                579
+              ],
+              "required": true,
+              "capacity": 1,
+              "max_chars": 30
+            },
+            {
+              "slot_id": "profiles",
+              "kind": "profiles",
+              "role": "Team member profiles",
+              "target_shape_ids": [
+                582,
+                583,
+                585,
+                586,
+                587,
+                590,
+                591,
+                594,
+                595,
+                598,
+                599,
+                600,
+                603,
+                604,
+                607,
+                608,
+                611,
+                612,
+                613,
+                616,
+                617,
+                620,
+                621,
+                624,
+                625,
+                626,
+                629,
+                630,
+                633,
+                634,
+                637,
+                638,
+                639,
+                642,
+                643,
+                646,
+                647,
+                650,
+                651,
+                652,
+                653,
+                654,
+                655,
+                656
+              ],
+              "required": true,
+              "capacity": 5,
+              "max_chars": 80
+            }
+          ],
+          "static_shape_ids": []
+        }
+      ]
+    },
+    {
+      "family_id": "security_features",
+      "slide_class": "content_text",
+      "description": "Slide with title and grid of security feature cards",
+      "variants": [
+        {
+          "slide_number": 14,
+          "description": "A presentation slide with a large title and four identical columns of text under the heading 'Security'.",
+          "slots": [
+            {
+              "slot_id": "title",
+              "kind": "text",
+              "role": "Main title",
+              "target_shape_ids": [
+                685
+              ],
+              "required": true,
+              "capacity": 1,
+              "max_chars": 30
+            },
+            {
+              "slot_id": "cards",
+              "kind": "cards",
+              "role": "Security feature cards",
+              "target_shape_ids": [
+                668,
+                669,
+                673,
+                674,
+                678,
+                679,
+                683,
+                684
+              ],
+              "required": true,
+              "capacity": 4,
+              "max_chars": 80
+            }
+          ],
+          "static_shape_ids": []
+        },
+        {
+          "slide_number": 15,
+          "description": "The slide features a large title at the top and four identical columns below, each containing the heading 'Security', a short text block, and an image of a white circular device.",
+          "slots": [
+            {
+              "slot_id": "title",
+              "kind": "text",
+              "role": "Main title",
+              "target_shape_ids": [
+                717
+              ],
+              "required": true,
+              "capacity": 1,
+              "max_chars": 30
+            },
+            {
+              "slot_id": "cards",
+              "kind": "cards",
+              "role": "Security feature cards",
+              "target_shape_ids": [
+                696,
+                697,
+                698,
+                702,
+                703,
+                704,
+                708,
+                709,
+                710,
+                714,
+                715,
+                716
+              ],
+              "required": true,
+              "capacity": 4,
+              "max_chars": 80
+            }
+          ],
+          "static_shape_ids": []
+        },
+        {
+          "slide_number": 16,
+          "description": "A presentation slide featuring a large title and a grid of eight identical cards, each containing the heading 'Security' and descriptive text.",
+          "slots": [
+            {
+              "slot_id": "title",
+              "kind": "text",
+              "role": "Main title",
+              "target_shape_ids": [
+                768
+              ],
+              "required": true,
+              "capacity": 1,
+              "max_chars": 30
+            },
+            {
+              "slot_id": "cards",
+              "kind": "cards",
+              "role": "Security feature cards",
+              "target_shape_ids": [
+                730,
+                731,
+                735,
+                736,
+                740,
+                741,
+                745,
+                746,
+                751,
+                752,
+                756,
+                757,
+                761,
+                762,
+                766,
+                767
+              ],
+              "required": true,
+              "capacity": 8,
+              "max_chars": 80
+            }
+          ],
+          "static_shape_ids": []
+        },
+        {
+          "slide_number": 17,
+          "description": "The slide features a main title and six identical white cards arranged in a grid, each displaying the heading 'Security' and a description about infrastructure protection standards.",
+          "slots": [
+            {
+              "slot_id": "title",
+              "kind": "text",
+              "role": "Main title",
+              "target_shape_ids": [
+                808
+              ],
+              "required": true,
+              "capacity": 1,
+              "max_chars": 30
+            },
+            {
+              "slot_id": "cards",
+              "kind": "cards",
+              "role": "Security feature cards",
+              "target_shape_ids": [
+                780,
+                781,
+                785,
+                786,
+                790,
+                791,
+                796,
+                797,
+                801,
+                802,
+                806,
+                807
+              ],
+              "required": true,
+              "capacity": 6,
+              "max_chars": 80
+            }
+          ],
+          "static_shape_ids": []
+        },
+        {
+          "slide_number": 18,
+          "description": "Слайд содержит заголовок и сетку из пяти карточек с заголовком «Безопасность» и одинаковым текстом, а также изображение 3D-куба.",
+          "slots": [
+            {
+              "slot_id": "title",
+              "kind": "text",
+              "role": "Main title",
+              "target_shape_ids": [
+                845
+              ],
+              "required": true,
+              "capacity": 1,
+              "max_chars": 30
+            },
+            {
+              "slot_id": "cards",
+              "kind": "cards",
+              "role": "Security feature cards",
+              "target_shape_ids": [
+                820,
+                821,
+                825,
+                826,
+                830,
+                831,
+                836,
+                837,
+                843,
+                844
+              ],
+              "required": true,
+              "capacity": 5,
+              "max_chars": 80
+            }
+          ],
+          "static_shape_ids": [
+            839,
+            840
+          ]
+        }
+      ]
+    },
+    {
+      "family_id": "title_and_cards",
+      "slide_class": "content_text",
+      "description": "Slide with main title and 2x2 grid of content cards",
+      "variants": [
+        {
+          "slide_number": 19,
+          "description": "A presentation slide template featuring a title and four identical text cards arranged in a 2x2 grid, each marked with a large background number and a blue bullet point.",
+          "slots": [
+            {
+              "slot_id": "slide_title",
+              "kind": "text",
+              "role": "title",
+              "target_shape_ids": [
+                872
+              ],
+              "required": true,
+              "capacity": 1,
+              "max_chars": 50
+            },
+            {
+              "slot_id": "card_grid",
+              "kind": "cards",
+              "role": "content",
+              "target_shape_ids": [
+                857,
+                858,
+                861,
+                862,
+                866,
+                867,
+                870,
+                871
+              ],
+              "required": false,
+              "capacity": 4,
+              "max_chars": 60
+            }
+          ],
+          "static_shape_ids": []
+        }
+      ]
+    },
+    {
+      "family_id": "icon_list",
+      "slide_class": "content_text",
+      "description": "Slide with vertical list of items featuring icons and text labels",
+      "variants": [
+        {
+          "slide_number": 20,
+          "description": "A minimalist slide displaying a vertical list of four items, each accompanied by a blue gear icon and the Russian placeholder text 'Пункт'.",
+          "slots": [
+            {
+              "slot_id": "item_list",
+              "kind": "bullet_list",
+              "role": "content",
+              "target_shape_ids": [
+                880,
+                881,
+                884,
+                885,
+                888,
+                889,
+                892,
+                893,
+                895,
+                896,
+                897,
+                898
+              ],
+              "required": false,
+              "capacity": 4,
+              "max_chars": 10
+            }
+          ],
+          "static_shape_ids": []
+        }
+      ]
+    },
+    {
+      "family_id": "title_and_columns",
+      "slide_class": "content_text",
+      "description": "Slide with main title and vertical content columns",
+      "variants": [
+        {
+          "slide_number": 21,
+          "description": "A presentation slide featuring a main title and four vertical columns, each containing an icon, headings, and bulleted text lists.",
+          "slots": [
+            {
+              "slot_id": "slide_title",
+              "kind": "text",
+              "role": "title",
+              "target_shape_ids": [
+                906
+              ],
+              "required": true,
+              "capacity": 1,
+              "max_chars": 50
+            },
+            {
+              "slot_id": "column_grid",
+              "kind": "cards",
+              "role": "content",
+              "target_shape_ids": [
+                908,
+                909,
+                910,
+                911,
+                912,
+                913,
+                914,
+                915,
+                920,
+                921,
+                922,
+                923,
+                924,
+                925,
+                926,
+                927,
+                932,
+                933,
+                934,
+                935,
+                936,
+                937,
+                938,
+                939,
+                944,
+                945,
+                946,
+                947,
+                948,
+                949,
+                950,
+                951
+              ],
+              "required": false,
+              "capacity": 4,
+              "max_chars": 20
+            }
+          ],
+          "static_shape_ids": []
+        },
+        {
+          "slide_number": 24,
+          "description": "This slide features a Russian title above three columns of text, each marked with a blue bullet point and a checkmark icon.",
+          "slots": [
+            {
+              "slot_id": "slide_title",
+              "kind": "text",
+              "role": "title",
+              "target_shape_ids": [
+                1050
+              ],
+              "required": true,
+              "capacity": 1,
+              "max_chars": 50
+            },
+            {
+              "slot_id": "column_list",
+              "kind": "cards",
+              "role": "content",
+              "target_shape_ids": [
+                1028,
+                1030,
+                1036,
+                1038,
+                1039,
+                1042,
+                1044,
+                1047,
+                1049
+              ],
+              "required": false,
+              "capacity": 3,
+              "max_chars": 150
+            }
+          ],
+          "static_shape_ids": []
+        }
+      ]
+    },
+    {
+      "family_id": "title_and_blocks",
+      "slide_class": "content_visual",
+      "description": "Slide with main title and horizontal content blocks",
+      "variants": [
+        {
+          "slide_number": 22,
+          "description": "The slide displays two horizontal content blocks with alternating text and 3D abstract graphics under a main title.",
+          "slots": [
+            {
+              "slot_id": "slide_title",
+              "kind": "text",
+              "role": "title",
+              "target_shape_ids": [
+                980
+              ],
+              "required": true,
+              "capacity": 1,
+              "max_chars": 30
+            },
+            {
+              "slot_id": "content_blocks",
+              "kind": "cards",
+              "role": "content",
+              "target_shape_ids": [
+                962,
+                966,
+                967,
+                968,
+                969,
+                970,
+                971,
+                972,
+                973,
+                977,
+                978
+              ],
+              "required": false,
+              "capacity": 2,
+              "max_chars": 30
+            }
+          ],
+          "static_shape_ids": []
+        }
+      ]
+    },
+    {
+      "family_id": "title_and_quadrants",
+      "slide_class": "comparison",
+      "description": "Slide with main title and four-quadrant grid layout",
+      "variants": [
+        {
+          "slide_number": 23,
+          "description": "A presentation slide featuring a main title and a four-quadrant grid layout, where each quadrant contains a title, text, and icons, with a large abstract graphic in the top-left section.",
+          "slots": [
+            {
+              "slot_id": "slide_title",
+              "kind": "text",
+              "role": "title",
+              "target_shape_ids": [
+                1017
+              ],
+              "required": true,
+              "capacity": 1,
+              "max_chars": 50
+            },
+            {
+              "slot_id": "quadrant_grid",
+              "kind": "cards",
+              "role": "content",
+              "target_shape_ids": [
+                986,
+                990,
+                992,
+                995,
+                996,
+                997,
+                998,
+                1000,
+                1004,
+                1005,
+                1006,
+                1009,
+                1010,
+                1011,
+                1013,
+                1014,
+                1015,
+                1016,
+                1018,
+                1019,
+                1020,
+                1021
+              ],
+              "required": false,
+              "capacity": 4,
+              "max_chars": 30
+            }
+          ],
+          "static_shape_ids": []
+        }
+      ]
+    },
+    {
+      "family_id": "vertical_feature_list",
+      "slide_class": "content_text",
+      "description": "Slide with main title and vertical list of feature blocks",
+      "variants": [
+        {
+          "slide_number": 25,
+          "description": "The slide features a large title on the left and a vertical list of four identical text blocks with the heading 'Security' and descriptive text on the right.",
+          "slots": [
+            {
+              "slot_id": "main_title",
+              "kind": "text",
+              "role": "title",
+              "target_shape_ids": [
+                1073
+              ],
+              "required": true,
+              "capacity": null,
+              "max_chars": 50
+            },
+            {
+              "slot_id": "feature_items",
+              "kind": "cards",
+              "role": "content",
+              "target_shape_ids": [
+                1059,
+                1060,
+                1063,
+                1064,
+                1067,
+                1068,
+                1071,
+                1072
+              ],
+              "required": true,
+              "capacity": 4,
+              "max_chars": 80
+            }
+          ],
+          "static_shape_ids": []
+        }
+      ]
+    },
+    {
+      "family_id": "horizontal_card_grid",
+      "slide_class": "content_text",
+      "description": "Slide with title and horizontal grid of content cards",
+      "variants": [
+        {
+          "slide_number": 26,
+          "description": "A presentation slide featuring a main title and four numbered content cards arranged horizontally, with the final card containing an abstract 3D graphic.",
+          "slots": [
+            {
+              "slot_id": "main_title",
+              "kind": "text",
+              "role": "title",
+              "target_shape_ids": [
+                1093
+              ],
+              "required": true,
+              "capacity": null,
+              "max_chars": 50
+            },
+            {
+              "slot_id": "card_items",
+              "kind": "cards",
+              "role": "content",
+              "target_shape_ids": [
+                1079,
+                1080,
+                1082,
+                1083,
+                1085,
+                1086,
+                1088,
+                1089,
+                1091,
+                1094,
+                1095,
+                1096,
+                1097,
+                1098,
+                1099,
+                1100,
+                1101
+              ],
+              "required": true,
+              "capacity": 4,
+              "max_chars": 60
+            }
+          ],
+          "static_shape_ids": []
+        }
+      ]
+    },
+    {
+      "family_id": "four_step_process",
+      "slide_class": "process",
+      "description": "Slide with title and four-step process layout",
+      "variants": [
+        {
+          "slide_number": 27,
+          "description": "A slide illustrating a four-step process using numbered cards connected by a dashed line.",
+          "slots": [
+            {
+              "slot_id": "main_title",
+              "kind": "text",
+              "role": "title",
+              "target_shape_ids": [
+                1109
+              ],
+              "required": true,
+              "capacity": null,
+              "max_chars": 50
+            },
+            {
+              "slot_id": "process_steps",
+              "kind": "process",
+              "role": "content",
+              "target_shape_ids": [
+                1110,
+                1111,
+                1112,
+                1113
+              ],
+              "required": true,
+              "capacity": 4,
+              "max_chars": 30
+            }
+          ],
+          "static_shape_ids": []
+        }
+      ]
+    },
+    {
+      "family_id": "service_cards",
+      "slide_class": "content_text",
+      "description": "Slide with title and three service cards",
+      "variants": [
+        {
+          "slide_number": 28,
+          "description": "A presentation slide with a title and three content cards featuring Russian text and 3D blue graphics illustrating testing, logistics, and demo services.",
+          "slots": [
+            {
+              "slot_id": "main_title",
+              "kind": "text",
+              "role": "title",
+              "target_shape_ids": [
+                1132
+              ],
+              "required": true,
+              "capacity": null,
+              "max_chars": 50
+            },
+            {
+              "slot_id": "service_cards",
+              "kind": "cards",
+              "role": "content",
+              "target_shape_ids": [
+                1122,
+                1123,
+                1125,
+                1126,
+                1127,
+                1129,
+                1130,
+                1131
+              ],
+              "required": true,
+              "capacity": 3,
+              "max_chars": 60
+            }
+          ],
+          "static_shape_ids": []
+        }
+      ]
+    },
+    {
+      "family_id": "five_card_grid",
+      "slide_class": "content_text",
+      "description": "Slide with title and horizontal grid of five feature cards",
+      "variants": [
+        {
+          "slide_number": 29,
+          "description": "A slide with a main title and five horizontal cards, each containing a large number, a checkmark icon, and text placeholders.",
+          "slots": [
+            {
+              "slot_id": "main_title",
+              "kind": "text",
+              "role": "title",
+              "target_shape_ids": [
+                1151
+              ],
+              "required": true,
+              "capacity": null,
+              "max_chars": 50
+            },
+            {
+              "slot_id": "feature_cards",
+              "kind": "cards",
+              "role": "content",
+              "target_shape_ids": [
+                1152,
+                1153,
+                1154,
+                1155,
+                1156,
+                1157,
+                1158,
+                1159,
+                1160,
+                1161
+              ],
+              "required": true,
+              "capacity": 5,
+              "max_chars": 50
+            }
+          ],
+          "static_shape_ids": []
+        }
+      ]
+    },
+    {
+      "family_id": "topic_grid",
+      "slide_class": "agenda",
+      "description": "Slide with title and grid of topic cards",
+      "variants": [
+        {
+          "slide_number": 30,
+          "description": "A presentation slide displaying a title and a grid of five content cards, each featuring a topic title and a blue navigation button.",
+          "slots": [
+            {
+              "slot_id": "main_title",
+              "kind": "text",
+              "role": "title",
+              "target_shape_ids": [
+                1198
+              ],
+              "required": true,
+              "capacity": null,
+              "max_chars": 50
+            },
+            {
+              "slot_id": "topic_cards",
+              "kind": "cards",
+              "role": "content",
+              "target_shape_ids": [
+                1173,
+                1174,
+                1170,
+                1171,
+                1172,
+                1186,
+                1192,
+                1189,
+                1190,
+                1191,
+                1180,
+                1183,
+                1184,
+                1185,
+                1177,
+                1178,
+                1179,
+                1195,
+                1196,
+                1197
+              ],
+              "required": true,
+              "capacity": 3,
+              "max_chars": 50
+            }
+          ],
+          "static_shape_ids": []
+        }
+      ]
+    },
+    {
+      "family_id": "code_snippet",
+      "slide_class": "content_text",
+      "description": "Slide with title and code block on dark background",
+      "variants": [
+        {
+          "slide_number": 31,
+          "description": "A presentation slide displaying a CSS code snippet on a black background next to a white sidebar with the title 'Заголовок'.",
+          "slots": [
+            {
+              "slot_id": "title",
+              "kind": "text",
+              "role": "slide title",
+              "target_shape_ids": [
+                1207
+              ],
+              "required": true,
+              "capacity": 1,
+              "max_chars": 60
+            },
+            {
+              "slot_id": "code_content",
+              "kind": "text",
+              "role": "code snippet",
+              "target_shape_ids": [
+                1205
+              ],
+              "required": false,
+              "capacity": 1,
+              "max_chars": 500
+            }
+          ],
+          "static_shape_ids": [
+            1204
+          ]
+        },
+        {
+          "slide_number": 32,
+          "description": "A presentation slide featuring a Russian title above a block of CSS code with syntax highlighting on a black background.",
+          "slots": [
+            {
+              "slot_id": "title",
+              "kind": "text",
+              "role": "slide title",
+              "target_shape_ids": [
+                1220
+              ],
+              "required": true,
+              "capacity": 1,
+              "max_chars": 60
+            },
+            {
+              "slot_id": "code_content",
+              "kind": "text",
+              "role": "code snippet",
+              "target_shape_ids": [
+                1214
+              ],
+              "required": false,
+              "capacity": 1,
+              "max_chars": 500
+            }
+          ],
+          "static_shape_ids": [
+            1213,
+            1217,
+            1218,
+            1219
+          ]
+        }
+      ]
+    },
+    {
+      "family_id": "metrics_dashboard",
+      "slide_class": "metrics",
+      "description": "Slide highlighting key numerical metrics and data",
+      "variants": [
+        {
+          "slide_number": 33,
+          "description": "The slide displays a large blue metric of 91% on the left and a table listing additional indicators on the right.",
+          "slots": [
+            {
+              "slot_id": "title",
+              "kind": "text",
+              "role": "slide title",
+              "target_shape_ids": [
+                1343
+              ],
+              "required": true,
+              "capacity": 1,
+              "max_chars": 60
+            },
+            {
+              "slot_id": "main_metric",
+              "kind": "metrics",
+              "role": "primary metric display",
+              "target_shape_ids": [
+                1344,
+                1345
+              ],
+              "required": false,
+              "capacity": 1,
+              "max_chars": 20
+            },
+            {
+              "slot_id": "metrics_table",
+              "kind": "table",
+              "role": "metrics data grid",
+              "target_shape_ids": [
+                1230,
+                1231,
+                1232,
+                1238,
+                1241,
+                1244,
+                1250,
+                1253,
+                1256,
+                1262,
+                1265,
+                1268,
+                1274,
+                1277,
+                1280,
+                1286,
+                1289,
+                1292,
+                1298,
+                1301,
+                1304,
+                1310,
+                1313,
+                1316,
+                1322,
+                1325,
+                1328,
+                1334,
+                1337,
+                1340
+              ],
+              "required": false,
+              "capacity": 8,
+              "max_chars": 30
+            }
+          ],
+          "static_shape_ids": [
+            1226,
+            1234,
+            1246,
+            1258,
+            1270,
+            1282,
+            1294,
+            1306,
+            1318,
+            1330,
+            1342
+          ]
+        },
+        {
+          "slide_number": 42,
+          "description": "A slide featuring a title and two large blue numbers, 7 and 10, each accompanied by a description label.",
+          "slots": [
+            {
+              "slot_id": "title",
+              "kind": "text",
+              "role": "slide_title",
+              "target_shape_ids": [
+                2251
+              ],
+              "required": true,
+              "capacity": null,
+              "max_chars": 60
+            },
+            {
+              "slot_id": "metrics_group",
+              "kind": "metrics",
+              "role": "key_metrics",
+              "target_shape_ids": [
+                2252,
+                2253,
+                2254,
+                2255
+              ],
+              "required": true,
+              "capacity": 2,
+              "max_chars": 10
+            }
+          ],
+          "static_shape_ids": [
+            2249,
+            2250
+          ]
+        }
+      ]
+    },
+    {
+      "family_id": "data_table",
+      "slide_class": "table",
+      "description": "Slide with title and structured data table",
+      "variants": [
+        {
+          "slide_number": 34,
+          "description": "A presentation slide featuring a structured table with three columns and multiple rows of data, positioned next to a title and description.",
+          "slots": [
+            {
+              "slot_id": "title",
+              "kind": "text",
+              "role": "slide title",
+              "target_shape_ids": [
+                1351
+              ],
+              "required": true,
+              "capacity": 1,
+              "max_chars": 60
+            },
+            {
+              "slot_id": "description",
+              "kind": "text",
+              "role": "slide description",
+              "target_shape_ids": [
+                1352
+              ],
+              "required": false,
+              "capacity": 1,
+              "max_chars": 100
+            },
+            {
+              "slot_id": "data_table",
+              "kind": "table",
+              "role": "data grid",
+              "target_shape_ids": [
+                1357,
+                1358,
+                1359,
+                1365,
+                1368,
+                1371,
+                1377,
+                1380,
+                1383,
+                1389,
+                1392,
+                1395,
+                1401,
+                1404,
+                1407,
+                1413,
+                1416,
+                1419,
+                1425,
+                1428,
+                1431,
+                1437,
+                1440,
+                1443,
+                1449,
+                1452,
+                1455,
+                1461,
+                1464,
+                1467
+              ],
+              "required": false,
+              "capacity": 8,
+              "max_chars": 30
+            }
+          ],
+          "static_shape_ids": [
+            1353,
+            1361,
+            1373,
+            1385,
+            1397,
+            1409,
+            1421,
+            1433,
+            1445,
+            1457,
+            1469
+          ]
+        },
+        {
+          "slide_number": 35,
+          "description": "A presentation slide featuring a structured table with a main title and columns labeled 'Header' and 'Indicator', populated with rows of text and values.",
+          "slots": [
+            {
+              "slot_id": "table_title",
+              "kind": "text",
+              "role": "title",
+              "target_shape_ids": [
+                1648
+              ],
+              "required": true,
+              "capacity": 1,
+              "max_chars": 50
+            },
+            {
+              "slot_id": "table_data",
+              "kind": "table",
+              "role": "content",
+              "target_shape_ids": [
+                1479,
+                1480,
+                1481,
+                1482,
+                1483,
+                1489,
+                1492,
+                1495,
+                1498,
+                1501,
+                1507,
+                1510,
+                1513,
+                1516,
+                1519,
+                1525,
+                1528,
+                1531,
+                1534,
+                1537,
+                1543,
+                1546,
+                1549,
+                1552,
+                1555,
+                1561,
+                1564,
+                1567,
+                1570,
+                1573,
+                1579,
+                1582,
+                1585,
+                1588,
+                1591,
+                1597,
+                1600,
+                1603,
+                1606,
+                1609,
+                1615,
+                1618,
+                1621,
+                1624,
+                1627,
+                1633,
+                1636,
+                1639,
+                1642,
+                1645
+              ],
+              "required": true,
+              "capacity": 9,
+              "max_chars": 20
+            }
+          ],
+          "static_shape_ids": [
+            1475,
+            1485,
+            1503,
+            1521,
+            1539,
+            1557,
+            1575,
+            1593,
+            1611,
+            1629,
+            1647
+          ]
+        },
+        {
+          "slide_number": 36,
+          "description": "A presentation slide featuring a large data table with a main title and multiple columns of placeholder text labeled 'Indicator'.",
+          "slots": [
+            {
+              "slot_id": "title",
+              "kind": "text",
+              "role": "main_title",
+              "target_shape_ids": [
+                1911
+              ],
+              "required": true,
+              "capacity": null,
+              "max_chars": 50
+            },
+            {
+              "slot_id": "data_table",
+              "kind": "table",
+              "role": "data_grid",
+              "target_shape_ids": [
+                1654,
+                1658,
+                1659,
+                1660,
+                1661,
+                1662,
+                1663,
+                1664,
+                1665,
+                1667,
+                1671,
+                1674,
+                1677,
+                1680,
+                1683,
+                1686,
+                1689,
+                1692,
+                1694,
+                1698,
+                1701,
+                1704,
+                1707,
+                1710,
+                1713,
+                1716,
+                1719,
+                1721,
+                1725,
+                1728,
+                1731,
+                1734,
+                1737,
+                1740,
+                1743,
+                1746,
+                1748,
+                1752,
+                1755,
+                1758,
+                1761,
+                1764,
+                1767,
+                1770,
+                1773,
+                1775,
+                1779,
+                1782,
+                1785,
+                1788,
+                1791,
+                1794,
+                1797,
+                1800,
+                1802,
+                1806,
+                1809,
+                1812,
+                1815,
+                1818,
+                1821,
+                1824,
+                1827,
+                1829,
+                1833,
+                1836,
+                1839,
+                1842,
+                1845,
+                1848,
+                1851,
+                1854,
+                1856,
+                1860,
+                1863,
+                1866,
+                1869,
+                1872,
+                1875,
+                1878,
+                1881,
+                1883,
+                1887,
+                1890,
+                1893,
+                1896,
+                1899,
+                1902,
+                1905,
+                1908,
+                1910
+              ],
+              "required": true,
+              "capacity": 9,
+              "max_chars": 20
+            }
+          ],
+          "static_shape_ids": []
+        },
+        {
+          "slide_number": 49,
+          "description": "The slide presents a structured table with blue headers, rows of text and numerical values, and a summary total row at the bottom.",
+          "slots": [
+            {
+              "slot_id": "slide_title",
+              "kind": "text",
+              "role": "main_title",
+              "target_shape_ids": [
+                2472
+              ],
+              "required": true,
+              "capacity": null,
+              "max_chars": 50
+            },
+            {
+              "slot_id": "table_data",
+              "kind": "table",
+              "role": "data_grid",
+              "target_shape_ids": [
+                2450,
+                2451,
+                2452,
+                2453,
+                2454,
+                2455,
+                2456,
+                2457,
+                2458,
+                2459,
+                2460,
+                2461,
+                2462,
+                2463,
+                2464,
+                2465,
+                2466,
+                2467,
+                2468,
+                2469,
+                2470,
+                2471,
+                2473,
+                2474,
+                2475,
+                2476,
+                2477,
+                2478,
+                2479,
+                2480,
+                2481,
+                2482,
+                2483,
+                2484,
+                2485,
+                2486,
+                2487,
+                2488,
+                2489,
+                2490,
+                2491,
+                2492
+              ],
+              "required": true,
+              "capacity": 5,
+              "max_chars": 15
+            }
+          ],
+          "static_shape_ids": []
+        }
+      ]
+    },
+    {
+      "family_id": "comparison_table",
+      "slide_class": "table",
+      "description": "Slide with title, description, and comparison table with metrics",
+      "variants": [
+        {
+          "slide_number": 37,
+          "description": "Слайд содержит заголовок и описание слева, а справа — структурированную таблицу с строками, содержащими заголовки, синие теги в форме пилюль и метрики.",
+          "slots": [
+            {
+              "slot_id": "title",
+              "kind": "text",
+              "role": "Main title",
+              "target_shape_ids": [
+                2097
+              ],
+              "required": true,
+              "capacity": null,
+              "max_chars": 50
+            },
+            {
+              "slot_id": "description",
+              "kind": "text",
+              "role": "Subtitle or description",
+              "target_shape_ids": [
+                2098
+              ],
+              "required": false,
+              "capacity": null,
+              "max_chars": 100
+            },
+            {
+              "slot_id": "table_data",
+              "kind": "table",
+              "role": "Comparison table with metrics and tags",
+              "target_shape_ids": [
+                1921,
+                1922,
+                1923,
+                1929,
+                1936,
+                1939,
+                1942,
+                1948,
+                1955,
+                1958,
+                1961,
+                1967,
+                1974,
+                1977,
+                1980,
+                1986,
+                1993,
+                1996,
+                1999,
+                2005,
+                2012,
+                2015,
+                2018,
+                2024,
+                2031,
+                2034,
+                2037,
+                2043,
+                2050,
+                2053,
+                2056,
+                2062,
+                2069,
+                2072,
+                2075,
+                2081,
+                2088,
+                2091,
+                2094
+              ],
+              "required": true,
+              "capacity": 9,
+              "max_chars": 20
+            }
+          ],
+          "static_shape_ids": [
+            1917,
+            1925,
+            1944,
+            1963,
+            1982,
+            2001,
+            2020,
+            2039,
+            2058,
+            2077,
+            2096
+          ]
+        }
+      ]
+    },
+    {
+      "family_id": "screenshot_visual",
+      "slide_class": "content_visual",
+      "description": "Slide featuring application screenshot or interface mockup with title",
+      "variants": [
+        {
+          "slide_number": 38,
+          "description": "A presentation slide displaying a large screenshot of a cloud storage file manager interface with a list of folders and files under a Russian title.",
+          "slots": [
+            {
+              "slot_id": "title",
+              "kind": "text",
+              "role": "Main title",
+              "target_shape_ids": [
+                2104
+              ],
+              "required": true,
+              "capacity": null,
+              "max_chars": 50
+            },
+            {
+              "slot_id": "visual_area",
+              "kind": "image",
+              "role": "Application screenshot",
+              "target_shape_ids": [
+                2105,
+                2106,
+                2107
+              ],
+              "required": true,
+              "capacity": 1,
+              "max_chars": null
+            }
+          ],
+          "static_shape_ids": []
+        },
+        {
+          "slide_number": 43,
+          "description": "A presentation slide featuring a large screenshot of a video conferencing interface with floating UI elements, accompanied by a title and description on the left.",
+          "slots": [
+            {
+              "slot_id": "title",
+              "kind": "text",
+              "role": "slide_title",
+              "target_shape_ids": [
+                2263
+              ],
+              "required": true,
+              "capacity": null,
+              "max_chars": 60
+            },
+            {
+              "slot_id": "description",
+              "kind": "text",
+              "role": "slide_description",
+              "target_shape_ids": [
+                2264
+              ],
+              "required": false,
+              "capacity": null,
+              "max_chars": 200
+            },
+            {
+              "slot_id": "visual_area",
+              "kind": "image",
+              "role": "screenshot",
+              "target_shape_ids": [
+                2261,
+                2262
+              ],
+              "required": true,
+              "capacity": 1,
+              "max_chars": null
+            }
+          ],
+          "static_shape_ids": []
+        }
+      ]
+    },
+    {
+      "family_id": "annotated_screenshot",
+      "slide_class": "content_visual",
+      "description": "Slide with feature list and large annotated software screenshot",
+      "variants": [
+        {
+          "slide_number": 39,
+          "description": "This slide features a numbered list of text points on the left side and a large, annotated screenshot of a software interface on the right side.",
+          "slots": [
+            {
+              "slot_id": "title",
+              "kind": "text",
+              "role": "Main title",
+              "target_shape_ids": [
+                2153
+              ],
+              "required": true,
+              "capacity": null,
+              "max_chars": 50
+            },
+            {
+              "slot_id": "feature_list",
+              "kind": "bullet_list",
+              "role": "Numbered feature points",
+              "target_shape_ids": [
+                2136,
+                2138,
+                2140,
+                2142,
+                2144,
+                2146,
+                2148,
+                2150,
+                2152,
+                2154,
+                2155,
+                2156,
+                2157,
+                2158,
+                2159,
+                2160,
+                2161,
+                2162,
+                2163,
+                2164
+              ],
+              "required": true,
+              "capacity": 9,
+              "max_chars": 30
+            },
+            {
+              "slot_id": "screenshot",
+              "kind": "image",
+              "role": "Annotated software interface",
+              "target_shape_ids": [
+                2113,
+                2114,
+                2115,
+                2117,
+                2119,
+                2121,
+                2123,
+                2125,
+                2127,
+                2129,
+                2131,
+                2133
+              ],
+              "required": true,
+              "capacity": 1,
+              "max_chars": null
+            }
+          ],
+          "static_shape_ids": []
+        }
+      ]
+    },
+    {
+      "family_id": "product_mockup",
+      "slide_class": "content_visual",
+      "description": "Slide with split layout featuring promotional text and app mockup",
+      "variants": [
+        {
+          "slide_number": 40,
+          "description": "A presentation slide with a split layout featuring Russian text on the left and a large smartphone mockup displaying the VK WorkSpace app interface on the right.",
+          "slots": [
+            {
+              "slot_id": "title",
+              "kind": "text",
+              "role": "Main title",
+              "target_shape_ids": [
+                2171
+              ],
+              "required": true,
+              "capacity": null,
+              "max_chars": 50
+            },
+            {
+              "slot_id": "content_text",
+              "kind": "text",
+              "role": "Promotional text and header",
+              "target_shape_ids": [
+                2172,
+                2173
+              ],
+              "required": true,
+              "capacity": null,
+              "max_chars": 100
+            },
+            {
+              "slot_id": "app_mockup",
+              "kind": "image",
+              "role": "Smartphone application mockup",
+              "target_shape_ids": [
+                2174,
+                2175,
+                2176,
+                2177,
+                2178,
+                2179,
+                2180,
+                2181,
+                2183,
+                2184,
+                2186,
+                2187,
+                2188,
+                2189
+              ],
+              "required": true,
+              "capacity": 1,
+              "max_chars": null
+            }
+          ],
+          "static_shape_ids": []
+        }
+      ]
+    },
+    {
+      "family_id": "comparison_list",
+      "slide_class": "comparison",
+      "description": "Slide comparing two sets of metrics across multiple rows",
+      "variants": [
+        {
+          "slide_number": 41,
+          "description": "A slide with a title and a comparison layout featuring two columns of horizontal blue bars with numerical values flanking a central column of text labels.",
+          "slots": [
+            {
+              "slot_id": "title",
+              "kind": "text",
+              "role": "slide_title",
+              "target_shape_ids": [
+                2217
+              ],
+              "required": true,
+              "capacity": null,
+              "max_chars": 60
+            },
+            {
+              "slot_id": "comparison_table",
+              "kind": "table",
+              "role": "comparison_data",
+              "target_shape_ids": [
+                2195,
+                2196,
+                2197,
+                2198,
+                2199,
+                2200,
+                2201,
+                2202,
+                2203,
+                2204,
+                2205,
+                2206,
+                2207,
+                2208,
+                2209,
+                2210,
+                2211,
+                2212,
+                2218,
+                2219,
+                2220,
+                2221,
+                2222,
+                2223,
+                2224,
+                2225,
+                2226,
+                2227,
+                2228,
+                2229,
+                2230,
+                2231,
+                2232,
+                2233,
+                2234,
+                2235,
+                2236,
+                2237,
+                2238,
+                2239,
+                2240,
+                2241,
+                2242,
+                2243
+              ],
+              "required": true,
+              "capacity": 8,
+              "max_chars": 10
+            }
+          ],
+          "static_shape_ids": [
+            2214,
+            2215,
+            2216
+          ]
+        }
+      ]
+    },
+    {
+      "family_id": "data_chart",
+      "slide_class": "chart",
+      "description": "Slide displaying vertical bar chart with data labels and legend",
+      "variants": [
+        {
+          "slide_number": 44,
+          "description": "Слайд содержит вертикальную столбчатую диаграмму с синими градиентными столбцами, числовыми метками и легендой.",
+          "slots": [
+            {
+              "slot_id": "title",
+              "kind": "text",
+              "role": "slide_title",
+              "target_shape_ids": [
+                2296
+              ],
+              "required": true,
+              "capacity": null,
+              "max_chars": 60
+            },
+            {
+              "slot_id": "chart_data",
+              "kind": "chart",
+              "role": "chart_visualization",
+              "target_shape_ids": [
+                2270,
+                2271,
+                2272,
+                2273,
+                2274,
+                2275,
+                2276,
+                2277,
+                2278,
+                2279,
+                2280,
+                2281,
+                2282,
+                2283,
+                2284,
+                2285,
+                2286,
+                2287,
+                2288,
+                2289,
+                2290,
+                2291,
+                2297,
+                2298,
+                2299,
+                2300,
+                2301,
+                2302,
+                2303,
+                2304,
+                2305,
+                2306,
+                2307,
+                2308,
+                2309,
+                2310,
+                2311,
+                2312,
+                2313,
+                2314,
+                2315,
+                2316,
+                2317,
+                2318,
+                2319,
+                2320,
+                2321,
+                2322,
+                2323,
+                2324,
+                2325,
+                2326,
+                2327,
+                2328,
+                2329,
+                2330,
+                2331
+              ],
+              "required": true,
+              "capacity": 10,
+              "max_chars": 10
+            }
+          ],
+          "static_shape_ids": []
+        }
+      ]
+    },
+    {
+      "family_id": "horizontal_donut_charts",
+      "slide_class": "chart",
+      "description": "Slide with horizontal donut charts showing percentage values",
+      "variants": [
+        {
+          "slide_number": 45,
+          "description": "The slide displays three blue donut charts arranged horizontally, each showing a 10% value with corresponding title and text placeholders.",
+          "slots": [
+            {
+              "slot_id": "slide_title",
+              "kind": "text",
+              "role": "main_title",
+              "target_shape_ids": [
+                2341
+              ],
+              "required": true,
+              "capacity": null,
+              "max_chars": 50
+            },
+            {
+              "slot_id": "donut_metrics",
+              "kind": "chart",
+              "role": "data_visualization",
+              "target_shape_ids": [
+                2337,
+                2338,
+                2342,
+                2343,
+                2348,
+                2339,
+                2344,
+                2345,
+                2349,
+                2340,
+                2346,
+                2347,
+                2350
+              ],
+              "required": true,
+              "capacity": 3,
+              "max_chars": 20
+            }
+          ],
+          "static_shape_ids": []
+        }
+      ]
+    },
+    {
+      "family_id": "chart_with_bullet_list",
+      "slide_class": "chart",
+      "description": "Slide with large chart alongside bulleted list with icons",
+      "variants": [
+        {
+          "slide_number": 46,
+          "description": "A presentation slide featuring a large blue donut chart displaying 10% in the center, positioned next to a list of four items with gear icons on the left side.",
+          "slots": [
+            {
+              "slot_id": "slide_title",
+              "kind": "text",
+              "role": "main_title",
+              "target_shape_ids": [
+                2372
+              ],
+              "required": true,
+              "capacity": null,
+              "max_chars": 50
+            },
+            {
+              "slot_id": "chart_area",
+              "kind": "chart",
+              "role": "data_visualization",
+              "target_shape_ids": [
+                2357,
+                2373,
+                2356,
+                2358,
+                2359,
+                2374,
+                2379
+              ],
+              "required": true,
+              "capacity": 1,
+              "max_chars": 10
+            },
+            {
+              "slot_id": "item_list",
+              "kind": "bullet_list",
+              "role": "content",
+              "target_shape_ids": [
+                2364,
+                2365,
+                2375,
+                2366,
+                2367,
+                2376,
+                2368,
+                2369,
+                2377,
+                2370,
+                2371,
+                2378
+              ],
+              "required": true,
+              "capacity": 4,
+              "max_chars": 15
+            }
+          ],
+          "static_shape_ids": []
+        }
+      ]
+    },
+    {
+      "family_id": "horizontal_timeline",
+      "slide_class": "timeline",
+      "description": "Horizontal timeline with steps containing titles and descriptions",
+      "variants": [
+        {
+          "slide_number": 47,
+          "description": "A slide displaying a horizontal timeline with blue dots and text placeholders for titles and descriptions arranged in two rows.",
+          "slots": [
+            {
+              "slot_id": "slide_title",
+              "kind": "text",
+              "role": "main_title",
+              "target_shape_ids": [
+                2401
+              ],
+              "required": true,
+              "capacity": null,
+              "max_chars": 50
+            },
+            {
+              "slot_id": "timeline_steps",
+              "kind": "timeline",
+              "role": "process_flow",
+              "target_shape_ids": [
+                2385,
+                2394,
+                2402,
+                2403,
+                2404,
+                2405,
+                2406,
+                2407,
+                2408,
+                2409,
+                2410,
+                2411,
+                2412,
+                2413,
+                2414,
+                2415,
+                2416,
+                2417,
+                2418,
+                2419,
+                2420,
+                2421,
+                2422
+              ],
+              "required": true,
+              "capacity": 4,
+              "max_chars": 20
+            }
+          ],
+          "static_shape_ids": []
+        },
+        {
+          "slide_number": 48,
+          "description": "A slide presenting a horizontal timeline with three distinct points, each featuring a title, text, and description.",
+          "slots": [
+            {
+              "slot_id": "slide_title",
+              "kind": "text",
+              "role": "main_title",
+              "target_shape_ids": [
+                2435
+              ],
+              "required": true,
+              "capacity": null,
+              "max_chars": 50
+            },
+            {
+              "slot_id": "timeline_steps",
+              "kind": "timeline",
+              "role": "process_flow",
+              "target_shape_ids": [
+                2428,
+                2436,
+                2437,
+                2438,
+                2439,
+                2440,
+                2441,
+                2442,
+                2443,
+                2444
+              ],
+              "required": true,
+              "capacity": 3,
+              "max_chars": 20
+            }
+          ],
+          "static_shape_ids": []
+        }
+      ]
+    },
+    {
+      "family_id": "pricing_comparison",
+      "slide_class": "comparison",
+      "description": "Three-column pricing comparison layout with cards and call-to-action",
+      "variants": [
+        {
+          "slide_number": 50,
+          "description": "Three vertical cards are arranged in columns to display pricing information, featuring titles, text, discounted prices with strikethroughs, and a final card with a large blue button.",
+          "slots": [
+            {
+              "slot_id": "slide_title",
+              "kind": "text",
+              "role": "main_title",
+              "target_shape_ids": [
+                2507
+              ],
+              "required": true,
+              "capacity": null,
+              "max_chars": 30
+            },
+            {
+              "slot_id": "pricing_cards",
+              "kind": "cards",
+              "role": "pricing_options",
+              "target_shape_ids": [
+                2508,
+                2509,
+                2514,
+                2515,
+                2516,
+                2517,
+                2518,
+                2510,
+                2511,
+                2519,
+                2520,
+                2521,
+                2522,
+                2523,
+                2512,
+                2513,
+                2524
+              ],
+              "required": true,
+              "capacity": 3,
+              "max_chars": 30
+            }
+          ],
+          "static_shape_ids": [
+            2499,
+            2501,
+            2502,
+            2503,
+            2505,
+            2506
+          ]
+        }
+      ]
+    },
+    {
+      "family_id": "process_steps",
+      "slide_class": "process",
+      "description": "Four-step vertical process layout with increasing block heights",
+      "variants": [
+        {
+          "slide_number": 51,
+          "description": "Слайд с заголовком и четырьмя вертикальными синими блоками возрастающей высоты, каждый из которых содержит заголовок и текст, с восходящей стрелкой, указывающей на прогресс.",
+          "slots": [
+            {
+              "slot_id": "slide_title",
+              "kind": "text",
+              "role": "main_title",
+              "target_shape_ids": [
+                2535
+              ],
+              "required": true,
+              "capacity": null,
+              "max_chars": 30
+            },
+            {
+              "slot_id": "process_steps",
+              "kind": "process",
+              "role": "step_items",
+              "target_shape_ids": [
+                2536,
+                2537,
+                2538,
+                2539,
+                2540,
+                2541,
+                2542,
+                2543
+              ],
+              "required": true,
+              "capacity": 4,
+              "max_chars": 30
+            }
+          ],
+          "static_shape_ids": []
+        }
+      ]
+    },
+    {
+      "family_id": "project_timeline",
+      "slide_class": "timeline",
+      "description": "Gantt-style timeline chart with task labels and duration bars",
+      "variants": [
+        {
+          "slide_number": 52,
+          "description": "A Gantt chart displaying project tasks or events across a timeline from May to October using horizontal bars of varying lengths and colors.",
+          "slots": [
+            {
+              "slot_id": "slide_title",
+              "kind": "text",
+              "role": "main_title",
+              "target_shape_ids": [
+                2569
+              ],
+              "required": true,
+              "capacity": null,
+              "max_chars": 30
+            },
+            {
+              "slot_id": "timeline_chart",
+              "kind": "timeline",
+              "role": "schedule_items",
+              "target_shape_ids": [
+                2570,
+                2571,
+                2572,
+                2573,
+                2574,
+                2575,
+                2576,
+                2577,
+                2578,
+                2579,
+                2580,
+                2564,
+                2565,
+                2566,
+                2567,
+                2568
+              ],
+              "required": true,
+              "capacity": 5,
+              "max_chars": 20
+            }
+          ],
+          "static_shape_ids": []
+        }
+      ]
+    },
+    {
+      "family_id": "ecosystem_diagram",
+      "slide_class": "content_visual",
+      "description": "Radial ecosystem diagram with editable text labels for segments",
+      "variants": [
+        {
+          "slide_number": 53,
+          "description": "This slide presents the VK Tech vertical as an independent technological entity, using a radial diagram to map out its ecosystem services and highlighting enterprise software as a key growth area.",
+          "slots": [
+            {
+              "slot_id": "slide_title",
+              "kind": "text",
+              "role": "main_title",
+              "target_shape_ids": [
+                2665
+              ],
+              "required": true,
+              "capacity": null,
+              "max_chars": 40
+            },
+            {
+              "slot_id": "diagram_labels",
+              "kind": "text",
+              "role": "segment_labels",
+              "target_shape_ids": [
+                2591,
+                2592,
+                2594,
+                2595,
+                2650,
+                2651,
+                2652,
+                2653,
+                2654,
+                2657,
+                2658,
+                2660,
+                2661,
+                2662
+              ],
+              "required": true,
+              "capacity": 14,
+              "max_chars": 40
+            }
+          ],
+          "static_shape_ids": [
+            2586,
+            2587,
+            2588,
+            2597,
+            2599,
+            2600,
+            2601,
+            2602,
+            2603,
+            2605,
+            2606,
+            2607,
+            2608,
+            2610,
+            2612,
+            2613,
+            2615,
+            2617,
+            2620,
+            2622,
+            2623,
+            2625,
+            2626,
+            2628,
+            2629,
+            2630,
+            2631,
+            2632,
+            2634,
+            2635,
+            2636,
+            2637,
+            2638,
+            2639,
+            2640,
+            2642,
+            2643,
+            2645,
+            2646,
+            2647,
+            2663
+          ]
+        }
+      ]
+    },
+    {
+      "family_id": "product_portfolio",
+      "slide_class": "content_text",
+      "description": "Product portfolio slide featuring four-column card layout for services",
+      "variants": [
+        {
+          "slide_number": 54,
+          "description": "This slide presents the VK Tech product portfolio, organized into four columns representing productivity services, cloud platform, data services, and business applications.",
+          "slots": [
+            {
+              "slot_id": "title",
+              "kind": "text",
+              "role": "title",
+              "target_shape_ids": [
+                2687
+              ],
+              "required": true,
+              "capacity": null,
+              "max_chars": null
+            },
+            {
+              "slot_id": "product_cards",
+              "kind": "cards",
+              "role": "content",
+              "target_shape_ids": [
+                2671,
+                2672,
+                2673,
+                2674,
+                2675,
+                2676,
+                2677,
+                2678,
+                2679,
+                2680,
+                2681
+              ],
+              "required": true,
+              "capacity": 4,
+              "max_chars": null
+            }
+          ],
+          "static_shape_ids": [
+            2682,
+            2684,
+            2685,
+            2686
+          ]
+        }
+      ]
+    }
+  ]
+}

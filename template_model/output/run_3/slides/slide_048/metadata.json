@@ -1,0 +1,212 @@
+{
+  "slide_number": 48,
+  "slide_id": 303,
+  "layout_name": "1_Свободный дизайн",
+  "preview_path": "preview.png",
+  "elements": [
+    {
+      "shape_id": 2428,
+      "name": "Google Shape;2428;p89",
+      "type": "image",
+      "box": {
+        "x": 0.0,
+        "y": 0.531172,
+        "width": 0.931213,
+        "height": 0.018006
+      },
+      "z_order": 0,
+      "placeholder_type": null,
+      "text": null,
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2435,
+      "name": "Google Shape;2435;p89",
+      "type": "text",
+      "box": {
+        "x": 0.019463,
+        "y": 0.055011,
+        "width": 0.74289,
+        "height": 0.1408
+      },
+      "z_order": 7,
+      "placeholder_type": "title",
+      "text": "Заголовок в две или в одну строчку",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2436,
+      "name": "Google Shape;2436;p89",
+      "type": "text",
+      "box": {
+        "x": 0.055927,
+        "y": 0.410485,
+        "width": 0.176605,
+        "height": 0.029091
+      },
+      "z_order": 8,
+      "placeholder_type": null,
+      "text": "Заголовок",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2437,
+      "name": "Google Shape;2437;p89",
+      "type": "text",
+      "box": {
+        "x": 0.055927,
+        "y": 0.452731,
+        "width": 0.176605,
+        "height": 0.039364
+      },
+      "z_order": 9,
+      "placeholder_type": null,
+      "text": "Текст",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2438,
+      "name": "Google Shape;2438;p89",
+      "type": "text",
+      "box": {
+        "x": 0.055927,
+        "y": 0.583691,
+        "width": 0.176605,
+        "height": 0.039364
+      },
+      "z_order": 10,
+      "placeholder_type": null,
+      "text": "Описание",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2439,
+      "name": "Google Shape;2439;p89",
+      "type": "text",
+      "box": {
+        "x": 0.389954,
+        "y": 0.410485,
+        "width": 0.176605,
+        "height": 0.029091
+      },
+      "z_order": 11,
+      "placeholder_type": null,
+      "text": "Заголовок",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2440,
+      "name": "Google Shape;2440;p89",
+      "type": "text",
+      "box": {
+        "x": 0.389954,
+        "y": 0.452731,
+        "width": 0.176605,
+        "height": 0.039364
+      },
+      "z_order": 12,
+      "placeholder_type": null,
+      "text": "Текст",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2441,
+      "name": "Google Shape;2441;p89",
+      "type": "text",
+      "box": {
+        "x": 0.389954,
+        "y": 0.583691,
+        "width": 0.176605,
+        "height": 0.039364
+      },
+      "z_order": 13,
+      "placeholder_type": null,
+      "text": "Описание",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2442,
+      "name": "Google Shape;2442;p89",
+      "type": "text",
+      "box": {
+        "x": 0.719385,
+        "y": 0.41061,
+        "width": 0.176605,
+        "height": 0.029091
+      },
+      "z_order": 14,
+      "placeholder_type": null,
+      "text": "Заголовок",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2443,
+      "name": "Google Shape;2443;p89",
+      "type": "text",
+      "box": {
+        "x": 0.719385,
+        "y": 0.452856,
+        "width": 0.176605,
+        "height": 0.039364
+      },
+      "z_order": 15,
+      "placeholder_type": null,
+      "text": "Текст",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 2444,
+      "name": "Google Shape;2444;p89",
+      "type": "text",
+      "box": {
+        "x": 0.719385,
+        "y": 0.583816,
+        "width": 0.176605,
+        "height": 0.039364
+      },
+      "z_order": 16,
+      "placeholder_type": null,
+      "text": "Описание",
+      "table": null,
+      "chart": null,
+      "children": []
+    }
+  ],
+  "vlm": {
+    "status": "ok",
+    "classification": "timeline",
+    "tags": [
+      "timeline",
+      "horizontal_layout",
+      "blue_line",
+      "dots",
+      "text_blocks",
+      "minimalist",
+      "arrow"
+    ],
+    "description": "A presentation slide displaying a horizontal timeline with three sequential steps, each labeled with a title, text, and description.",
+    "confidence": 0.95,
+    "error": null
+  },
+  "warnings": []
+}

@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "output": "/Users/azatkasimov/PycharmProjects/PresD/presentation.pptx",
+  "slide_count": 8,
+  "qa_dir": "/Users/azatkasimov/PycharmProjects/PresD/presentation.qa",
+  "previews": [],
+  "issues": [
+    {
+      "level": "warning",
+      "code": "preview_failed",
+      "message": "CalledProcessError: Command '['libreoffice', '--headless', '--convert-to', 'pdf', '--outdir', '/Users/azatkasimov/PycharmProjects/PresD/.presentation.qa.z32ayp8_/.render-gftd538k', '/Users/azatkasimov/PycharmProjects/PresD/presentation.pptx']' returned non-zero exit status 1.",
+      "slide_number": null,
+      "shape_id": null
+    }
+  ]
+}

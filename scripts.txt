@@ -1,0 +1,10 @@
+docker compose --env-file webapp/.env -f webapp/compose.yaml -f webapp/compose.local.yaml up --build
+
+Для ВМ :
+
+docker compose --env-file webapp/.env -f webapp/compose.yaml up -d --build
+
+
+
+// clear
+docker compose -f webapp/compose.yaml -f webapp/compose.local.yaml down --volumes --remove-orphans

@@ -1,0 +1,93 @@
+{
+  "slide_number": 9,
+  "slide_id": 264,
+  "layout_name": "3_Содержание",
+  "preview_path": "preview.png",
+  "elements": [
+    {
+      "shape_id": 503,
+      "name": "Google Shape;503;p50",
+      "type": "text",
+      "box": {
+        "x": 0.047065,
+        "y": 0.065875,
+        "width": 0.431507,
+        "height": 0.14647
+      },
+      "z_order": 0,
+      "placeholder_type": "title",
+      "text": "Заголовок",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 504,
+      "name": "Google Shape;504;p50",
+      "type": "text",
+      "box": {
+        "x": 0.507118,
+        "y": 0.065741,
+        "width": 0.422396,
+        "height": 0.047839
+      },
+      "z_order": 1,
+      "placeholder_type": "body",
+      "text": "Содержание",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 505,
+      "name": "Google Shape;505;p50",
+      "type": "text",
+      "box": {
+        "x": 0.507118,
+        "y": 0.131482,
+        "width": 0.422396,
+        "height": 0.726568
+      },
+      "z_order": 2,
+      "placeholder_type": "body",
+      "text": "Пункт\nПункт\nПункт\nПункт",
+      "table": null,
+      "chart": null,
+      "children": []
+    },
+    {
+      "shape_id": 507,
+      "name": "Google Shape;507;p50",
+      "type": "text",
+      "box": {
+        "x": 0.215299,
+        "y": 0.627098,
+        "width": 0.095038,
+        "height": 0.055556
+      },
+      "z_order": 4,
+      "placeholder_type": null,
+      "text": "Вставить\nфото",
+      "table": null,
+      "chart": null,
+      "children": []
+    }
+  ],
+  "vlm": {
+    "status": "ok",
+    "classification": "agenda",
+    "tags": [
+      "two_column_layout",
+      "bulleted_list",
+      "title_text",
+      "placeholder",
+      "logo",
+      "white_background",
+      "blue_accent"
+    ],
+    "description": "Слайд содержит заголовок, список содержания и плейсхолдер для изображения.",
+    "confidence": 0.95,
+    "error": null
+  },
+  "warnings": []
+}
